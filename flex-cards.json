@@ -629,7 +629,12 @@
           ],
           "spacing": "md",
           "paddingAll": "18px",
-          "backgroundColor": "#F7F1E8"
+          "backgroundColor": "#F7F1E8",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-F5ppH6KJ"
+          }
         },
         "footer": {
           "type": "box",
@@ -1085,7 +1090,12 @@
           ],
           "spacing": "md",
           "paddingAll": "18px",
-          "backgroundColor": "#F7F1E8"
+          "backgroundColor": "#F7F1E8",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-F5ppH6KJ"
+          }
         },
         "footer": {
           "type": "box",
@@ -1456,7 +1466,12 @@
           ],
           "spacing": "md",
           "paddingAll": "22px",
-          "backgroundColor": "#F7F1E8"
+          "backgroundColor": "#F7F1E8",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-F5ppH6KJ"
+          }
         },
         "footer": {
           "type": "box",
@@ -2074,7 +2089,12 @@
           ],
           "spacing": "none",
           "paddingAll": "18px",
-          "backgroundColor": "#F7F1E8"
+          "backgroundColor": "#F7F1E8",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-F5ppH6KJ"
+          }
         },
         "footer": {
           "type": "box",
@@ -2715,7 +2735,12 @@
           ],
           "spacing": "md",
           "paddingAll": "18px",
-          "backgroundColor": "#FFFFFF"
+          "backgroundColor": "#FFFFFF",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-F5ppH6KJ"
+          }
         },
         "footer": {
           "type": "box",
