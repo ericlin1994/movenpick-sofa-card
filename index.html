@@ -318,6 +318,58 @@ html.drag-scroll.dragging,html.drag-scroll.dragging *{cursor:grabbing !important
 })();
 /* PARITY_HEAD_END */
 </script>
+<style>
+/* WD_CSS_START */
+/* 作品牆：3 欄、第一格 2×2、其餘 1:1；圖片載入失敗由 onerror 換成斜紋佔位格 */
+.wall{display:grid;grid-template-columns:repeat(3,1fr);margin:6px 20px 0;gap:4px}
+.wall figure{margin:0;border-radius:8px;overflow:hidden;background:#F7F1E8;border:1px solid rgba(57,34,30,.08);
+  transition:transform .12s ease-out}
+.wall figure.is-pressed{transform:scale(.96)}
+.wall figure:first-child{grid-column:span 2;grid-row:span 2;position:relative}
+.wall img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}
+/* 大格的圖／佔位格絕對定位填滿格子：不參與列高計算（直式照片也不會把列撐高） */
+.wall figure:first-child img,.wall figure:first-child .ph{position:absolute;top:0;left:0;width:100%;height:100%;aspect-ratio:auto}
+.wall .ph{aspect-ratio:1/1;background:repeating-linear-gradient(45deg,#EFE7D8,#EFE7D8 8px,#F7F1E8 8px,#F7F1E8 16px);
+  display:flex;align-items:center;justify-content:center;font-size:11px;color:#6B443D;letter-spacing:.1em}
+@media (hover:hover){ .wall img{cursor:zoom-in} }
+html.has-js .wall img{transition:opacity .25s}
+html.has-js .wall img:not(.loaded){opacity:0}
+html.drag-scroll .wall img{cursor:zoom-in}
+
+/* 底部常駐列：sticky（in-flow，不用 fixed），捲到頁尾回到自然位置。LINE 1.4 倍寬、電話 1 倍。
+   收起狀態只有 JS 加上 html.dock-idle 才會生效——JS 沒跑＝按鈕永遠顯示。 */
+.dock{position:sticky;bottom:0;z-index:30;margin-top:18px;display:grid;grid-template-columns:1.4fr 1fr;gap:10px;
+  padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));
+  background:linear-gradient(180deg,rgba(247,241,232,.82) 0%,rgba(247,241,232,.97) 40%);
+  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
+  border-top:1px solid rgba(57,34,30,.10);
+  transition:transform .26s cubic-bezier(.4,0,.2,1),opacity .26s ease}
+.dock .btn{flex-direction:row;gap:8px;min-height:48px;padding:12px 8px;font-size:15px;font-weight:800}
+html.dock-idle .dock{transform:translateY(calc(100% + 24px));opacity:0;pointer-events:none}
+html.dock-idle .dock:focus-within{transform:none;opacity:1;pointer-events:auto}
+
+/* 卡片列：圓點（JS 建好才加 .is-dots）＋左右箭頭（疊在 .rail-wrap 兩側） */
+.count.is-dots{display:flex;justify-content:center;gap:0;margin:-10px 0 -2px}
+.count.is-dots i{box-sizing:content-box;width:6px;height:6px;padding:14px 4px;border-radius:999px;
+  background:rgba(57,34,30,.2);background-clip:content-box;cursor:pointer;
+  -webkit-tap-highlight-color:transparent;transition:width .2s,background-color .2s}
+.count.is-dots i.on{width:18px;background-color:var(--brown)}
+.count.is-dots i:focus-visible{outline:3px solid var(--gold-2);outline-offset:-3px}
+.rail-wrap{position:relative}
+.rail-arrow{position:absolute;top:0;z-index:2;width:44px;height:44px;padding:0;border:1px solid rgba(57,34,30,.22);
+  border-radius:50%;background:rgba(247,241,232,.85);color:var(--navy);display:flex;align-items:center;justify-content:center;
+  cursor:pointer;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);
+  -webkit-tap-highlight-color:transparent;transition:opacity .2s,background .2s}
+.rail-arrow svg{width:22px;height:22px;display:block;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+.rail-arrow.prev{left:2px}
+.rail-arrow.next{right:2px}
+.rail-arrow:hover:not(:disabled){background:rgba(247,241,232,.96);color:var(--brown)}
+.rail-arrow:focus-visible{outline:3px solid var(--gold-2);outline-offset:2px}
+.rail-arrow:disabled{opacity:.38;cursor:default}
+.rail-arrow[hidden]{display:none}
+/* WD_CSS_END */
+</style>
 </head>
 <body>
 <!-- 分享模式畫面：點卡片上的「分享給好友」進來時只顯示這一塊 -->
@@ -494,7 +546,7 @@ html.drag-scroll.dragging,html.drag-scroll.dragging *{cursor:grabbing !important
     </article>
 
   </div>
-  <div class="count" id="count"><b>1</b> / 7　左右滑動看更多</div>
+  <div class="count" id="count"><b>1</b> / 6　左右滑動看更多</div>
 
   <!-- ═══════════ 店家資訊 ═══════════ -->
   <div class="sec-title">VISIT｜<em>門市資訊</em></div>
@@ -504,6 +556,24 @@ html.drag-scroll.dragging,html.drag-scroll.dragging *{cursor:grabbing !important
     <div class="row"><div class="k">時間</div><div class="note">週一至週五 09:00–18:00（假日、國定假日需預約）</div></div>
     <div class="row"><div class="k">LINE</div><div><a data-link="line" href="#">@816ifsxk（官方帳號）</a></div></div>
     <div class="row"><div class="k">社群</div><div><a data-link="ig" href="#">Instagram</a>　·　<a data-link="fb" href="#">Facebook</a></div></div>
+  </div>
+
+  <!-- ═══════════ 更多作品牆（固定 6 格；gallery1～6.jpg 不存在時 onerror 換成斜紋佔位格） ═══════════ -->
+  <div class="sec-title">更多<em>作品</em></div>
+  <div class="wall">
+    <figure>
+      <img src="gallery1.jpg" alt="作品1" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
+    </figure><figure>
+      <img src="gallery2.jpg" alt="作品2" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
+    </figure><figure>
+      <img src="gallery3.jpg" alt="作品3" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
+    </figure><figure>
+      <img src="gallery4.jpg" alt="作品4" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
+    </figure><figure>
+      <img src="gallery5.jpg" alt="作品5" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
+    </figure><figure>
+      <img src="gallery6.jpg" alt="作品6" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
+    </figure>
   </div>
 </div><!-- /#pageContent -->
 <!-- CONTENT_END -->  <p class="tip" id="tipText">在 LINE 聊天室貼上這個網址，會自動展開成一張名片圖卡；<br>朋友點開就能看、一鍵加 LINE、直接導航到門市。</p>
@@ -515,6 +585,12 @@ html.drag-scroll.dragging,html.drag-scroll.dragging *{cursor:grabbing !important
     © <span id="y"></span> 莫凡彼沙發工藝有限公司<br>
     <span style="white-space:nowrap">統一編號 60458420</span> ｜ <a href="mailto:movenpick60458420@gmail.com" style="color:inherit;white-space:nowrap">movenpick60458420@gmail.com</a>
   </footer>
+  <!-- DOCK_START -->
+  <nav class="dock" aria-label="快速聯絡">
+    <a class="btn line" data-link="line" href="https://line.me/R/ti/p/%40816ifsxk"><span class="ic" aria-hidden="true">💬</span>LINE 諮詢</a>
+    <a class="btn tel" href="tel:+88633972191"><span class="ic" aria-hidden="true">📞</span>撥打電話</a>
+  </nav>
+  <!-- DOCK_END -->
 </div>
 
 <!-- LINE LIFF SDK（在 LINE 內開啟時提供 shareTargetPicker） -->
@@ -1675,14 +1751,46 @@ async function shareCard(){
 
 /* 滑動時更新「n / 7」指示（主卡算第 1 張）
    包成函式：中繼頁載入客戶的名片頁內容後要重新綁定一次 */
+/* BINDRAIL_START */
 function bindRail(){
   const rail = document.getElementById('rail'), countEl = document.getElementById('count');
   if(!rail || !countEl) return;
   const n = rail.children.length;          /* 用實際張數，不要寫死 */
+  /* 圓點：先在 fragment 建好再一次換掉文字，最後才加 .is-dots；中途出錯就保留靜態文字 */
+  let dots = [];
+  try{
+    const frag = document.createDocumentFragment();
+    for(let i = 0; i < n; i++){
+      const d = document.createElement('i');
+      d.setAttribute('role', 'button');
+      d.setAttribute('tabindex', '0');
+      d.setAttribute('aria-label', '第 ' + (i + 1) + ' 張，共 ' + n + ' 張');
+      frag.appendChild(d);
+      dots.push(d);
+    }
+    countEl.textContent = '';
+    countEl.appendChild(frag);
+    countEl.classList.add('is-dots');
+  }catch(e){ dots = []; }
+  const goTo = i => {
+    const c = rail.children[i];
+    if(!c) return;
+    /* 與 setCount 同一套座標：讓該張的中心對齊視窗中心 */
+    const left = c.offsetLeft - rail.offsetLeft + c.offsetWidth / 2 - rail.clientWidth / 2;
+    const calm = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+    try{ rail.scrollTo({left: left, behavior: calm ? 'auto' : 'smooth'}); }
+    catch(e){ rail.scrollLeft = left; }
+  };
+  const dotAt = t => { const d = t.closest ? t.closest('i') : null; return d ? dots.indexOf(d) : -1; };
+  countEl.addEventListener('click', e => { const i = dotAt(e.target); if(i >= 0) goTo(i); });
+  countEl.addEventListener('keydown', e => {
+    if(e.key !== 'Enter' && e.key !== ' ') return;
+    const i = dotAt(e.target);
+    if(i >= 0){ e.preventDefault(); goTo(i); }
+  });
+  let shown = -1;
   const setCount = () => {
-    /* 取「中心最接近滑動視窗中心」的那一張當目前頁碼。
-       原本的判斷是「中心在視窗左半邊就算過關」→ 最後一張永遠過不了中線，
-       所以舊版會停在 6/7 數不到最後一張。 */
+    /* 取「中心最接近滑動視窗中心」的那一張當目前頁碼（最後一張才數得到） */
     const mid = rail.scrollLeft + rail.clientWidth / 2;
     let best = 0, bestD = Infinity;
     [...rail.children].forEach((c, i) => {
@@ -1691,8 +1799,57 @@ function bindRail(){
       const d = Math.abs(center - mid);
       if(d < bestD){ bestD = d; best = i; }
     });
-    countEl.innerHTML = '<b>' + (best + 1) + '</b> / ' + n + '　左右滑動看更多';
+    if(best === shown) return;
+    shown = best;
+    if(dots.length){
+      dots.forEach((d, i) => {
+        d.classList.toggle('on', i === best);
+        if(i === best) d.setAttribute('aria-current', 'true'); else d.removeAttribute('aria-current');
+      });
+    }else{
+      countEl.innerHTML = '<b>' + (best + 1) + '</b> / ' + n + '　左右滑動看更多';
+    }
+    updateArrows();
   };
+  /* 左右箭頭：放在外層 .rail-wrap（rail 會捲動，放裡面會跟著捲走）；重複呼叫先清掉舊的 */
+  let arrowL = null, arrowR = null;
+  const updateArrows = () => {
+    if(!arrowL) return;
+    const can = rail.scrollWidth - rail.clientWidth > 4;     /* 不需要捲動就不顯示 */
+    arrowL.hidden = arrowR.hidden = !can;
+    arrowL.disabled = shown <= 0;
+    arrowR.disabled = shown >= n - 1;
+    /* 垂直對齊目前那張卡的中心 */
+    const card = rail.children[Math.max(0, shown)];
+    if(card && can){
+      const top = Math.round(card.offsetTop + card.offsetHeight / 2 - (arrowL.offsetHeight || 44) / 2);
+      arrowL.style.top = arrowR.style.top = top + 'px';
+    }
+  };
+  try{
+    let wrap = rail.parentNode;
+    if(!wrap.classList.contains('rail-wrap')){
+      wrap = document.createElement('div');
+      wrap.className = 'rail-wrap';
+      rail.parentNode.insertBefore(wrap, rail);
+      wrap.appendChild(rail);
+    }
+    wrap.querySelectorAll('.rail-arrow').forEach(a => a.remove());
+    const mk = (dir, label, d) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'rail-arrow ' + dir;
+      b.setAttribute('aria-label', label);
+      b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="' + d + '"/></svg>';
+      wrap.appendChild(b);
+      return b;
+    };
+    arrowL = mk('prev', '上一張', 'M15 5l-7 7 7 7');
+    arrowR = mk('next', '下一張', 'M9 5l7 7-7 7');
+    arrowL.addEventListener('click', () => goTo(Math.max(0, shown - 1)));
+    arrowR.addEventListener('click', () => goTo(Math.min(n - 1, shown + 1)));
+    window.addEventListener('resize', updateArrows);
+  }catch(e){ arrowL = arrowR = null; }
   /* RAF_START */
   /* scroll／resize 節流：每個畫面最多算一次（setCount 只讀位置）；視窗尺寸變了也要重算目前是第幾張 */
   let ticking = false;
@@ -1707,6 +1864,7 @@ function bindRail(){
   setCount();
 }
 bindRail();
+/* BINDRAIL_END */
 </script>
 <script>
 /* PARITY_JS_START */
@@ -1844,6 +2002,52 @@ function showOpenInLine(){
 })();
 /* PARITY_JS_END */
 </script>
+<script>
+/* WD_JS_START */
+/* 作品牆按壓回饋＋dock 收合（獨立 script：這裡出錯不會牽連主程式與 lightbox）。document 層級委派。 */
+(function(){
+  try{
+    var clear = function(){
+      document.querySelectorAll('.wall figure.is-pressed').forEach(function(f){ f.classList.remove('is-pressed'); });
+    };
+    document.addEventListener('pointerdown', function(e){
+      var f = e.target && e.target.closest ? e.target.closest('.wall figure') : null;
+      if(f) f.classList.add('is-pressed');
+    }, {passive:true});
+    ['pointerup', 'pointercancel', 'pointerleave', 'dragstart', 'scroll', 'blur'].forEach(function(ev){
+      document.addEventListener(ev, clear, {passive:true, capture:true});
+    });
+    window.addEventListener('pageshow', clear);
+  }catch(e){}
+})();
+
+/* 底部常駐列：靜止 1.5 秒後收起，一捲動就滑出來。
+     1. 收起只靠 JS 加上 html.dock-idle——JS 沒跑＝按鈕永遠顯示。
+     2. 捲到頁尾（距底 60px 內）不收：那時列已在自然位置、不會蓋到東西。
+     3. 鍵盤 Tab 進到按鈕（focusin）強制顯示。 */
+(function(){
+  try{
+    var root = document.documentElement, dock = document.querySelector('.dock');
+    if(!dock) return;
+    var IDLE_MS = 1500, BOTTOM_GAP = 60, t = null;
+    var nearBottom = function(){
+      return (window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - BOTTOM_GAP);
+    };
+    var hide = function(){ if(!nearBottom() && !dock.contains(document.activeElement)) root.classList.add('dock-idle'); };
+    var show = function(){
+      root.classList.remove('dock-idle');
+      if(t) clearTimeout(t);
+      t = setTimeout(hide, IDLE_MS);
+    };
+    ['scroll', 'wheel', 'touchmove'].forEach(function(ev){ window.addEventListener(ev, show, {passive:true}); });
+    window.addEventListener('resize', show, {passive:true});
+    window.addEventListener('pageshow', show);
+    dock.addEventListener('focusin', show);
+    show();          /* 載入時先顯示，靜止 1.5 秒後才收起 */
+  }catch(e){}
+})();
+/* WD_JS_END */
+</script>
 <style>
 /* LIGHTBOX_START */
 /* 點圖放大：.portrait（形象照）＋ .craft img（工藝／案例）。箭頭與關閉鈕 48px，不靠 hover。 */
@@ -1871,7 +2075,7 @@ function showOpenInLine(){
 <script>
 (function(){
   try{
-    var SEL = 'img.portrait, .craft img';       /* 已被 onerror 換成 .ph 的不會命中 */
+    var SEL = 'img.portrait, .craft img, .wall img';   /* 文件順序＝同一組左右切；已被 onerror 換成 .ph 的不會命中 */
     var box = document.createElement('div');
     box.id = 'lb'; box.hidden = true;
     box.setAttribute('role', 'dialog'); box.setAttribute('aria-modal', 'true'); box.setAttribute('aria-label', '圖片放大');
