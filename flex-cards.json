@@ -22,7 +22,7 @@
             {
               "type": "text",
               "text": "莫凡彼沙發工藝　全客製訂做・純手工工藝・嚴選選材",
-              "size": "xxs",
+              "size": "xs",
               "weight": "regular",
               "color": "#6B443D",
               "wrap": true,
@@ -48,7 +48,7 @@
                     {
                       "type": "text",
                       "text": "官方網站",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#39221E",
                       "wrap": true,
@@ -56,7 +56,10 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingAll": "10px",
+                  "paddingTop": "10px",
+                  "paddingBottom": "10px",
+                  "paddingStart": "4px",
+                  "paddingEnd": "4px",
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
@@ -80,7 +83,7 @@
                     {
                       "type": "text",
                       "text": "LINE 諮詢",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -88,7 +91,10 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingAll": "10px",
+                  "paddingTop": "10px",
+                  "paddingBottom": "10px",
+                  "paddingStart": "4px",
+                  "paddingEnd": "4px",
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
@@ -112,7 +118,7 @@
                     {
                       "type": "text",
                       "text": "導航門市",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#39221E",
                       "wrap": true,
@@ -120,7 +126,10 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingAll": "10px",
+                  "paddingTop": "10px",
+                  "paddingBottom": "10px",
+                  "paddingStart": "4px",
+                  "paddingEnd": "4px",
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
@@ -138,11 +147,11 @@
                   }
                 }
               ],
-              "spacing": "sm"
+              "spacing": "xs"
             }
           ],
           "spacing": "none",
-          "paddingAll": "10px"
+          "paddingAll": "8px"
         },
         "hero": {
           "type": "image",
@@ -196,7 +205,7 @@
                         {
                           "type": "text",
                           "text": "新成屋",
-                          "size": "xxs",
+                          "size": "xs",
                           "weight": "bold",
                           "color": "#39221E",
                           "wrap": false,
@@ -204,7 +213,10 @@
                         }
                       ],
                       "spacing": "none",
-                      "paddingAll": "8px",
+                      "paddingTop": "8px",
+                      "paddingBottom": "8px",
+                      "paddingStart": "3px",
+                      "paddingEnd": "3px",
                       "cornerRadius": "100px",
                       "flex": 1,
                       "borderWidth": "1px",
@@ -217,7 +229,7 @@
                         {
                           "type": "text",
                           "text": "換屋族",
-                          "size": "xxs",
+                          "size": "xs",
                           "weight": "bold",
                           "color": "#39221E",
                           "wrap": false,
@@ -225,7 +237,10 @@
                         }
                       ],
                       "spacing": "none",
-                      "paddingAll": "8px",
+                      "paddingTop": "8px",
+                      "paddingBottom": "8px",
+                      "paddingStart": "3px",
+                      "paddingEnd": "3px",
                       "cornerRadius": "100px",
                       "flex": 1,
                       "borderWidth": "1px",
@@ -238,7 +253,7 @@
                         {
                           "type": "text",
                           "text": "豪宅",
-                          "size": "xxs",
+                          "size": "xs",
                           "weight": "bold",
                           "color": "#39221E",
                           "wrap": false,
@@ -246,7 +261,10 @@
                         }
                       ],
                       "spacing": "none",
-                      "paddingAll": "8px",
+                      "paddingTop": "8px",
+                      "paddingBottom": "8px",
+                      "paddingStart": "3px",
+                      "paddingEnd": "3px",
                       "cornerRadius": "100px",
                       "flex": 1,
                       "borderWidth": "1px",
@@ -266,7 +284,7 @@
                         {
                           "type": "text",
                           "text": "設計師",
-                          "size": "xxs",
+                          "size": "xs",
                           "weight": "bold",
                           "color": "#39221E",
                           "wrap": false,
@@ -274,7 +292,10 @@
                         }
                       ],
                       "spacing": "none",
-                      "paddingAll": "8px",
+                      "paddingTop": "8px",
+                      "paddingBottom": "8px",
+                      "paddingStart": "3px",
+                      "paddingEnd": "3px",
                       "cornerRadius": "100px",
                       "flex": 1,
                       "borderWidth": "1px",
@@ -287,7 +308,7 @@
                         {
                           "type": "text",
                           "text": "商業空間",
-                          "size": "xxs",
+                          "size": "xs",
                           "weight": "bold",
                           "color": "#39221E",
                           "wrap": false,
@@ -295,7 +316,10 @@
                         }
                       ],
                       "spacing": "none",
-                      "paddingAll": "8px",
+                      "paddingTop": "8px",
+                      "paddingBottom": "8px",
+                      "paddingStart": "3px",
+                      "paddingEnd": "3px",
                       "cornerRadius": "100px",
                       "flex": 1,
                       "borderWidth": "1px",
@@ -308,7 +332,7 @@
                         {
                           "type": "text",
                           "text": "家具通路",
-                          "size": "xxs",
+                          "size": "xs",
                           "weight": "bold",
                           "color": "#39221E",
                           "wrap": false,
@@ -316,7 +340,10 @@
                         }
                       ],
                       "spacing": "none",
-                      "paddingAll": "8px",
+                      "paddingTop": "8px",
+                      "paddingBottom": "8px",
+                      "paddingStart": "3px",
+                      "paddingEnd": "3px",
                       "cornerRadius": "100px",
                       "flex": 1,
                       "borderWidth": "1px",
@@ -336,7 +363,7 @@
                 {
                   "type": "text",
                   "text": "你是不是也有這些困擾？",
-                  "size": "xs",
+                  "size": "sm",
                   "weight": "bold",
                   "color": "#39221E",
                   "wrap": true,
@@ -354,7 +381,7 @@
                     {
                       "type": "text",
                       "text": "📌",
-                      "size": "xs",
+                      "size": "sm",
                       "weight": "regular",
                       "color": "#8A5A12",
                       "wrap": false,
@@ -363,7 +390,7 @@
                     {
                       "type": "text",
                       "text": "沙發坐起來不舒服，久坐腰痠背痛",
-                      "size": "xs",
+                      "size": "sm",
                       "weight": "regular",
                       "color": "#39221E",
                       "wrap": true,
@@ -381,7 +408,7 @@
                     {
                       "type": "text",
                       "text": "📌",
-                      "size": "xs",
+                      "size": "sm",
                       "weight": "regular",
                       "color": "#8A5A12",
                       "wrap": false,
@@ -390,7 +417,7 @@
                     {
                       "type": "text",
                       "text": "尺寸不合，空間總是差一點點",
-                      "size": "xs",
+                      "size": "sm",
                       "weight": "regular",
                       "color": "#39221E",
                       "wrap": true,
@@ -408,7 +435,7 @@
                     {
                       "type": "text",
                       "text": "📌",
-                      "size": "xs",
+                      "size": "sm",
                       "weight": "regular",
                       "color": "#8A5A12",
                       "wrap": false,
@@ -417,7 +444,7 @@
                     {
                       "type": "text",
                       "text": "想換皮革、布料、顏色卻不知道怎麼選",
-                      "size": "xs",
+                      "size": "sm",
                       "weight": "regular",
                       "color": "#39221E",
                       "wrap": true,
@@ -435,7 +462,7 @@
                     {
                       "type": "text",
                       "text": "📌",
-                      "size": "xs",
+                      "size": "sm",
                       "weight": "regular",
                       "color": "#8A5A12",
                       "wrap": false,
@@ -444,7 +471,7 @@
                     {
                       "type": "text",
                       "text": "找不到符合風格又耐用的沙發",
-                      "size": "xs",
+                      "size": "sm",
                       "weight": "regular",
                       "color": "#39221E",
                       "wrap": true,
@@ -462,7 +489,7 @@
                     {
                       "type": "text",
                       "text": "📌",
-                      "size": "xs",
+                      "size": "sm",
                       "weight": "regular",
                       "color": "#8A5A12",
                       "wrap": false,
@@ -471,7 +498,7 @@
                     {
                       "type": "text",
                       "text": "設計師提案需要特殊尺寸與款式",
-                      "size": "xs",
+                      "size": "sm",
                       "weight": "regular",
                       "color": "#39221E",
                       "wrap": true,
@@ -488,6 +515,16 @@
               "paddingAll": "18px",
               "backgroundColor": "#FFFFFF",
               "cornerRadius": "20px"
+            },
+            {
+              "type": "text",
+              "text": "2 / 6",
+              "size": "xs",
+              "weight": "regular",
+              "color": "#6B443D",
+              "wrap": true,
+              "margin": "lg",
+              "align": "center"
             }
           ],
           "spacing": "md",
@@ -509,7 +546,7 @@
                     {
                       "type": "text",
                       "text": "官方網站",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#39221E",
                       "wrap": true,
@@ -517,7 +554,10 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingAll": "10px",
+                  "paddingTop": "10px",
+                  "paddingBottom": "10px",
+                  "paddingStart": "4px",
+                  "paddingEnd": "4px",
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
@@ -541,7 +581,7 @@
                     {
                       "type": "text",
                       "text": "LINE 諮詢",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -549,7 +589,10 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingAll": "10px",
+                  "paddingTop": "10px",
+                  "paddingBottom": "10px",
+                  "paddingStart": "4px",
+                  "paddingEnd": "4px",
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
@@ -573,7 +616,7 @@
                     {
                       "type": "text",
                       "text": "導航門市",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#39221E",
                       "wrap": true,
@@ -581,7 +624,10 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingAll": "10px",
+                  "paddingTop": "10px",
+                  "paddingBottom": "10px",
+                  "paddingStart": "4px",
+                  "paddingEnd": "4px",
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
@@ -599,11 +645,11 @@
                   }
                 }
               ],
-              "spacing": "sm"
+              "spacing": "xs"
             }
           ],
           "spacing": "none",
-          "paddingAll": "10px"
+          "paddingAll": "8px"
         }
       },
       {
@@ -662,13 +708,13 @@
                       "size": "sm",
                       "weight": "bold",
                       "color": "#39221E",
-                      "wrap": false,
+                      "wrap": true,
                       "margin": "sm"
                     },
                     {
                       "type": "text",
                       "text": "台灣自有工廠全程製作",
-                      "size": "xs",
+                      "size": "sm",
                       "weight": "regular",
                       "color": "#6B443D",
                       "wrap": true,
@@ -700,13 +746,13 @@
                       "size": "sm",
                       "weight": "bold",
                       "color": "#39221E",
-                      "wrap": false,
+                      "wrap": true,
                       "margin": "sm"
                     },
                     {
                       "type": "text",
                       "text": "手工微褶・菱格絎縫",
-                      "size": "xs",
+                      "size": "sm",
                       "weight": "regular",
                       "color": "#6B443D",
                       "wrap": true,
@@ -746,13 +792,13 @@
                       "size": "sm",
                       "weight": "bold",
                       "color": "#39221E",
-                      "wrap": false,
+                      "wrap": true,
                       "margin": "sm"
                     },
                     {
                       "type": "text",
                       "text": "高磅耐磨布料・親膚皮革",
-                      "size": "xs",
+                      "size": "sm",
                       "weight": "regular",
                       "color": "#6B443D",
                       "wrap": true,
@@ -784,13 +830,13 @@
                       "size": "sm",
                       "weight": "bold",
                       "color": "#39221E",
-                      "wrap": false,
+                      "wrap": true,
                       "margin": "sm"
                     },
                     {
                       "type": "text",
                       "text": "尺寸面料軟硬皆可訂製",
-                      "size": "xs",
+                      "size": "sm",
                       "weight": "regular",
                       "color": "#6B443D",
                       "wrap": true,
@@ -806,6 +852,16 @@
               ],
               "spacing": "md",
               "margin": "md"
+            },
+            {
+              "type": "text",
+              "text": "3 / 6",
+              "size": "xs",
+              "weight": "regular",
+              "color": "#6B443D",
+              "wrap": true,
+              "margin": "lg",
+              "align": "center"
             }
           ],
           "spacing": "md",
@@ -827,7 +883,7 @@
                     {
                       "type": "text",
                       "text": "官方網站",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#39221E",
                       "wrap": true,
@@ -835,7 +891,10 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingAll": "10px",
+                  "paddingTop": "10px",
+                  "paddingBottom": "10px",
+                  "paddingStart": "4px",
+                  "paddingEnd": "4px",
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
@@ -859,7 +918,7 @@
                     {
                       "type": "text",
                       "text": "LINE 諮詢",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -867,7 +926,10 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingAll": "10px",
+                  "paddingTop": "10px",
+                  "paddingBottom": "10px",
+                  "paddingStart": "4px",
+                  "paddingEnd": "4px",
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
@@ -891,7 +953,7 @@
                     {
                       "type": "text",
                       "text": "導航門市",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#39221E",
                       "wrap": true,
@@ -899,7 +961,10 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingAll": "10px",
+                  "paddingTop": "10px",
+                  "paddingBottom": "10px",
+                  "paddingStart": "4px",
+                  "paddingEnd": "4px",
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
@@ -917,11 +982,11 @@
                   }
                 }
               ],
-              "spacing": "sm"
+              "spacing": "xs"
             }
           ],
           "spacing": "none",
-          "paddingAll": "10px"
+          "paddingAll": "8px"
         }
       },
       {
@@ -950,7 +1015,7 @@
             },
             {
               "type": "box",
-              "layout": "horizontal",
+              "layout": "vertical",
               "contents": [
                 {
                   "type": "text",
@@ -959,7 +1024,7 @@
                   "weight": "bold",
                   "color": "#8A5A12",
                   "wrap": false,
-                  "flex": 2
+                  "margin": "none"
                 },
                 {
                   "type": "text",
@@ -968,17 +1033,20 @@
                   "weight": "bold",
                   "color": "#39221E",
                   "wrap": true,
-                  "margin": "none",
-                  "flex": 3
+                  "margin": "xs"
                 }
               ],
-              "spacing": "md",
-              "margin": "xl",
-              "alignItems": "center"
+              "spacing": "none",
+              "margin": "lg"
+            },
+            {
+              "type": "separator",
+              "margin": "lg",
+              "color": "#E3DACB"
             },
             {
               "type": "box",
-              "layout": "horizontal",
+              "layout": "vertical",
               "contents": [
                 {
                   "type": "text",
@@ -987,7 +1055,7 @@
                   "weight": "bold",
                   "color": "#8A5A12",
                   "wrap": false,
-                  "flex": 2
+                  "margin": "none"
                 },
                 {
                   "type": "text",
@@ -996,17 +1064,20 @@
                   "weight": "bold",
                   "color": "#39221E",
                   "wrap": true,
-                  "margin": "none",
-                  "flex": 3
+                  "margin": "xs"
                 }
               ],
-              "spacing": "md",
-              "margin": "md",
-              "alignItems": "center"
+              "spacing": "none",
+              "margin": "md"
+            },
+            {
+              "type": "separator",
+              "margin": "lg",
+              "color": "#E3DACB"
             },
             {
               "type": "box",
-              "layout": "horizontal",
+              "layout": "vertical",
               "contents": [
                 {
                   "type": "text",
@@ -1015,7 +1086,7 @@
                   "weight": "bold",
                   "color": "#8A5A12",
                   "wrap": false,
-                  "flex": 2
+                  "margin": "none"
                 },
                 {
                   "type": "text",
@@ -1024,17 +1095,25 @@
                   "weight": "bold",
                   "color": "#39221E",
                   "wrap": true,
-                  "margin": "none",
-                  "flex": 3
+                  "margin": "xs"
                 }
               ],
-              "spacing": "md",
-              "margin": "md",
-              "alignItems": "center"
+              "spacing": "none",
+              "margin": "md"
+            },
+            {
+              "type": "text",
+              "text": "4 / 6",
+              "size": "xs",
+              "weight": "regular",
+              "color": "#6B443D",
+              "wrap": true,
+              "margin": "lg",
+              "align": "center"
             }
           ],
           "spacing": "md",
-          "paddingAll": "18px",
+          "paddingAll": "22px",
           "backgroundColor": "#F7F1E8"
         },
         "footer": {
@@ -1052,7 +1131,7 @@
                     {
                       "type": "text",
                       "text": "官方網站",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#39221E",
                       "wrap": true,
@@ -1060,7 +1139,10 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingAll": "10px",
+                  "paddingTop": "10px",
+                  "paddingBottom": "10px",
+                  "paddingStart": "4px",
+                  "paddingEnd": "4px",
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
@@ -1084,7 +1166,7 @@
                     {
                       "type": "text",
                       "text": "LINE 諮詢",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -1092,7 +1174,10 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingAll": "10px",
+                  "paddingTop": "10px",
+                  "paddingBottom": "10px",
+                  "paddingStart": "4px",
+                  "paddingEnd": "4px",
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
@@ -1116,7 +1201,7 @@
                     {
                       "type": "text",
                       "text": "導航門市",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#39221E",
                       "wrap": true,
@@ -1124,7 +1209,10 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingAll": "10px",
+                  "paddingTop": "10px",
+                  "paddingBottom": "10px",
+                  "paddingStart": "4px",
+                  "paddingEnd": "4px",
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
@@ -1142,11 +1230,11 @@
                   }
                 }
               ],
-              "spacing": "sm"
+              "spacing": "xs"
             }
           ],
           "spacing": "none",
-          "paddingAll": "10px"
+          "paddingAll": "8px"
         }
       },
       {
@@ -1167,7 +1255,7 @@
             {
               "type": "text",
               "text": "手工微褶・菱格絎縫・立體裁縫・拉點深雕",
-              "size": "xxs",
+              "size": "xs",
               "weight": "regular",
               "color": "#6B443D",
               "wrap": true,
@@ -1193,7 +1281,7 @@
                     {
                       "type": "text",
                       "text": "官方網站",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#39221E",
                       "wrap": true,
@@ -1201,7 +1289,10 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingAll": "10px",
+                  "paddingTop": "10px",
+                  "paddingBottom": "10px",
+                  "paddingStart": "4px",
+                  "paddingEnd": "4px",
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
@@ -1225,7 +1316,7 @@
                     {
                       "type": "text",
                       "text": "LINE 諮詢",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
@@ -1233,7 +1324,10 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingAll": "10px",
+                  "paddingTop": "10px",
+                  "paddingBottom": "10px",
+                  "paddingStart": "4px",
+                  "paddingEnd": "4px",
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
@@ -1257,7 +1351,7 @@
                     {
                       "type": "text",
                       "text": "導航門市",
-                      "size": "xxs",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#39221E",
                       "wrap": true,
@@ -1265,7 +1359,10 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingAll": "10px",
+                  "paddingTop": "10px",
+                  "paddingBottom": "10px",
+                  "paddingStart": "4px",
+                  "paddingEnd": "4px",
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
@@ -1283,11 +1380,11 @@
                   }
                 }
               ],
-              "spacing": "sm"
+              "spacing": "xs"
             }
           ],
           "spacing": "none",
-          "paddingAll": "10px"
+          "paddingAll": "8px"
         },
         "hero": {
           "type": "image",
@@ -1329,7 +1426,7 @@
             {
               "type": "text",
               "text": "說說你的空間與需求，LINE 傳給我免費評估",
-              "size": "xs",
+              "size": "sm",
               "weight": "bold",
               "color": "#8A5A12",
               "wrap": true,
@@ -1409,7 +1506,7 @@
                     {
                       "type": "text",
                       "text": "桃園市龜山區大崗里大湖路249號（林口長庚　近警察大學）",
-                      "size": "xs",
+                      "size": "sm",
                       "weight": "regular",
                       "color": "#39221E",
                       "wrap": true,
@@ -1436,7 +1533,7 @@
                     {
                       "type": "text",
                       "text": "週一至週五 09:00–18:00（假日需預約）",
-                      "size": "xs",
+                      "size": "sm",
                       "weight": "regular",
                       "color": "#39221E",
                       "wrap": true,
@@ -1455,6 +1552,16 @@
               "cornerRadius": "20px",
               "borderWidth": "1px",
               "borderColor": "#E3DACB"
+            },
+            {
+              "type": "text",
+              "text": "6 / 6",
+              "size": "xs",
+              "weight": "regular",
+              "color": "#6B443D",
+              "wrap": true,
+              "margin": "lg",
+              "align": "center"
             }
           ],
           "spacing": "md",
@@ -1485,7 +1592,7 @@
                         {
                           "type": "text",
                           "text": "官方網站",
-                          "size": "xxs",
+                          "size": "xs",
                           "weight": "bold",
                           "color": "#39221E",
                           "wrap": true,
@@ -1493,7 +1600,10 @@
                         }
                       ],
                       "spacing": "none",
-                      "paddingAll": "10px",
+                      "paddingTop": "10px",
+                      "paddingBottom": "10px",
+                      "paddingStart": "4px",
+                      "paddingEnd": "4px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -1517,7 +1627,7 @@
                         {
                           "type": "text",
                           "text": "LINE 諮詢",
-                          "size": "xxs",
+                          "size": "xs",
                           "weight": "bold",
                           "color": "#FFFFFF",
                           "wrap": true,
@@ -1525,7 +1635,10 @@
                         }
                       ],
                       "spacing": "none",
-                      "paddingAll": "10px",
+                      "paddingTop": "10px",
+                      "paddingBottom": "10px",
+                      "paddingStart": "4px",
+                      "paddingEnd": "4px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -1549,7 +1662,7 @@
                         {
                           "type": "text",
                           "text": "導航門市",
-                          "size": "xxs",
+                          "size": "xs",
                           "weight": "bold",
                           "color": "#39221E",
                           "wrap": true,
@@ -1557,7 +1670,10 @@
                         }
                       ],
                       "spacing": "none",
-                      "paddingAll": "10px",
+                      "paddingTop": "10px",
+                      "paddingBottom": "10px",
+                      "paddingStart": "4px",
+                      "paddingEnd": "4px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -1575,11 +1691,11 @@
                       }
                     }
                   ],
-                  "spacing": "sm"
+                  "spacing": "xs"
                 }
               ],
               "spacing": "none",
-              "paddingAll": "10px"
+              "paddingAll": "8px"
             }
           ],
           "spacing": "none",
