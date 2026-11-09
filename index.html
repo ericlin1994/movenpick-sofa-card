@@ -491,7 +491,7 @@ let payloadFailed = false;
 
 /* 改動 flex-cards.json 後請把 BUILD 往後跳一號：
    LINE 內建瀏覽器會快取檔案，不跳號會一直送出舊版卡片 */
-const BUILD = 'b66';
+const BUILD = 'b67';
 const PAGE_VER = '2026-10-09-1910-底部CTA改用flex-sticky'   // 每次改頁面就改這個，用來確認手機拿到的是最新版
 
 /* ═══════ FLEX_PAYLOAD_START（由 build_flex.py 自動寫入，勿手改）═══════ */
@@ -1059,7 +1059,7 @@ async function shareCard(){
         label = 'U1 單張移除size／U2 單張size:mega／U3 七張移除size／U4 size:kilo／U5 三張移除size';
       }else if(/s=1/.test(q)){
         // 以「已知可用」的極簡卡為底，一次加一個功能，找出你手機不吃哪一項
-        const IMG1 = 'https://movenpick.cardtaiwan.com/img/card1.jpg';
+        const IMG1 = 'https://movenpick.cardtaiwan.com/img/card1-v1.jpg';
         const L = 'https://liff.line.me/2011946176-F5ppH6KJ';
         const baseBubble = () => ({ type:'bubble',
           body:{ type:'box', layout:'vertical', contents:[
