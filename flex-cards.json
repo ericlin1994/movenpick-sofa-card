@@ -44,26 +44,40 @@
                 {
                   "type": "box",
                   "layout": "vertical",
+                  "contents": [],
+                  "flex": 1
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
                   "contents": [
                     {
                       "type": "text",
                       "text": "1 / 7",
                       "size": "10px",
                       "weight": "bold",
-                      "color": "#F7F1E8",
+                      "color": "#39221E",
                       "wrap": false,
                       "align": "center"
                     }
                   ],
                   "spacing": "none",
                   "paddingAll": "2px",
-                  "backgroundColor": "#39221E",
+                  "backgroundColor": "#FFFFFF",
                   "cornerRadius": "100px",
-                  "flex": 0
+                  "flex": 0,
+                  "borderWidth": "1px",
+                  "borderColor": "#E3DACB"
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [],
+                  "flex": 1
                 }
               ],
               "spacing": "none",
-              "paddingAll": "8px"
+              "paddingAll": "2px"
             },
             {
               "type": "box",
@@ -647,26 +661,40 @@
                 {
                   "type": "box",
                   "layout": "vertical",
+                  "contents": [],
+                  "flex": 1
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
                   "contents": [
                     {
                       "type": "text",
                       "text": "2 / 7",
                       "size": "10px",
                       "weight": "bold",
-                      "color": "#F7F1E8",
+                      "color": "#39221E",
                       "wrap": false,
                       "align": "center"
                     }
                   ],
                   "spacing": "none",
                   "paddingAll": "2px",
-                  "backgroundColor": "#39221E",
+                  "backgroundColor": "#FFFFFF",
                   "cornerRadius": "100px",
-                  "flex": 0
+                  "flex": 0,
+                  "borderWidth": "1px",
+                  "borderColor": "#E3DACB"
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [],
+                  "flex": 1
                 }
               ],
               "spacing": "none",
-              "paddingAll": "8px"
+              "paddingAll": "2px"
             },
             {
               "type": "box",
@@ -1108,26 +1136,40 @@
                 {
                   "type": "box",
                   "layout": "vertical",
+                  "contents": [],
+                  "flex": 1
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
                   "contents": [
                     {
                       "type": "text",
                       "text": "3 / 7",
                       "size": "10px",
                       "weight": "bold",
-                      "color": "#F7F1E8",
+                      "color": "#39221E",
                       "wrap": false,
                       "align": "center"
                     }
                   ],
                   "spacing": "none",
                   "paddingAll": "2px",
-                  "backgroundColor": "#39221E",
+                  "backgroundColor": "#FFFFFF",
                   "cornerRadius": "100px",
-                  "flex": 0
+                  "flex": 0,
+                  "borderWidth": "1px",
+                  "borderColor": "#E3DACB"
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [],
+                  "flex": 1
                 }
               ],
               "spacing": "none",
-              "paddingAll": "8px"
+              "paddingAll": "2px"
             },
             {
               "type": "box",
@@ -1484,26 +1526,40 @@
                 {
                   "type": "box",
                   "layout": "vertical",
+                  "contents": [],
+                  "flex": 1
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
                   "contents": [
                     {
                       "type": "text",
                       "text": "4 / 7",
                       "size": "10px",
                       "weight": "bold",
-                      "color": "#F7F1E8",
+                      "color": "#39221E",
                       "wrap": false,
                       "align": "center"
                     }
                   ],
                   "spacing": "none",
                   "paddingAll": "2px",
-                  "backgroundColor": "#39221E",
+                  "backgroundColor": "#FFFFFF",
                   "cornerRadius": "100px",
-                  "flex": 0
+                  "flex": 0,
+                  "borderWidth": "1px",
+                  "borderColor": "#E3DACB"
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [],
+                  "flex": 1
                 }
               ],
               "spacing": "none",
-              "paddingAll": "8px"
+              "paddingAll": "2px"
             },
             {
               "type": "box",
@@ -1767,26 +1823,40 @@
                 {
                   "type": "box",
                   "layout": "vertical",
+                  "contents": [],
+                  "flex": 1
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
                   "contents": [
                     {
                       "type": "text",
                       "text": "5 / 7",
                       "size": "10px",
                       "weight": "bold",
-                      "color": "#F7F1E8",
+                      "color": "#39221E",
                       "wrap": false,
                       "align": "center"
                     }
                   ],
                   "spacing": "none",
                   "paddingAll": "2px",
-                  "backgroundColor": "#39221E",
+                  "backgroundColor": "#FFFFFF",
                   "cornerRadius": "100px",
-                  "flex": 0
+                  "flex": 0,
+                  "borderWidth": "1px",
+                  "borderColor": "#E3DACB"
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [],
+                  "flex": 1
                 }
               ],
               "spacing": "none",
-              "paddingAll": "8px"
+              "paddingAll": "2px"
             },
             {
               "type": "box",
@@ -2107,26 +2177,40 @@
                 {
                   "type": "box",
                   "layout": "vertical",
+                  "contents": [],
+                  "flex": 1
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
                   "contents": [
                     {
                       "type": "text",
                       "text": "6 / 7",
                       "size": "10px",
                       "weight": "bold",
-                      "color": "#F7F1E8",
+                      "color": "#39221E",
                       "wrap": false,
                       "align": "center"
                     }
                   ],
                   "spacing": "none",
                   "paddingAll": "2px",
-                  "backgroundColor": "#39221E",
+                  "backgroundColor": "#FFFFFF",
                   "cornerRadius": "100px",
-                  "flex": 0
+                  "flex": 0,
+                  "borderWidth": "1px",
+                  "borderColor": "#E3DACB"
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [],
+                  "flex": 1
                 }
               ],
               "spacing": "none",
-              "paddingAll": "8px"
+              "paddingAll": "2px"
             },
             {
               "type": "box",
@@ -2753,26 +2837,40 @@
                 {
                   "type": "box",
                   "layout": "vertical",
+                  "contents": [],
+                  "flex": 1
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
                   "contents": [
                     {
                       "type": "text",
                       "text": "7 / 7",
                       "size": "10px",
                       "weight": "bold",
-                      "color": "#F7F1E8",
+                      "color": "#39221E",
                       "wrap": false,
                       "align": "center"
                     }
                   ],
                   "spacing": "none",
                   "paddingAll": "2px",
-                  "backgroundColor": "#39221E",
+                  "backgroundColor": "#FFFFFF",
                   "cornerRadius": "100px",
-                  "flex": 0
+                  "flex": 0,
+                  "borderWidth": "1px",
+                  "borderColor": "#E3DACB"
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [],
+                  "flex": 1
                 }
               ],
               "spacing": "none",
-              "paddingAll": "8px"
+              "paddingAll": "2px"
             },
             {
               "type": "separator",
