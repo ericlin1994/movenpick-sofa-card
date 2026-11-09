@@ -71,15 +71,11 @@
                               "align": "center"
                             }
                           ],
-                          "spacing": "xs",
-                          "alignItems": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "4px",
-                      "paddingEnd": "4px",
+                      "paddingAll": "8px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -122,15 +118,11 @@
                               "align": "center"
                             }
                           ],
-                          "spacing": "xs",
-                          "alignItems": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "4px",
-                      "paddingEnd": "4px",
+                      "paddingAll": "8px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -173,15 +165,11 @@
                               "align": "center"
                             }
                           ],
-                          "spacing": "xs",
-                          "alignItems": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "4px",
-                      "paddingEnd": "4px",
+                      "paddingAll": "8px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -211,7 +199,7 @@
                       "contents": [
                         {
                           "type": "box",
-                          "layout": "horizontal",
+                          "layout": "vertical",
                           "contents": [
                             {
                               "type": "image",
@@ -228,20 +216,14 @@
                               "weight": "bold",
                               "color": "#39221E",
                               "wrap": false,
-                              "align": "center",
-                              "flex": 0
+                              "align": "center"
                             }
                           ],
-                          "spacing": "sm",
-                          "alignItems": "center",
-                          "justifyContent": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "12px",
-                      "paddingBottom": "12px",
-                      "paddingStart": "8px",
-                      "paddingEnd": "8px",
+                      "paddingAll": "12px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -270,7 +252,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://movenpick.cardtaiwan.com/img/card1-v3.jpg",
+          "url": "https://movenpick.cardtaiwan.com/img/card1-v4.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
@@ -328,10 +310,7 @@
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "3px",
-                      "paddingEnd": "3px",
+                      "paddingAll": "8px",
                       "cornerRadius": "100px",
                       "flex": 1,
                       "borderWidth": "1px",
@@ -352,10 +331,7 @@
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "3px",
-                      "paddingEnd": "3px",
+                      "paddingAll": "8px",
                       "cornerRadius": "100px",
                       "flex": 1,
                       "borderWidth": "1px",
@@ -376,10 +352,7 @@
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "3px",
-                      "paddingEnd": "3px",
+                      "paddingAll": "8px",
                       "cornerRadius": "100px",
                       "flex": 1,
                       "borderWidth": "1px",
@@ -407,10 +380,7 @@
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "3px",
-                      "paddingEnd": "3px",
+                      "paddingAll": "8px",
                       "cornerRadius": "100px",
                       "flex": 1,
                       "borderWidth": "1px",
@@ -431,10 +401,7 @@
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "3px",
-                      "paddingEnd": "3px",
+                      "paddingAll": "8px",
                       "cornerRadius": "100px",
                       "flex": 1,
                       "borderWidth": "1px",
@@ -455,10 +422,7 @@
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "3px",
-                      "paddingEnd": "3px",
+                      "paddingAll": "8px",
                       "cornerRadius": "100px",
                       "flex": 1,
                       "borderWidth": "1px",
@@ -513,8 +477,7 @@
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "sm",
-                  "alignItems": "center"
+                  "margin": "sm"
                 },
                 {
                   "type": "box",
@@ -540,8 +503,7 @@
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "sm",
-                  "alignItems": "center"
+                  "margin": "sm"
                 },
                 {
                   "type": "box",
@@ -567,8 +529,7 @@
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "sm",
-                  "alignItems": "center"
+                  "margin": "sm"
                 },
                 {
                   "type": "box",
@@ -594,8 +555,7 @@
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "sm",
-                  "alignItems": "center"
+                  "margin": "sm"
                 },
                 {
                   "type": "box",
@@ -621,8 +581,7 @@
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "sm",
-                  "alignItems": "center"
+                  "margin": "sm"
                 }
               ],
               "spacing": "sm",
@@ -650,18 +609,14 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingTop": "4px",
-                  "paddingBottom": "4px",
-                  "paddingStart": "12px",
-                  "paddingEnd": "12px",
+                  "paddingAll": "4px",
                   "backgroundColor": "#39221E",
                   "cornerRadius": "100px",
                   "flex": 0
                 }
               ],
               "spacing": "none",
-              "margin": "lg",
-              "justifyContent": "center"
+              "margin": "lg"
             }
           ],
           "spacing": "md",
@@ -706,15 +661,11 @@
                               "align": "center"
                             }
                           ],
-                          "spacing": "xs",
-                          "alignItems": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "4px",
-                      "paddingEnd": "4px",
+                      "paddingAll": "8px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -757,15 +708,11 @@
                               "align": "center"
                             }
                           ],
-                          "spacing": "xs",
-                          "alignItems": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "4px",
-                      "paddingEnd": "4px",
+                      "paddingAll": "8px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -808,15 +755,11 @@
                               "align": "center"
                             }
                           ],
-                          "spacing": "xs",
-                          "alignItems": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "4px",
-                      "paddingEnd": "4px",
+                      "paddingAll": "8px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -846,7 +789,7 @@
                       "contents": [
                         {
                           "type": "box",
-                          "layout": "horizontal",
+                          "layout": "vertical",
                           "contents": [
                             {
                               "type": "image",
@@ -863,20 +806,14 @@
                               "weight": "bold",
                               "color": "#39221E",
                               "wrap": false,
-                              "align": "center",
-                              "flex": 0
+                              "align": "center"
                             }
                           ],
-                          "spacing": "sm",
-                          "alignItems": "center",
-                          "justifyContent": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "12px",
-                      "paddingBottom": "12px",
-                      "paddingStart": "8px",
-                      "paddingEnd": "8px",
+                      "paddingAll": "12px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -951,8 +888,7 @@
                       "size": "29px",
                       "aspectRatio": "128:107",
                       "aspectMode": "cover",
-                      "flex": 0,
-                      "align": "start"
+                      "flex": 0
                     },
                     {
                       "type": "text",
@@ -989,8 +925,7 @@
                       "size": "24px",
                       "aspectRatio": "128:128",
                       "aspectMode": "cover",
-                      "flex": 0,
-                      "align": "start"
+                      "flex": 0
                     },
                     {
                       "type": "text",
@@ -1035,8 +970,7 @@
                       "size": "24px",
                       "aspectRatio": "128:128",
                       "aspectMode": "cover",
-                      "flex": 0,
-                      "align": "start"
+                      "flex": 0
                     },
                     {
                       "type": "text",
@@ -1073,8 +1007,7 @@
                       "size": "24px",
                       "aspectRatio": "128:128",
                       "aspectMode": "cover",
-                      "flex": 0,
-                      "align": "start"
+                      "flex": 0
                     },
                     {
                       "type": "text",
@@ -1124,18 +1057,14 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingTop": "4px",
-                  "paddingBottom": "4px",
-                  "paddingStart": "12px",
-                  "paddingEnd": "12px",
+                  "paddingAll": "4px",
                   "backgroundColor": "#39221E",
                   "cornerRadius": "100px",
                   "flex": 0
                 }
               ],
               "spacing": "none",
-              "margin": "lg",
-              "justifyContent": "center"
+              "margin": "lg"
             }
           ],
           "spacing": "md",
@@ -1180,15 +1109,11 @@
                               "align": "center"
                             }
                           ],
-                          "spacing": "xs",
-                          "alignItems": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "4px",
-                      "paddingEnd": "4px",
+                      "paddingAll": "8px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -1231,15 +1156,11 @@
                               "align": "center"
                             }
                           ],
-                          "spacing": "xs",
-                          "alignItems": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "4px",
-                      "paddingEnd": "4px",
+                      "paddingAll": "8px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -1282,15 +1203,11 @@
                               "align": "center"
                             }
                           ],
-                          "spacing": "xs",
-                          "alignItems": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "4px",
-                      "paddingEnd": "4px",
+                      "paddingAll": "8px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -1320,7 +1237,7 @@
                       "contents": [
                         {
                           "type": "box",
-                          "layout": "horizontal",
+                          "layout": "vertical",
                           "contents": [
                             {
                               "type": "image",
@@ -1337,20 +1254,14 @@
                               "weight": "bold",
                               "color": "#39221E",
                               "wrap": false,
-                              "align": "center",
-                              "flex": 0
+                              "align": "center"
                             }
                           ],
-                          "spacing": "sm",
-                          "alignItems": "center",
-                          "justifyContent": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "12px",
-                      "paddingBottom": "12px",
-                      "paddingStart": "8px",
-                      "paddingEnd": "8px",
+                      "paddingAll": "12px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -1509,18 +1420,14 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingTop": "4px",
-                  "paddingBottom": "4px",
-                  "paddingStart": "12px",
-                  "paddingEnd": "12px",
+                  "paddingAll": "4px",
                   "backgroundColor": "#39221E",
                   "cornerRadius": "100px",
                   "flex": 0
                 }
               ],
               "spacing": "none",
-              "margin": "lg",
-              "justifyContent": "center"
+              "margin": "lg"
             }
           ],
           "spacing": "md",
@@ -1565,15 +1472,11 @@
                               "align": "center"
                             }
                           ],
-                          "spacing": "xs",
-                          "alignItems": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "4px",
-                      "paddingEnd": "4px",
+                      "paddingAll": "8px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -1616,15 +1519,11 @@
                               "align": "center"
                             }
                           ],
-                          "spacing": "xs",
-                          "alignItems": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "4px",
-                      "paddingEnd": "4px",
+                      "paddingAll": "8px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -1667,15 +1566,11 @@
                               "align": "center"
                             }
                           ],
-                          "spacing": "xs",
-                          "alignItems": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "4px",
-                      "paddingEnd": "4px",
+                      "paddingAll": "8px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -1705,7 +1600,7 @@
                       "contents": [
                         {
                           "type": "box",
-                          "layout": "horizontal",
+                          "layout": "vertical",
                           "contents": [
                             {
                               "type": "image",
@@ -1722,20 +1617,14 @@
                               "weight": "bold",
                               "color": "#39221E",
                               "wrap": false,
-                              "align": "center",
-                              "flex": 0
+                              "align": "center"
                             }
                           ],
-                          "spacing": "sm",
-                          "alignItems": "center",
-                          "justifyContent": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "12px",
-                      "paddingBottom": "12px",
-                      "paddingStart": "8px",
-                      "paddingEnd": "8px",
+                      "paddingAll": "12px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -1830,15 +1719,11 @@
                               "align": "center"
                             }
                           ],
-                          "spacing": "xs",
-                          "alignItems": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "4px",
-                      "paddingEnd": "4px",
+                      "paddingAll": "8px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -1881,15 +1766,11 @@
                               "align": "center"
                             }
                           ],
-                          "spacing": "xs",
-                          "alignItems": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "4px",
-                      "paddingEnd": "4px",
+                      "paddingAll": "8px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -1932,15 +1813,11 @@
                               "align": "center"
                             }
                           ],
-                          "spacing": "xs",
-                          "alignItems": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "4px",
-                      "paddingEnd": "4px",
+                      "paddingAll": "8px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -1970,7 +1847,7 @@
                       "contents": [
                         {
                           "type": "box",
-                          "layout": "horizontal",
+                          "layout": "vertical",
                           "contents": [
                             {
                               "type": "image",
@@ -1987,20 +1864,14 @@
                               "weight": "bold",
                               "color": "#39221E",
                               "wrap": false,
-                              "align": "center",
-                              "flex": 0
+                              "align": "center"
                             }
                           ],
-                          "spacing": "sm",
-                          "alignItems": "center",
-                          "justifyContent": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "12px",
-                      "paddingBottom": "12px",
-                      "paddingStart": "8px",
-                      "paddingEnd": "8px",
+                      "paddingAll": "12px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -2075,12 +1946,10 @@
             },
             {
               "type": "image",
-              "url": "https://movenpick.cardtaiwan.com/img/case1.jpg",
+              "url": "https://movenpick.cardtaiwan.com/img/case1-r.png",
               "size": "full",
               "aspectRatio": "3:2",
-              "aspectMode": "cover",
-              "cornerRadius": "12px",
-              "margin": "md"
+              "aspectMode": "cover"
             },
             {
               "type": "box",
@@ -2088,20 +1957,18 @@
               "contents": [
                 {
                   "type": "image",
-                  "url": "https://movenpick.cardtaiwan.com/img/case2.jpg",
+                  "url": "https://movenpick.cardtaiwan.com/img/case2-r.png",
                   "size": "full",
                   "aspectRatio": "3:2",
                   "aspectMode": "cover",
-                  "cornerRadius": "12px",
                   "flex": 1
                 },
                 {
                   "type": "image",
-                  "url": "https://movenpick.cardtaiwan.com/img/case3.jpg",
+                  "url": "https://movenpick.cardtaiwan.com/img/case3-r.png",
                   "size": "full",
                   "aspectRatio": "3:2",
                   "aspectMode": "cover",
-                  "cornerRadius": "12px",
                   "flex": 1
                 }
               ],
@@ -2127,18 +1994,14 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingTop": "4px",
-                  "paddingBottom": "4px",
-                  "paddingStart": "12px",
-                  "paddingEnd": "12px",
+                  "paddingAll": "4px",
                   "backgroundColor": "#39221E",
                   "cornerRadius": "100px",
                   "flex": 0
                 }
               ],
               "spacing": "none",
-              "margin": "lg",
-              "justifyContent": "center"
+              "margin": "lg"
             }
           ],
           "spacing": "none",
@@ -2183,15 +2046,11 @@
                               "align": "center"
                             }
                           ],
-                          "spacing": "xs",
-                          "alignItems": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "4px",
-                      "paddingEnd": "4px",
+                      "paddingAll": "8px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -2234,15 +2093,11 @@
                               "align": "center"
                             }
                           ],
-                          "spacing": "xs",
-                          "alignItems": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "4px",
-                      "paddingEnd": "4px",
+                      "paddingAll": "8px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -2285,15 +2140,11 @@
                               "align": "center"
                             }
                           ],
-                          "spacing": "xs",
-                          "alignItems": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "8px",
-                      "paddingBottom": "8px",
-                      "paddingStart": "4px",
-                      "paddingEnd": "4px",
+                      "paddingAll": "8px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -2323,7 +2174,7 @@
                       "contents": [
                         {
                           "type": "box",
-                          "layout": "horizontal",
+                          "layout": "vertical",
                           "contents": [
                             {
                               "type": "image",
@@ -2340,20 +2191,14 @@
                               "weight": "bold",
                               "color": "#39221E",
                               "wrap": false,
-                              "align": "center",
-                              "flex": 0
+                              "align": "center"
                             }
                           ],
-                          "spacing": "sm",
-                          "alignItems": "center",
-                          "justifyContent": "center"
+                          "spacing": "xs"
                         }
                       ],
                       "spacing": "none",
-                      "paddingTop": "12px",
-                      "paddingBottom": "12px",
-                      "paddingStart": "8px",
-                      "paddingEnd": "8px",
+                      "paddingAll": "12px",
                       "background": {
                         "type": "linearGradient",
                         "angle": "90deg",
@@ -2442,8 +2287,7 @@
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "sm",
-                  "alignItems": "center"
+                  "margin": "sm"
                 },
                 {
                   "type": "box",
@@ -2469,8 +2313,7 @@
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "sm",
-                  "alignItems": "center"
+                  "margin": "sm"
                 },
                 {
                   "type": "box",
@@ -2496,8 +2339,7 @@
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "sm",
-                  "alignItems": "center"
+                  "margin": "sm"
                 },
                 {
                   "type": "box",
@@ -2523,8 +2365,7 @@
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "sm",
-                  "alignItems": "center"
+                  "margin": "sm"
                 }
               ],
               "spacing": "sm",
@@ -2565,16 +2406,11 @@
                           "flex": 0
                         }
                       ],
-                      "spacing": "xs",
-                      "alignItems": "center",
-                      "justifyContent": "center"
+                      "spacing": "xs"
                     }
                   ],
                   "spacing": "none",
-                  "paddingTop": "9px",
-                  "paddingBottom": "9px",
-                  "paddingStart": "4px",
-                  "paddingEnd": "4px",
+                  "paddingAll": "9px",
                   "backgroundColor": "#F1EADC",
                   "cornerRadius": "100px",
                   "flex": 1,
@@ -2612,16 +2448,11 @@
                           "flex": 0
                         }
                       ],
-                      "spacing": "xs",
-                      "alignItems": "center",
-                      "justifyContent": "center"
+                      "spacing": "xs"
                     }
                   ],
                   "spacing": "none",
-                  "paddingTop": "9px",
-                  "paddingBottom": "9px",
-                  "paddingStart": "4px",
-                  "paddingEnd": "4px",
+                  "paddingAll": "9px",
                   "backgroundColor": "#F1EADC",
                   "cornerRadius": "100px",
                   "flex": 1,
@@ -2667,16 +2498,11 @@
                           "flex": 0
                         }
                       ],
-                      "spacing": "xs",
-                      "alignItems": "center",
-                      "justifyContent": "center"
+                      "spacing": "xs"
                     }
                   ],
                   "spacing": "none",
-                  "paddingTop": "9px",
-                  "paddingBottom": "9px",
-                  "paddingStart": "4px",
-                  "paddingEnd": "4px",
+                  "paddingAll": "9px",
                   "backgroundColor": "#F1EADC",
                   "cornerRadius": "100px",
                   "flex": 1,
@@ -2714,16 +2540,11 @@
                           "flex": 0
                         }
                       ],
-                      "spacing": "xs",
-                      "alignItems": "center",
-                      "justifyContent": "center"
+                      "spacing": "xs"
                     }
                   ],
                   "spacing": "none",
-                  "paddingTop": "9px",
-                  "paddingBottom": "9px",
-                  "paddingStart": "4px",
-                  "paddingEnd": "4px",
+                  "paddingAll": "9px",
                   "backgroundColor": "#F1EADC",
                   "cornerRadius": "100px",
                   "flex": 1,
@@ -2766,16 +2587,11 @@
                       "flex": 0
                     }
                   ],
-                  "spacing": "sm",
-                  "alignItems": "center",
-                  "justifyContent": "center"
+                  "spacing": "sm"
                 }
               ],
               "spacing": "none",
-              "paddingTop": "12px",
-              "paddingBottom": "12px",
-              "paddingStart": "8px",
-              "paddingEnd": "8px",
+              "paddingAll": "12px",
               "background": {
                 "type": "linearGradient",
                 "angle": "90deg",
@@ -2811,18 +2627,14 @@
                     }
                   ],
                   "spacing": "none",
-                  "paddingTop": "4px",
-                  "paddingBottom": "4px",
-                  "paddingStart": "12px",
-                  "paddingEnd": "12px",
+                  "paddingAll": "4px",
                   "backgroundColor": "#39221E",
                   "cornerRadius": "100px",
                   "flex": 0
                 }
               ],
               "spacing": "none",
-              "margin": "lg",
-              "justifyContent": "center"
+              "margin": "lg"
             }
           ],
           "spacing": "md",
@@ -2876,15 +2688,11 @@
                                   "align": "center"
                                 }
                               ],
-                              "spacing": "xs",
-                              "alignItems": "center"
+                              "spacing": "xs"
                             }
                           ],
                           "spacing": "none",
-                          "paddingTop": "8px",
-                          "paddingBottom": "8px",
-                          "paddingStart": "4px",
-                          "paddingEnd": "4px",
+                          "paddingAll": "8px",
                           "background": {
                             "type": "linearGradient",
                             "angle": "90deg",
@@ -2927,15 +2735,11 @@
                                   "align": "center"
                                 }
                               ],
-                              "spacing": "xs",
-                              "alignItems": "center"
+                              "spacing": "xs"
                             }
                           ],
                           "spacing": "none",
-                          "paddingTop": "8px",
-                          "paddingBottom": "8px",
-                          "paddingStart": "4px",
-                          "paddingEnd": "4px",
+                          "paddingAll": "8px",
                           "background": {
                             "type": "linearGradient",
                             "angle": "90deg",
@@ -2978,15 +2782,11 @@
                                   "align": "center"
                                 }
                               ],
-                              "spacing": "xs",
-                              "alignItems": "center"
+                              "spacing": "xs"
                             }
                           ],
                           "spacing": "none",
-                          "paddingTop": "8px",
-                          "paddingBottom": "8px",
-                          "paddingStart": "4px",
-                          "paddingEnd": "4px",
+                          "paddingAll": "8px",
                           "background": {
                             "type": "linearGradient",
                             "angle": "90deg",
@@ -3016,7 +2816,7 @@
                           "contents": [
                             {
                               "type": "box",
-                              "layout": "horizontal",
+                              "layout": "vertical",
                               "contents": [
                                 {
                                   "type": "image",
@@ -3033,20 +2833,14 @@
                                   "weight": "bold",
                                   "color": "#39221E",
                                   "wrap": false,
-                                  "align": "center",
-                                  "flex": 0
+                                  "align": "center"
                                 }
                               ],
-                              "spacing": "sm",
-                              "alignItems": "center",
-                              "justifyContent": "center"
+                              "spacing": "xs"
                             }
                           ],
                           "spacing": "none",
-                          "paddingTop": "12px",
-                          "paddingBottom": "12px",
-                          "paddingStart": "8px",
-                          "paddingEnd": "8px",
+                          "paddingAll": "12px",
                           "background": {
                             "type": "linearGradient",
                             "angle": "90deg",
