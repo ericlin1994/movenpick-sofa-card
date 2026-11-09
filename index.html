@@ -492,6 +492,10 @@ let liffReady = false, flexPayload = null;
 /* 共用模式下 payload 抓不到時為 true → 直接中止分享，
    絕對不要拿「本頁自己的內容」當後備，那會送出別人的名片。 */
 let payloadFailed = false;
+/* 分享流程強健化（移植自 Benson 版）：
+   inPlaceInit＝按分享時就地 liff.init 的狀態 0 未試／1 進行中／2 已試過（最多一次）
+   pickerCalled＝shareTargetPicker 是否已被呼叫（看門狗用）；pickerBusy＝防重入 */
+let inPlaceInit = 0, liffInitP = null, pickerCalled = false, pickerBusy = false;
 
 /* 改動 flex-cards.json 後請把 BUILD 往後跳一號：
    LINE 內建瀏覽器會快取檔案，不跳號會一直送出舊版卡片 */
@@ -592,6 +596,102 @@ if(document.documentElement.className === 'share-mode'){
   setTimeout(shareModeSelfCheck, 5000);
 }
 
+/* ── 把訊息寫在「使用者看得見」的地方：分享模式下 .wrap 被隱藏（tipText 看不到），
+   所以同時寫 ssTip；一般模式 ssTip 在隱藏的分享畫面裡，看 tipText。 ── */
+function setTip(html){
+  ['ssTip', 'tipText'].forEach(id => { const el = document.getElementById(id); if(el) el.innerHTML = html; });
+}
+/* 失敗時的診斷行（截圖給我就能定位）：picker 回傳值、isApiAvailable、payload bytes */
+const shareInfo = { api: '?', payloadBytes: '?', result: '尚未呼叫' };
+function infoHtml(){
+  return '<br><small>診斷｜LIFF=' + (window.liff ? '有' : '無') + '｜liffReady=' + liffReady
+    + '｜shareTargetPicker可用=' + shareInfo.api + '｜payload=' + shareInfo.payloadBytes + ' bytes'
+    + '｜picker結果=' + shareInfo.result + '</small>';
+}
+function payloadBytesOf(m){
+  try{ return new Blob([JSON.stringify(m)]).size; }catch(e){ return '?'; }
+}
+/* 可點的後備按鈕：分享模式放在 .ss-bar，一般模式放在 tipText 下面 */
+let fbBtnShown = false;
+function showFallbackBtn(){
+  if(fbBtnShown) return;
+  fbBtnShown = true;
+  const mk = () => {
+    const b = document.createElement('button');
+    b.className = 'share-fb';
+    b.textContent = '🔗 改用連結分享';
+    b.style.cssText = 'display:block;margin:12px auto 0;padding:12px 20px;border-radius:999px;border:1px solid #A17B41;'
+      + 'background:#fff;color:#39221E;font-size:15px;font-weight:700;';
+    b.onclick = () => shareLinkFallback('使用者選擇');
+    return b;
+  };
+  const bar = document.querySelector('#shareScreen .ss-bar');
+  if(bar) bar.appendChild(mk());
+  const tt = document.getElementById('tipText');
+  if(tt) tt.insertAdjacentElement('afterend', mk());
+}
+
+/* 分享流程結束後把這一頁關掉（LIFF 的流程頁不該讓分享者停留）。
+   只有真的在 LINE 內才呼叫；外部瀏覽器或舊版 LINE 失敗就安靜忽略。 */
+function closeSoon(ms){
+  setTimeout(function(){
+    try{
+      if(window.liff && liff.isInClient && liff.isInClient() && liff.closeWindow){
+        diag('分享流程結束 → 關閉這一頁');
+        liff.closeWindow();
+      }
+    }catch(e){ diag('關閉這一頁失敗：' + (e && (e.message || e)), true); }
+  }, ms || 800);
+}
+
+/* 連結分享備援：原生卡片分享失敗時，至少能把名片「連結」傳出去。
+   順序：系統分享選單 → 複製網址 → 直接把網址顯示在畫面上。
+   ⚠ 只分享 LIFF 網址；絕對不要拿「本頁自己的內容」當卡片後備，那會送出別人的名片。 */
+async function shareLinkFallback(reason){
+  diag('改用連結分享（原因：' + reason + '）', true);
+  showFallbackBtn();
+  const url = 'https://liff.line.me/' + LIFF_ID;
+  const data = { title: SHARE_TITLE, text: SHARE_TEXT, url: url };
+  try{
+    if(navigator.share){
+      diag('開啟系統分享選單');
+      await navigator.share(data);
+      setTip('卡片無法直接送出（' + String(reason).replace(/</g, '&lt;') + '），已改為分享名片連結。' + infoHtml());
+      closeSoon(1200);
+      return;
+    }
+  }catch(e){
+    diag('系統分享選單失敗：' + (e && e.message || e), true);
+    if(e && e.name === 'AbortError'){ setTip('已取消連結分享。'); return; }
+  }
+  try{
+    await navigator.clipboard.writeText(url);
+    setTip('卡片無法直接送出（' + String(reason).replace(/</g, '&lt;') + '）。<br>已複製名片網址，貼到聊天室就能傳給朋友。' + infoHtml());
+    diag('已複製名片網址：' + url);
+    closeSoon(1800);
+    return;
+  }catch(e){ diag('複製失敗：' + (e && e.message || e), true); }
+  setTip('卡片無法直接送出（' + String(reason).replace(/</g, '&lt;') + '）。<br>請手動複製這個網址傳給朋友：<br><b>' + url + '</b>' + infoHtml());
+}
+
+/* ── 分享模式看門狗：share=1 進來 6 秒後 shareTargetPicker 還沒被呼叫，
+   就把診斷寫在畫面上並給可點的後備（照 Benson 版 6 秒）。
+   已經呼叫過 picker 就不出手；看名片模式（沒有 share=1）完全不受影響。 */
+const WATCHDOG_MS = 6000;
+(function(){
+  let q = location.search + (location.hash || '');
+  try{ q = decodeURIComponent(q); }catch(e){}
+  if(q.indexOf('share=1') === -1) return;
+  setTimeout(function(){
+    if(pickerCalled || pickerBusy) return;
+    diag('看門狗：分享模式 ' + (WATCHDOG_MS / 1000) + ' 秒後 shareTargetPicker 仍未被呼叫 → 改用備援', true);
+    shareInfo.result = '看門狗逾時（未呼叫）';
+    if(window.liff && liff.isApiAvailable){ try{ shareInfo.api = liffReady ? liff.isApiAvailable('shareTargetPicker') : '(LIFF 未就緒)'; }catch(e){} }
+    setTip('分享功能 ' + (WATCHDOG_MS / 1000) + ' 秒內沒有啟動。<br>可以按下方「改用連結分享」，或關掉重開再試一次。' + infoHtml());
+    showFallbackBtn();
+  }, WATCHDOG_MS);
+})();
+
 /* 讀 query 參數。LIFF 會把原始 query 包進 liff.state，所以整串解碼後再找；
    若拿到的值還是編碼過的（%3A%2F%2F…）就再解一次。 */
 function getParam(name){
@@ -601,6 +701,77 @@ function getParam(name){
   let v = m[1];
   if(!/^https?:/i.test(v)){ try{ v = decodeURIComponent(v); }catch(e){} }
   return v;
+}
+
+/* ── ?check=1 自我檢測：用 sendMessages 把 LINE 真正的錯誤碼問出來
+      （shareTargetPicker 遇到不合法訊息只會靜默丟棄，sendMessages 會回報原因） ── */
+function leanPayload(){
+  const p = JSON.parse(JSON.stringify(flexPayload));
+  (function walk(n){
+    if(!n || typeof n !== 'object') return;
+    if(Array.isArray(n)){ n.forEach(walk); return; }
+    if(n.type === 'box'){
+      delete n.alignItems; delete n.justifyContent;
+      if('paddingTop' in n || 'paddingBottom' in n || 'paddingStart' in n || 'paddingEnd' in n){
+        const v = n.paddingTop;
+        delete n.paddingTop; delete n.paddingBottom; delete n.paddingStart; delete n.paddingEnd;
+        if(v !== undefined) n.paddingAll = v;
+      }
+    }
+    if(n.type === 'image'){ delete n.align; delete n.cornerRadius; delete n.margin; }
+    Object.values(n).forEach(walk);
+  })(p);
+  return p;
+}
+
+async function runCheck(){
+  const host = document.createElement('div');
+  host.style.cssText = 'position:fixed;inset:0;z-index:99999;background:#000;color:#fff;overflow:auto;padding:16px;'
+    + 'font:700 20px/1.6 -apple-system,"Noto Sans TC",sans-serif;word-break:break-all';
+  document.body.appendChild(host);
+  const line = (t) => { const d = document.createElement('div'); d.className = 'chk-line'; d.textContent = t; host.appendChild(d); return d; };
+  const errText = (e) => '(code: ' + (e && e.code) + ') ' + (e && e.message !== undefined ? e.message : e);
+  const lean = leanPayload();
+  const cur = payloadForSend();
+  line('?check=1 自我檢測');
+  line('目前 payload：' + payloadBytesOf(cur) + ' bytes');
+  line('lean payload：' + payloadBytesOf(lean) + ' bytes');
+  let ver = '?', api = '?';
+  try{ ver = liff.getVersion(); }catch(e){ ver = 'ERR ' + e; }
+  try{ api = liff.isApiAvailable('shareTargetPicker'); }catch(e){ api = 'ERR ' + e; }
+  line('liff.getVersion()：' + ver);
+  line('isApiAvailable(shareTargetPicker)：' + api);
+  const mini = { type:'flex', altText:'B 極簡卡', contents:{ type:'bubble',
+    body:{ type:'box', layout:'vertical', paddingAll:'16px', contents:[ { type:'text', text:'B 極簡卡', weight:'bold' } ]},
+    footer:{ type:'box', layout:'vertical', paddingAll:'16px', contents:[
+      { type:'button', style:'primary', action:{ type:'uri', label:'官方網站', uri: LINKS.site } } ]}}};
+  const steps = [
+    ['A 純文字', { type:'text', text:'A 純文字檢測' }],
+    ['B 極簡卡', mini],
+    ['C 目前payload', cur],
+    ['D lean payload', lean],
+  ];
+  for(const [name, msg] of steps){
+    try{
+      await liff.sendMessages([msg]);
+      line(name + ' → ✅ 已送出');
+    }catch(e){
+      line(name + ' → ❌ ' + errText(e));
+    }
+  }
+  const b = document.createElement('button');
+  b.id = 'chkLeanBtn';
+  b.textContent = '用分享選擇器送 lean 版';
+  b.style.cssText = 'display:block;width:100%;margin-top:16px;padding:16px;font:700 20px sans-serif;border:0;border-radius:12px;background:#06c755;color:#fff';
+  b.onclick = async () => {
+    try{
+      const r = await liff.shareTargetPicker([leanPayload()]);
+      line('shareTargetPicker(lean) → ' + (r ? '✅ 回傳成功' : '取消(null)'));
+    }catch(e){
+      line('shareTargetPicker(lean) → ❌ ' + errText(e));
+    }
+  };
+  host.appendChild(b);
 }
 
 (async function initLiff(){
@@ -711,8 +882,15 @@ function getParam(name){
   }
 
   try{
-    await liff.init({ liffId: LIFF_ID });
+    if(!liffInitP) liffInitP = liff.init({ liffId: LIFF_ID });
+    await liffInitP;
     liffReady = true;
+
+    if(/check=1/.test(decodeURIComponent(location.search))){
+      if(!liff.isLoggedIn()){ liff.login({ redirectUri: location.href }); return; }
+      await runCheck();
+      return;
+    }
 
     const inLine = liff.isInClient();
     diag('liff.init OK｜inClient=' + inLine + '｜loggedIn=' + liff.isLoggedIn()
@@ -722,7 +900,7 @@ function getParam(name){
     // 注意：LIFF 會把原始 query 包進 liff.state，所以兩種都判斷
     const raw = decodeURIComponent(location.search);
     const fromCard = raw.includes('share=1');
-    if(inLine && fromCard){
+    if(inLine && fromCard && !pickerBusy && !pickerCalled){
       const btn = document.getElementById('shareBtn');
       btn.textContent = '📤 我要分享給好友';
       btn.classList.add('hint');            // 置頂按鈕加呼吸光，直接引導點它
@@ -736,6 +914,9 @@ function getParam(name){
   }catch(e){
     diag('liff.init 失敗：' + (e && (e.message || e.code) || e), true);
     diag('→ channel 若仍在 Developing，需把該 LINE 帳號加成 Tester 或發佈 channel', true);
+    setTip('分享功能沒能啟動（LIFF 初始化失敗：' + (e && (e.code || e.message) || e) + '）。<br>'
+      + '可以先改用連結分享。');
+    showFallbackBtn();
   }
 })();
 
@@ -826,20 +1007,63 @@ async function shareCard(){
 
   if(payloadFailed){
     diag('❌ 要分享的卡片內容沒抓到，已中止（避免送成別人的名片）', true);
-    if(tip) tip.textContent = '卡片內容載入失敗，請關掉重開，或請對方重新傳一次連結。';
+    setTip('卡片內容載入失敗，請關掉重開，或請對方重新傳一次連結。' + infoHtml());
+    await shareLinkFallback('卡片內容載入失敗');
     return;
+  }
+  if(pickerBusy){ diag('分享選擇器處理中 → 忽略重複觸發'); return; }
+
+  // 0) 還沒初始化 LIFF → 先試「就地初始化」（最多一次），成功就繼續把卡片送出去
+  const inLineApp = /Line\/[\d.]+/i.test(navigator.userAgent);
+  if(!liffReady && inLineApp && window.liff){
+    if(inPlaceInit === 1){ setTip('正在開啟分享…請稍等一下。'); return; }
+    if(inPlaceInit === 0){
+      inPlaceInit = 1;
+      setTip('正在開啟分享…請稍等一下。');
+      try{
+        if(!liffInitP) liffInitP = liff.init({ liffId: LIFF_ID });
+        await Promise.race([liffInitP,
+          new Promise((_, rej) => setTimeout(() => rej(new Error('in-place init timeout')), 4000))]);
+        liffReady = true;
+        inPlaceInit = 2;
+        diag('就地 liff.init OK｜inClient=' + liff.isInClient() + '｜loggedIn=' + liff.isLoggedIn() + ' → 繼續送出');
+        return shareCard();
+      }catch(e){
+        inPlaceInit = 2;
+        const why = (e && (e.message || e.code) || e);
+        diag('就地 liff.init 失敗：' + why, true);
+        setTip('分享功能沒能啟動（LIFF 初始化失敗：' + String(why).replace(/</g, '&lt;') + '）。' + infoHtml());
+        await shareLinkFallback('liff.init 失敗：' + why);
+        return;
+      }
+    }
   }
 
   // 1) 在 LINE 內 → 用 shareTargetPicker 送出原生 Flex 卡片
   if(liffReady){
     if(!liff.isLoggedIn()){
-      diag('尚未登入 LIFF，導向登入…');
+      const _n = (function(){ try{ return parseInt(localStorage.getItem('shareTry') || '0', 10) || 0; }catch(e){ return 0; } })();
+      if(_n >= 2){
+        diag('已重試 ' + _n + ' 次仍無法登入 → 停止（避免無限迴圈）', true);
+        setTip('分享功能沒能啟動（LIFF 未登入，已重試 ' + _n + ' 次）。請截圖這一頁給我。' + infoHtml());
+        await shareLinkFallback('LIFF 未登入（重試 ' + _n + ' 次）');
+        return;
+      }
+      try{ localStorage.setItem('shareTry', String(_n + 1)); }catch(e){}
+      diag('尚未登入 LIFF，導向登入…（第 ' + (_n + 1) + ' 次）');
       try{ liff.login({ redirectUri: location.href }); return; }catch(e){ diag('登入失敗：'+e, true); }
     }
+    shareInfo.api = (liff.isApiAvailable ? liff.isApiAvailable('shareTargetPicker') : 'n/a');
     if(!flexPayload){
       diag('flex-cards.json 沒載入 → 無法送原生卡片', true);
+      setTip('卡片內容沒載入，無法送出原生卡片。' + infoHtml());
+      await shareLinkFallback('沒有卡片內容');
+      return;
     }else if(!liff.isApiAvailable('shareTargetPicker')){
       diag('shareTargetPicker 不可用 → Console 的 LIFF 分頁還沒按 Enable', true);
+      setTip('分享功能還沒開通（LINE 後台的 LIFF 分頁要按 Enable），請聯絡我處理。' + infoHtml());
+      await shareLinkFallback('shareTargetPicker 不可用');
+      return;
     }else{
       // 診斷開關：?text=1 送純文字／?mini=1 送單張無圖小卡／預設送完整 7 張
       const q = decodeURIComponent(location.search);
@@ -1303,28 +1527,42 @@ async function shareCard(){
         label = '完整 7 張 Flex 卡片';
       }
       diag('本次送出類型：' + (typeof label2 !== 'undefined' ? label2 : label));
+      shareInfo.payloadBytes = payloadBytesOf(msg);
+      diag('payload 大小：' + shareInfo.payloadBytes + ' bytes（上限約 51200）');
+      pickerCalled = true; pickerBusy = true;
       try{
         const res = await liff.shareTargetPicker(msg, { isMultiple: true });
-        if(res){ diag('shareTargetPicker 回傳成功，卡片已送出'); tip.textContent = '✅ 已送出，謝謝你幫忙分享！'; }
-        else   { diag('使用者取消（回傳 null），沒有送出'); }
+        try{ localStorage.removeItem('shareTry'); }catch(e){}
+        shareInfo.result = res ? '成功' : '使用者取消(null)';
+        if(res){
+          diag('shareTargetPicker 回傳成功，卡片已送出');
+          setTip('✅ 已送出，謝謝你幫忙分享！');
+          closeSoon(900);          // 讓使用者瞥一眼確認訊息，再關掉
+        }else{
+          diag('使用者取消（回傳 null），沒有送出');
+          closeSoon(600);          // 取消也關掉，不要讓分享者停在流程頁
+        }
         return;
       }catch(e){
+        const why = (e && (e.code || e.message) || e);
+        shareInfo.result = '失敗：' + why;
         diag('shareTargetPicker 失敗：' + (e && (e.message || e.code) || e), true);
         diag('→ 常見原因：Flex 內容不符規格、或尚未 Enable', true);
+        setTip('分享沒有成功，請關掉重開再試一次。（錯誤：' + String(why).replace(/</g, '&lt;') + '）' + infoHtml());
+        await shareLinkFallback('picker 失敗');
+        return;
+      }finally{
+        pickerBusy = false;
       }
     }
-  }else{
-    diag('LIFF 未就緒（liffReady=false）→ 這次只會用一般分享，對方收到的是「連結」不是卡片', true);
   }
 
-  // 2) 一般瀏覽器 → 原生分享選單，或複製網址
-  const data = { title: SHARE_TITLE, text: SHARE_TEXT, url: location.href };
-  try{
-    if(navigator.share){ diag('改用系統分享選單（navigator.share）'); await navigator.share(data); return; }
-    await navigator.clipboard.writeText(location.href);
-    diag('已複製網址到剪貼簿');
-    alert('網址已複製，貼到 LINE 就能傳給朋友');
-  }catch(e){ diag('一般分享也失敗：' + e, true); }
+  // 2) LIFF 沒起來（不在 LINE 內、SDK 沒載入、init 已失敗）→ 畫面上說明＋改分享連結
+  const why2 = !window.liff ? 'LIFF SDK 沒載入' : (!inLineApp ? '不在 LINE 內開啟' : 'LIFF 未就緒');
+  diag('LIFF 未就緒（liffReady=false，' + why2 + '）→ 只能分享連結，對方收到的是「連結」不是卡片', true);
+  shareInfo.result = '未呼叫（' + why2 + '）';
+  setTip('現在無法直接送出名片卡片（' + why2 + '）。<br>請用 LINE 開啟本頁，或先改用連結分享。' + infoHtml());
+  await shareLinkFallback(why2);
 }
 
 /* 一頁式網頁上的按鈕也給同樣的按壓回饋
