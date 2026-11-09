@@ -1,0 +1,405 @@
+{
+  "type": "flex",
+  "altText": "F1 無圖版",
+  "contents": {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "styles": {
+          "body": {
+            "backgroundColor": "#F7F1E8"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "吳明憲  Steve",
+              "size": "sm",
+              "weight": "bold",
+              "color": "#39221E",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "text",
+              "text": "· 吳明憲 Steve｜負責人\n· 生活沒有標準尺寸，沙發也不該只有標準答案",
+              "size": "xs",
+              "weight": "regular",
+              "color": "#6B443D",
+              "wrap": true,
+              "margin": "xs"
+            }
+          ],
+          "spacing": "none"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "LINE 諮詢",
+                  "size": "xs",
+                  "weight": "bold",
+                  "color": "#FFFFFF",
+                  "wrap": false,
+                  "align": "center"
+                }
+              ],
+              "spacing": "md",
+              "paddingAll": "12px",
+              "backgroundColor": "#8A5A12",
+              "cornerRadius": "100px",
+              "action": {
+                "type": "uri",
+                "label": "LINE 諮詢",
+                "uri": "https://line.me/R/ti/p/%40816ifsxk"
+              }
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "12px",
+          "backgroundColor": "#F7F1E8"
+        }
+      },
+      {
+        "type": "bubble",
+        "styles": {
+          "body": {
+            "backgroundColor": "#F7F1E8"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "我們專為誰服務",
+              "size": "sm",
+              "weight": "bold",
+              "color": "#39221E",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "text",
+              "text": "· 我們專為誰服務\n· 新成屋｜換屋族｜豪宅｜設計師｜商業空間｜家具通路\n· 沙發坐起來不舒服，久坐腰痠背痛\n· 尺寸不合，空間總是差一點點\n· 想換皮革、布料、顏色卻不知道怎麼選\n· 找不到符合風格又耐用的沙發\n· 設計師提案需要特殊尺寸與款式",
+              "size": "xs",
+              "weight": "regular",
+              "color": "#6B443D",
+              "wrap": true,
+              "margin": "xs"
+            }
+          ],
+          "spacing": "none"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "LINE 諮詢",
+                  "size": "xs",
+                  "weight": "bold",
+                  "color": "#FFFFFF",
+                  "wrap": false,
+                  "align": "center"
+                }
+              ],
+              "spacing": "md",
+              "paddingAll": "12px",
+              "backgroundColor": "#8A5A12",
+              "cornerRadius": "100px",
+              "action": {
+                "type": "uri",
+                "label": "LINE 諮詢",
+                "uri": "https://line.me/R/ti/p/%40816ifsxk"
+              }
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "12px",
+          "backgroundColor": "#F7F1E8"
+        }
+      },
+      {
+        "type": "bubble",
+        "styles": {
+          "body": {
+            "backgroundColor": "#F7F1E8"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "我們能為你做什麼",
+              "size": "sm",
+              "weight": "bold",
+              "color": "#39221E",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "text",
+              "text": "· 我們能為你做什麼\n· 四十年製造底蘊 台灣自有工廠全程製作\n· 純手工工藝 手工微褶・菱格絎縫\n· 嚴選耐用選材 高磅耐磨布料・親膚皮革\n· 全客製訂做 尺寸面料軟硬皆可訂製",
+              "size": "xs",
+              "weight": "regular",
+              "color": "#6B443D",
+              "wrap": true,
+              "margin": "xs"
+            }
+          ],
+          "spacing": "none"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "LINE 諮詢",
+                  "size": "xs",
+                  "weight": "bold",
+                  "color": "#FFFFFF",
+                  "wrap": false,
+                  "align": "center"
+                }
+              ],
+              "spacing": "md",
+              "paddingAll": "12px",
+              "backgroundColor": "#8A5A12",
+              "cornerRadius": "100px",
+              "action": {
+                "type": "uri",
+                "label": "LINE 諮詢",
+                "uri": "https://line.me/R/ti/p/%40816ifsxk"
+              }
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "12px",
+          "backgroundColor": "#F7F1E8"
+        }
+      },
+      {
+        "type": "bubble",
+        "styles": {
+          "body": {
+            "backgroundColor": "#F7F1E8"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "為什麼選擇莫凡彼？",
+              "size": "sm",
+              "weight": "bold",
+              "color": "#39221E",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "text",
+              "text": "· 為什麼選擇莫凡彼？\n· 40 年台灣自有工廠製造\n· 100+ 種面料可選（貓抓布・苯染牛皮）\n· 10 年結構骨架保固",
+              "size": "xs",
+              "weight": "regular",
+              "color": "#6B443D",
+              "wrap": true,
+              "margin": "xs"
+            }
+          ],
+          "spacing": "none"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "LINE 諮詢",
+                  "size": "xs",
+                  "weight": "bold",
+                  "color": "#FFFFFF",
+                  "wrap": false,
+                  "align": "center"
+                }
+              ],
+              "spacing": "md",
+              "paddingAll": "12px",
+              "backgroundColor": "#8A5A12",
+              "cornerRadius": "100px",
+              "action": {
+                "type": "uri",
+                "label": "LINE 諮詢",
+                "uri": "https://line.me/R/ti/p/%40816ifsxk"
+              }
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "12px",
+          "backgroundColor": "#F7F1E8"
+        }
+      },
+      {
+        "type": "bubble",
+        "styles": {
+          "body": {
+            "backgroundColor": "#F7F1E8"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "從諮詢到入厝",
+              "size": "sm",
+              "weight": "bold",
+              "color": "#39221E",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "text",
+              "text": "· 從諮詢到入厝\n· 四個步驟，全程由專人悉心服務",
+              "size": "xs",
+              "weight": "regular",
+              "color": "#6B443D",
+              "wrap": true,
+              "margin": "xs"
+            }
+          ],
+          "spacing": "none"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "LINE 諮詢",
+                  "size": "xs",
+                  "weight": "bold",
+                  "color": "#FFFFFF",
+                  "wrap": false,
+                  "align": "center"
+                }
+              ],
+              "spacing": "md",
+              "paddingAll": "12px",
+              "backgroundColor": "#8A5A12",
+              "cornerRadius": "100px",
+              "action": {
+                "type": "uri",
+                "label": "LINE 諮詢",
+                "uri": "https://line.me/R/ti/p/%40816ifsxk"
+              }
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "12px",
+          "backgroundColor": "#F7F1E8"
+        }
+      },
+      {
+        "type": "bubble",
+        "styles": {
+          "body": {
+            "backgroundColor": "#F7F1E8"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "歡迎來門市試坐",
+              "size": "sm",
+              "weight": "bold",
+              "color": "#39221E",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "text",
+              "text": "· 歡迎來門市試坐\n· 電話 03-397-2191\n· LINE @816ifsxk\n· 桃園市龜山區大崗里大湖路249號\n· 週一至週五 09:00–18:00（假日需預約）",
+              "size": "xs",
+              "weight": "regular",
+              "color": "#6B443D",
+              "wrap": true,
+              "margin": "xs"
+            }
+          ],
+          "spacing": "none"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "LINE 諮詢",
+                  "size": "xs",
+                  "weight": "bold",
+                  "color": "#FFFFFF",
+                  "wrap": false,
+                  "align": "center"
+                }
+              ],
+              "spacing": "md",
+              "paddingAll": "12px",
+              "backgroundColor": "#8A5A12",
+              "cornerRadius": "100px",
+              "action": {
+                "type": "uri",
+                "label": "LINE 諮詢",
+                "uri": "https://line.me/R/ti/p/%40816ifsxk"
+              }
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "12px",
+          "backgroundColor": "#F7F1E8"
+        }
+      }
+    ]
+  }
+}

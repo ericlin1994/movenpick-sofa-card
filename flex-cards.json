@@ -1,0 +1,1591 @@
+{
+  "type": "flex",
+  "altText": "莫凡彼沙發工藝｜吳明憲 Steve 電子名片",
+  "contents": {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#F7F1E8"
+          },
+          "footer": {
+            "backgroundColor": "#F1EADC"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "莫凡彼沙發工藝　全客製訂做・純手工工藝・嚴選選材",
+              "size": "xxs",
+              "weight": "regular",
+              "color": "#6B443D",
+              "wrap": true,
+              "margin": "none"
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "14px",
+          "backgroundColor": "#F7F1E8"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "官方網站",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#39221E",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#FFFFFF",
+                    "endColor": "#E3DACB"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#E3DACB",
+                  "action": {
+                    "type": "uri",
+                    "label": "官方網站",
+                    "uri": "https://www.movenpick.com.tw"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "LINE 諮詢",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#8F611B",
+                    "endColor": "#7C5110"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#A17B41",
+                  "action": {
+                    "type": "uri",
+                    "label": "LINE 諮詢",
+                    "uri": "https://line.me/R/ti/p/%40816ifsxk"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "導航門市",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#39221E",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#FFFFFF",
+                    "endColor": "#E3DACB"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#E3DACB",
+                  "action": {
+                    "type": "uri",
+                    "label": "導航門市",
+                    "uri": "https://www.google.com/maps/search/?api=1&query=%E8%8E%AB%E5%87%A1%E5%BD%BC%E6%B2%99%E7%99%BC%E5%B7%A5%E8%97%9D%20%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E5%A4%A7%E5%B4%97%E9%87%8C%E5%A4%A7%E6%B9%96%E8%B7%AF249%E8%99%9F"
+                  }
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "10px"
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://movenpick.cardtaiwan.com/img/card1-v1.jpg",
+          "size": "full",
+          "aspectRatio": "3:4",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-F5ppH6KJ?src=https://movenpick.cardtaiwan.com/flex-cards.json&page=https://movenpick.cardtaiwan.com/&v=2026-11-09-1700"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#F7F1E8"
+          },
+          "footer": {
+            "backgroundColor": "#F1EADC"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "我們專為誰服務",
+              "size": "xl",
+              "weight": "bold",
+              "color": "#8A5A12",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "新成屋",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#39221E",
+                          "wrap": false,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "8px",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#8A5A12"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "換屋族",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#39221E",
+                          "wrap": false,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "8px",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#8A5A12"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "豪宅",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#39221E",
+                          "wrap": false,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "8px",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#8A5A12"
+                    }
+                  ],
+                  "spacing": "xs"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "設計師",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#39221E",
+                          "wrap": false,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "8px",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#8A5A12"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "商業空間",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#39221E",
+                          "wrap": false,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "8px",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#8A5A12"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "家具通路",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#39221E",
+                          "wrap": false,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "8px",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#8A5A12"
+                    }
+                  ],
+                  "spacing": "xs"
+                }
+              ],
+              "spacing": "xs",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "你是不是也有這些困擾？",
+                  "size": "xs",
+                  "weight": "bold",
+                  "color": "#39221E",
+                  "wrap": true,
+                  "margin": "none"
+                },
+                {
+                  "type": "separator",
+                  "margin": "sm",
+                  "color": "#E3DACB"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📌",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#8A5A12",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "沙發坐起來不舒服，久坐腰痠背痛",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#39221E",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 6
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "sm"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📌",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#8A5A12",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "尺寸不合，空間總是差一點點",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#39221E",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 6
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "sm"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📌",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#8A5A12",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "想換皮革、布料、顏色卻不知道怎麼選",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#39221E",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 6
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "sm"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📌",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#8A5A12",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "找不到符合風格又耐用的沙發",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#39221E",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 6
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "sm"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📌",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#8A5A12",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "設計師提案需要特殊尺寸與款式",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#39221E",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 6
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "sm"
+                }
+              ],
+              "spacing": "sm",
+              "margin": "md",
+              "paddingAll": "18px",
+              "backgroundColor": "#FFFFFF",
+              "cornerRadius": "20px"
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "18px",
+          "backgroundColor": "#F7F1E8"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "官方網站",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#39221E",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#FFFFFF",
+                    "endColor": "#E3DACB"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#E3DACB",
+                  "action": {
+                    "type": "uri",
+                    "label": "官方網站",
+                    "uri": "https://www.movenpick.com.tw"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "LINE 諮詢",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#8F611B",
+                    "endColor": "#7C5110"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#A17B41",
+                  "action": {
+                    "type": "uri",
+                    "label": "LINE 諮詢",
+                    "uri": "https://line.me/R/ti/p/%40816ifsxk"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "導航門市",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#39221E",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#FFFFFF",
+                    "endColor": "#E3DACB"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#E3DACB",
+                  "action": {
+                    "type": "uri",
+                    "label": "導航門市",
+                    "uri": "https://www.google.com/maps/search/?api=1&query=%E8%8E%AB%E5%87%A1%E5%BD%BC%E6%B2%99%E7%99%BC%E5%B7%A5%E8%97%9D%20%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E5%A4%A7%E5%B4%97%E9%87%8C%E5%A4%A7%E6%B9%96%E8%B7%AF249%E8%99%9F"
+                  }
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "10px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#F7F1E8"
+          },
+          "footer": {
+            "backgroundColor": "#F1EADC"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "我們能為你做什麼",
+              "size": "xl",
+              "weight": "bold",
+              "color": "#8A5A12",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "text",
+              "text": "從諮詢、試坐到配送定位，全程專人服務",
+              "size": "sm",
+              "weight": "regular",
+              "color": "#39221E",
+              "wrap": true,
+              "margin": "xs"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "🪵",
+                      "size": "md",
+                      "weight": "regular",
+                      "color": "#8A5A12",
+                      "wrap": false,
+                      "margin": "none"
+                    },
+                    {
+                      "type": "text",
+                      "text": "四十年製造底蘊",
+                      "size": "sm",
+                      "weight": "bold",
+                      "color": "#39221E",
+                      "wrap": false,
+                      "margin": "sm"
+                    },
+                    {
+                      "type": "text",
+                      "text": "台灣自有工廠全程製作",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#6B443D",
+                      "wrap": true,
+                      "margin": "xs"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "16px",
+                  "backgroundColor": "#FFFFFF",
+                  "cornerRadius": "16px",
+                  "flex": 1
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "✋",
+                      "size": "md",
+                      "weight": "regular",
+                      "color": "#8A5A12",
+                      "wrap": false,
+                      "margin": "none"
+                    },
+                    {
+                      "type": "text",
+                      "text": "純手工工藝",
+                      "size": "sm",
+                      "weight": "bold",
+                      "color": "#39221E",
+                      "wrap": false,
+                      "margin": "sm"
+                    },
+                    {
+                      "type": "text",
+                      "text": "手工微褶・菱格絎縫",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#6B443D",
+                      "wrap": true,
+                      "margin": "xs"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "16px",
+                  "backgroundColor": "#FFFFFF",
+                  "cornerRadius": "16px",
+                  "flex": 1
+                }
+              ],
+              "spacing": "md",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "🧵",
+                      "size": "md",
+                      "weight": "regular",
+                      "color": "#8A5A12",
+                      "wrap": false,
+                      "margin": "none"
+                    },
+                    {
+                      "type": "text",
+                      "text": "嚴選耐用選材",
+                      "size": "sm",
+                      "weight": "bold",
+                      "color": "#39221E",
+                      "wrap": false,
+                      "margin": "sm"
+                    },
+                    {
+                      "type": "text",
+                      "text": "高磅耐磨布料・親膚皮革",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#6B443D",
+                      "wrap": true,
+                      "margin": "xs"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "16px",
+                  "backgroundColor": "#FFFFFF",
+                  "cornerRadius": "16px",
+                  "flex": 1
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📐",
+                      "size": "md",
+                      "weight": "regular",
+                      "color": "#8A5A12",
+                      "wrap": false,
+                      "margin": "none"
+                    },
+                    {
+                      "type": "text",
+                      "text": "全客製訂做",
+                      "size": "sm",
+                      "weight": "bold",
+                      "color": "#39221E",
+                      "wrap": false,
+                      "margin": "sm"
+                    },
+                    {
+                      "type": "text",
+                      "text": "尺寸面料軟硬皆可訂製",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#6B443D",
+                      "wrap": true,
+                      "margin": "xs"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "16px",
+                  "backgroundColor": "#FFFFFF",
+                  "cornerRadius": "16px",
+                  "flex": 1
+                }
+              ],
+              "spacing": "md",
+              "margin": "md"
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "18px",
+          "backgroundColor": "#F7F1E8"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "官方網站",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#39221E",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#FFFFFF",
+                    "endColor": "#E3DACB"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#E3DACB",
+                  "action": {
+                    "type": "uri",
+                    "label": "官方網站",
+                    "uri": "https://www.movenpick.com.tw"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "LINE 諮詢",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#8F611B",
+                    "endColor": "#7C5110"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#A17B41",
+                  "action": {
+                    "type": "uri",
+                    "label": "LINE 諮詢",
+                    "uri": "https://line.me/R/ti/p/%40816ifsxk"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "導航門市",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#39221E",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#FFFFFF",
+                    "endColor": "#E3DACB"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#E3DACB",
+                  "action": {
+                    "type": "uri",
+                    "label": "導航門市",
+                    "uri": "https://www.google.com/maps/search/?api=1&query=%E8%8E%AB%E5%87%A1%E5%BD%BC%E6%B2%99%E7%99%BC%E5%B7%A5%E8%97%9D%20%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E5%A4%A7%E5%B4%97%E9%87%8C%E5%A4%A7%E6%B9%96%E8%B7%AF249%E8%99%9F"
+                  }
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "10px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#F7F1E8"
+          },
+          "footer": {
+            "backgroundColor": "#F1EADC"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "為什麼選擇莫凡彼？",
+              "size": "xl",
+              "weight": "bold",
+              "color": "#8A5A12",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "40",
+                  "size": "4xl",
+                  "weight": "bold",
+                  "color": "#8A5A12",
+                  "wrap": false,
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "年台灣自有\n工廠製造",
+                  "size": "sm",
+                  "weight": "bold",
+                  "color": "#39221E",
+                  "wrap": true,
+                  "margin": "none",
+                  "flex": 3
+                }
+              ],
+              "spacing": "md",
+              "margin": "xl",
+              "alignItems": "center"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "100+",
+                  "size": "4xl",
+                  "weight": "bold",
+                  "color": "#8A5A12",
+                  "wrap": false,
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "種面料可選\n貓抓布・苯染牛皮",
+                  "size": "sm",
+                  "weight": "bold",
+                  "color": "#39221E",
+                  "wrap": true,
+                  "margin": "none",
+                  "flex": 3
+                }
+              ],
+              "spacing": "md",
+              "margin": "md",
+              "alignItems": "center"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "10",
+                  "size": "4xl",
+                  "weight": "bold",
+                  "color": "#8A5A12",
+                  "wrap": false,
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "年結構骨架\n保固承諾",
+                  "size": "sm",
+                  "weight": "bold",
+                  "color": "#39221E",
+                  "wrap": true,
+                  "margin": "none",
+                  "flex": 3
+                }
+              ],
+              "spacing": "md",
+              "margin": "md",
+              "alignItems": "center"
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "18px",
+          "backgroundColor": "#F7F1E8"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "官方網站",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#39221E",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#FFFFFF",
+                    "endColor": "#E3DACB"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#E3DACB",
+                  "action": {
+                    "type": "uri",
+                    "label": "官方網站",
+                    "uri": "https://www.movenpick.com.tw"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "LINE 諮詢",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#8F611B",
+                    "endColor": "#7C5110"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#A17B41",
+                  "action": {
+                    "type": "uri",
+                    "label": "LINE 諮詢",
+                    "uri": "https://line.me/R/ti/p/%40816ifsxk"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "導航門市",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#39221E",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#FFFFFF",
+                    "endColor": "#E3DACB"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#E3DACB",
+                  "action": {
+                    "type": "uri",
+                    "label": "導航門市",
+                    "uri": "https://www.google.com/maps/search/?api=1&query=%E8%8E%AB%E5%87%A1%E5%BD%BC%E6%B2%99%E7%99%BC%E5%B7%A5%E8%97%9D%20%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E5%A4%A7%E5%B4%97%E9%87%8C%E5%A4%A7%E6%B9%96%E8%B7%AF249%E8%99%9F"
+                  }
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "10px"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#F7F1E8"
+          },
+          "footer": {
+            "backgroundColor": "#F1EADC"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "手工微褶・菱格絎縫・立體裁縫・拉點深雕",
+              "size": "xxs",
+              "weight": "regular",
+              "color": "#6B443D",
+              "wrap": true,
+              "margin": "none"
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "14px",
+          "backgroundColor": "#F7F1E8"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "官方網站",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#39221E",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#FFFFFF",
+                    "endColor": "#E3DACB"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#E3DACB",
+                  "action": {
+                    "type": "uri",
+                    "label": "官方網站",
+                    "uri": "https://www.movenpick.com.tw"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "LINE 諮詢",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#8F611B",
+                    "endColor": "#7C5110"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#A17B41",
+                  "action": {
+                    "type": "uri",
+                    "label": "LINE 諮詢",
+                    "uri": "https://line.me/R/ti/p/%40816ifsxk"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "導航門市",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#39221E",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#FFFFFF",
+                    "endColor": "#E3DACB"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#E3DACB",
+                  "action": {
+                    "type": "uri",
+                    "label": "導航門市",
+                    "uri": "https://www.google.com/maps/search/?api=1&query=%E8%8E%AB%E5%87%A1%E5%BD%BC%E6%B2%99%E7%99%BC%E5%B7%A5%E8%97%9D%20%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E5%A4%A7%E5%B4%97%E9%87%8C%E5%A4%A7%E6%B9%96%E8%B7%AF249%E8%99%9F"
+                  }
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "10px"
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://movenpick.cardtaiwan.com/img/card5-v2.jpg",
+          "size": "full",
+          "aspectRatio": "3:4",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-F5ppH6KJ?src=https://movenpick.cardtaiwan.com/flex-cards.json&page=https://movenpick.cardtaiwan.com/&v=2026-11-09-1700"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#F7F1E8"
+          },
+          "footer": {
+            "backgroundColor": "#F1EADC"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "歡迎來門市試坐",
+              "size": "xl",
+              "weight": "bold",
+              "color": "#39221E",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "text",
+              "text": "說說你的空間與需求，LINE 傳給我免費評估",
+              "size": "xs",
+              "weight": "bold",
+              "color": "#8A5A12",
+              "wrap": true,
+              "margin": "xs"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📞",
+                      "size": "sm",
+                      "weight": "regular",
+                      "color": "#8A5A12",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "03-397-2191",
+                      "size": "sm",
+                      "weight": "bold",
+                      "color": "#39221E",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 6
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "sm"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "💬",
+                      "size": "sm",
+                      "weight": "regular",
+                      "color": "#8A5A12",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "@816ifsxk",
+                      "size": "sm",
+                      "weight": "bold",
+                      "color": "#39221E",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 6
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "sm"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📍",
+                      "size": "sm",
+                      "weight": "regular",
+                      "color": "#8A5A12",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "桃園市龜山區大崗里大湖路249號（林口長庚　近警察大學）",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#39221E",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 6
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "sm"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "⏰",
+                      "size": "sm",
+                      "weight": "regular",
+                      "color": "#8A5A12",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "週一至週五 09:00–18:00（假日需預約）",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#39221E",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 6
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "sm"
+                }
+              ],
+              "spacing": "sm",
+              "margin": "md",
+              "paddingAll": "18px",
+              "backgroundColor": "#F7F1E8",
+              "cornerRadius": "20px",
+              "borderWidth": "1px",
+              "borderColor": "#E3DACB"
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "18px",
+          "backgroundColor": "#FFFFFF"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "separator",
+              "margin": "none",
+              "color": "#E3DACB"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#39221E",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#FFFFFF",
+                        "endColor": "#E3DACB"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#E3DACB",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://www.movenpick.com.tw"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "LINE 諮詢",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#8F611B",
+                        "endColor": "#7C5110"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#A17B41",
+                      "action": {
+                        "type": "uri",
+                        "label": "LINE 諮詢",
+                        "uri": "https://line.me/R/ti/p/%40816ifsxk"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "導航門市",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#39221E",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#FFFFFF",
+                        "endColor": "#E3DACB"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#E3DACB",
+                      "action": {
+                        "type": "uri",
+                        "label": "導航門市",
+                        "uri": "https://www.google.com/maps/search/?api=1&query=%E8%8E%AB%E5%87%A1%E5%BD%BC%E6%B2%99%E7%99%BC%E5%B7%A5%E8%97%9D%20%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E5%A4%A7%E5%B4%97%E9%87%8C%E5%A4%A7%E6%B9%96%E8%B7%AF249%E8%99%9F"
+                      }
+                    }
+                  ],
+                  "spacing": "sm"
+                }
+              ],
+              "spacing": "none",
+              "paddingAll": "10px"
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "0px"
+        }
+      }
+    ]
+  }
+}
