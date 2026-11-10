@@ -1,6 +1,6 @@
 {
   "type": "flex",
-  "altText": "莫凡彼沙發工藝｜吳明憲 Steve 電子名片",
+  "altText": "莫凡彼沙發工藝｜吳明憲 Steve 電子名片\n1. 吳明憲 Steve｜負責人，生活沒有標準尺寸，沙發也不該只有標準答案\n2. 我們專為誰服務，新成屋｜換屋族｜豪宅｜設計師｜商業空間｜家具通路，沙發坐起來不舒服，久坐腰痠背痛，…\n3. 我們能為你做什麼，四十年製造底蘊 台灣自有工廠全程製作，純手工工藝 手工微褶・菱格絎縫，嚴選耐用選…\n4. 為什麼選擇莫凡彼？，40 年台灣自有工廠製造，100+ 種面料可選（貓抓布・苯染牛皮），10 年結…\n5. 從諮詢到入厝，四個步驟，全程由專人悉心服務\n6. 顧客實景，實際訂製完成的客廳，每一張都依空間量身打造\n7. 想換沙發卻不知道怎麼選？，拍下你的空間照片＋尺寸，LINE 傳給我免費評估，電話 03-397-2…",
   "contents": {
     "type": "carousel",
     "contents": [
@@ -18,26 +18,7 @@
         "body": {
           "type": "box",
           "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "莫凡彼沙發工藝　全客製訂做・純手工工藝・嚴選選材",
-              "size": "md",
-              "color": "#B8C2D3",
-              "wrap": true,
-              "margin": "xs"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [],
-              "height": "88px",
-              "margin": "none"
-            }
-          ],
-          "spacing": "md",
-          "paddingAll": "12px",
-          "backgroundColor": "#253043"
+          "contents": []
         },
         "footer": {
           "type": "box",
@@ -268,9 +249,9 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://movenpick.cardtaiwan.com/img/card1-v13.jpg",
+          "url": "https://movenpick.cardtaiwan.com/img/card1-v14.jpg",
           "size": "full",
-          "aspectRatio": "3:4",
+          "aspectRatio": "1080:1395",
           "aspectMode": "cover",
           "action": {
             "type": "uri",
@@ -293,311 +274,7 @@
         "body": {
           "type": "box",
           "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "我們專為誰服務",
-              "size": "xl",
-              "weight": "bold",
-              "color": "#DFA77C",
-              "wrap": true,
-              "margin": "xs"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "新成屋",
-                          "size": "xs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "align": "center"
-                        }
-                      ],
-                      "paddingAll": "10px",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "borderWidth": "1px",
-                      "borderColor": "#DFA77C"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "換屋族",
-                          "size": "xs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "align": "center"
-                        }
-                      ],
-                      "paddingAll": "10px",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "borderWidth": "1px",
-                      "borderColor": "#DFA77C"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "豪宅",
-                          "size": "xs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "align": "center"
-                        }
-                      ],
-                      "paddingAll": "10px",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "borderWidth": "1px",
-                      "borderColor": "#DFA77C"
-                    }
-                  ],
-                  "spacing": "xs"
-                },
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "設計師",
-                          "size": "xs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "align": "center"
-                        }
-                      ],
-                      "paddingAll": "10px",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "borderWidth": "1px",
-                      "borderColor": "#DFA77C"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "商業空間",
-                          "size": "xs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "align": "center"
-                        }
-                      ],
-                      "paddingAll": "10px",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "borderWidth": "1px",
-                      "borderColor": "#DFA77C"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "家具通路",
-                          "size": "xs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "align": "center"
-                        }
-                      ],
-                      "paddingAll": "10px",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "borderWidth": "1px",
-                      "borderColor": "#DFA77C"
-                    }
-                  ],
-                  "spacing": "xs"
-                }
-              ],
-              "spacing": "sm",
-              "margin": "md"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
-                {
-                  "type": "text",
-                  "text": "你是不是也有這些困擾？",
-                  "size": "sm",
-                  "weight": "bold",
-                  "color": "#FFFFFF",
-                  "wrap": true,
-                  "margin": "xs"
-                },
-                {
-                  "type": "separator",
-                  "margin": "xs",
-                  "color": "#46557A"
-                },
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://movenpick.cardtaiwan.com/img/icon-check-v3.png",
-                      "size": "12px",
-                      "aspectRatio": "128:128",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "沙發坐起來不舒服，久坐腰痠背痛",
-                      "size": "sm",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "margin": "xs",
-                      "flex": 6
-                    }
-                  ],
-                  "spacing": "xs",
-                  "margin": "lg"
-                },
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://movenpick.cardtaiwan.com/img/icon-check-v3.png",
-                      "size": "12px",
-                      "aspectRatio": "128:128",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "尺寸不合，空間總是差一點點",
-                      "size": "sm",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "margin": "xs",
-                      "flex": 6
-                    }
-                  ],
-                  "spacing": "xs",
-                  "margin": "lg"
-                },
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://movenpick.cardtaiwan.com/img/icon-check-v3.png",
-                      "size": "12px",
-                      "aspectRatio": "128:128",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "想換皮革、布料、顏色卻不知道怎麼選",
-                      "size": "sm",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "margin": "xs",
-                      "flex": 6
-                    }
-                  ],
-                  "spacing": "xs",
-                  "margin": "lg"
-                },
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://movenpick.cardtaiwan.com/img/icon-check-v3.png",
-                      "size": "12px",
-                      "aspectRatio": "128:128",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "找不到符合風格又耐用的沙發",
-                      "size": "sm",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "margin": "xs",
-                      "flex": 6
-                    }
-                  ],
-                  "spacing": "xs",
-                  "margin": "lg"
-                },
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://movenpick.cardtaiwan.com/img/icon-check-v3.png",
-                      "size": "12px",
-                      "aspectRatio": "128:128",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "設計師提案需要特殊尺寸與款式",
-                      "size": "sm",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "margin": "xs",
-                      "flex": 6
-                    }
-                  ],
-                  "spacing": "xs",
-                  "margin": "lg"
-                }
-              ],
-              "spacing": "sm",
-              "margin": "md",
-              "paddingAll": "10px",
-              "backgroundColor": "#33415C",
-              "cornerRadius": "18px"
-            }
-          ],
-          "spacing": "md",
-          "paddingAll": "16px",
-          "backgroundColor": "#253043",
-          "action": {
-            "type": "uri",
-            "label": "開啟名片",
-            "uri": "https://liff.line.me/2011946176-F5ppH6KJ"
-          }
+          "contents": []
         },
         "footer": {
           "type": "box",
@@ -828,10 +505,15 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://movenpick.cardtaiwan.com/img/hero-c2-v1.jpg",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c2-v3.jpg",
           "size": "full",
-          "aspectRatio": "13:9",
-          "aspectMode": "cover"
+          "aspectRatio": "1080:1395",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-F5ppH6KJ"
+          }
         }
       },
       {
@@ -848,284 +530,7 @@
         "body": {
           "type": "box",
           "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "從諮詢、試坐到配送定位，全程專人服務",
-              "size": "sm",
-              "color": "#FFFFFF",
-              "wrap": true,
-              "margin": "xs"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [],
-                      "height": "14px"
-                    },
-                    {
-                      "type": "image",
-                      "url": "https://movenpick.cardtaiwan.com/img/icon-building-v3.png",
-                      "size": "33px",
-                      "aspectRatio": "128:107",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    }
-                  ],
-                  "flex": 0,
-                  "width": "32px"
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [],
-                      "height": "9px"
-                    },
-                    {
-                      "type": "text",
-                      "text": "四十年製造底蘊",
-                      "size": "sm",
-                      "weight": "bold",
-                      "color": "#FFFFFF"
-                    },
-                    {
-                      "type": "text",
-                      "text": "台灣自有工廠全程製作",
-                      "size": "sm",
-                      "color": "#B8C2D3",
-                      "margin": "xs"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [],
-                      "height": "9px"
-                    }
-                  ]
-                }
-              ],
-              "spacing": "sm",
-              "margin": "md",
-              "paddingAll": "10px",
-              "backgroundColor": "#33415C",
-              "cornerRadius": "18px"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [],
-                      "height": "14px"
-                    },
-                    {
-                      "type": "image",
-                      "url": "https://movenpick.cardtaiwan.com/img/icon-scissors-v3.png",
-                      "size": "28px",
-                      "aspectRatio": "128:128",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    }
-                  ],
-                  "flex": 0,
-                  "width": "32px"
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [],
-                      "height": "9px"
-                    },
-                    {
-                      "type": "text",
-                      "text": "純手工工藝",
-                      "size": "sm",
-                      "weight": "bold",
-                      "color": "#FFFFFF"
-                    },
-                    {
-                      "type": "text",
-                      "text": "手工微褶・菱格絎縫",
-                      "size": "sm",
-                      "color": "#B8C2D3",
-                      "margin": "xs"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [],
-                      "height": "9px"
-                    }
-                  ]
-                }
-              ],
-              "spacing": "sm",
-              "margin": "xs",
-              "paddingAll": "10px",
-              "backgroundColor": "#33415C",
-              "cornerRadius": "18px"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [],
-                      "height": "14px"
-                    },
-                    {
-                      "type": "image",
-                      "url": "https://movenpick.cardtaiwan.com/img/icon-layers-v3.png",
-                      "size": "28px",
-                      "aspectRatio": "128:128",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    }
-                  ],
-                  "flex": 0,
-                  "width": "32px"
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [],
-                      "height": "9px"
-                    },
-                    {
-                      "type": "text",
-                      "text": "嚴選耐用選材",
-                      "size": "sm",
-                      "weight": "bold",
-                      "color": "#FFFFFF"
-                    },
-                    {
-                      "type": "text",
-                      "text": "高磅耐磨布料・親膚皮革",
-                      "size": "sm",
-                      "color": "#B8C2D3",
-                      "margin": "xs"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [],
-                      "height": "9px"
-                    }
-                  ]
-                }
-              ],
-              "spacing": "sm",
-              "margin": "xs",
-              "paddingAll": "10px",
-              "backgroundColor": "#33415C",
-              "cornerRadius": "18px"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [],
-                      "height": "14px"
-                    },
-                    {
-                      "type": "image",
-                      "url": "https://movenpick.cardtaiwan.com/img/icon-ruler-v3.png",
-                      "size": "28px",
-                      "aspectRatio": "128:128",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    }
-                  ],
-                  "flex": 0,
-                  "width": "32px"
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [],
-                      "height": "9px"
-                    },
-                    {
-                      "type": "text",
-                      "text": "全客製訂做",
-                      "size": "sm",
-                      "weight": "bold",
-                      "color": "#FFFFFF"
-                    },
-                    {
-                      "type": "text",
-                      "text": "尺寸面料軟硬皆可訂製",
-                      "size": "sm",
-                      "color": "#B8C2D3",
-                      "margin": "xs"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [],
-                      "height": "9px"
-                    }
-                  ]
-                }
-              ],
-              "spacing": "sm",
-              "margin": "xs",
-              "paddingAll": "10px",
-              "backgroundColor": "#33415C",
-              "cornerRadius": "18px"
-            }
-          ],
-          "spacing": "md",
-          "paddingAll": "16px",
-          "backgroundColor": "#253043",
-          "action": {
-            "type": "uri",
-            "label": "開啟名片",
-            "uri": "https://liff.line.me/2011946176-F5ppH6KJ"
-          }
+          "contents": []
         },
         "footer": {
           "type": "box",
@@ -1356,10 +761,15 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://movenpick.cardtaiwan.com/img/hero-c3-v1.jpg",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c3-v3.jpg",
           "size": "full",
-          "aspectRatio": "20:13",
-          "aspectMode": "cover"
+          "aspectRatio": "1080:1395",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-F5ppH6KJ"
+          }
         }
       },
       {
@@ -1376,491 +786,7 @@
         "body": {
           "type": "box",
           "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "為什麼選擇莫凡彼？",
-              "size": "xl",
-              "weight": "bold",
-              "color": "#DFA77C",
-              "wrap": true,
-              "margin": "xs"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "40",
-                      "size": "xxl",
-                      "weight": "bold",
-                      "color": "#DFA77C",
-                      "margin": "xs",
-                      "align": "center"
-                    },
-                    {
-                      "type": "text",
-                      "text": "年台灣自有\n工廠製造",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "margin": "xs",
-                      "align": "center"
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "100+",
-                      "size": "xxl",
-                      "weight": "bold",
-                      "color": "#DFA77C",
-                      "margin": "xs",
-                      "align": "center"
-                    },
-                    {
-                      "type": "text",
-                      "text": "種面料可選\n貓抓布・苯染牛皮",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "margin": "xs",
-                      "align": "center"
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "10",
-                      "size": "xxl",
-                      "weight": "bold",
-                      "color": "#DFA77C",
-                      "margin": "xs",
-                      "align": "center"
-                    },
-                    {
-                      "type": "text",
-                      "text": "年結構骨架\n保固承諾",
-                      "size": "xs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "margin": "xs",
-                      "align": "center"
-                    }
-                  ]
-                }
-              ],
-              "spacing": "xs",
-              "margin": "md"
-            },
-            {
-              "type": "separator",
-              "margin": "lg",
-              "color": "#46557A"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "margin": "lg",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "image",
-                          "url": "https://movenpick.cardtaiwan.com/img/icon-chat-v3.png",
-                          "size": "19px",
-                          "aspectRatio": "128:123",
-                          "aspectMode": "cover"
-                        }
-                      ],
-                      "width": "34px",
-                      "height": "34px",
-                      "paddingAll": "8px",
-                      "backgroundColor": "#46557A",
-                      "cornerRadius": "100px"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "horizontal",
-                      "contents": [
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [],
-                          "width": "16px",
-                          "flex": 0
-                        },
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [],
-                          "width": "2px",
-                          "height": "14px",
-                          "backgroundColor": "#46557A",
-                          "flex": 0
-                        }
-                      ]
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "image",
-                          "url": "https://movenpick.cardtaiwan.com/img/icon-layers-v3.png",
-                          "size": "18px",
-                          "aspectRatio": "128:128",
-                          "aspectMode": "cover"
-                        }
-                      ],
-                      "width": "34px",
-                      "height": "34px",
-                      "paddingAll": "8px",
-                      "backgroundColor": "#46557A",
-                      "cornerRadius": "100px"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "horizontal",
-                      "contents": [
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [],
-                          "width": "16px",
-                          "flex": 0
-                        },
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [],
-                          "width": "2px",
-                          "height": "14px",
-                          "backgroundColor": "#46557A",
-                          "flex": 0
-                        }
-                      ]
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "image",
-                          "url": "https://movenpick.cardtaiwan.com/img/icon-scissors-v3.png",
-                          "size": "18px",
-                          "aspectRatio": "128:128",
-                          "aspectMode": "cover"
-                        }
-                      ],
-                      "width": "34px",
-                      "height": "34px",
-                      "paddingAll": "8px",
-                      "backgroundColor": "#46557A",
-                      "cornerRadius": "100px"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "horizontal",
-                      "contents": [
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [],
-                          "width": "16px",
-                          "flex": 0
-                        },
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [],
-                          "width": "2px",
-                          "height": "14px",
-                          "backgroundColor": "#46557A",
-                          "flex": 0
-                        }
-                      ]
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "image",
-                          "url": "https://movenpick.cardtaiwan.com/img/icon-wrench-v3.png",
-                          "size": "18px",
-                          "aspectRatio": "128:128",
-                          "aspectMode": "cover"
-                        }
-                      ],
-                      "width": "34px",
-                      "height": "34px",
-                      "paddingAll": "8px",
-                      "backgroundColor": "#46557A",
-                      "cornerRadius": "100px"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "horizontal",
-                      "contents": [
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [],
-                          "width": "16px",
-                          "flex": 0
-                        },
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [],
-                          "width": "2px",
-                          "height": "14px",
-                          "backgroundColor": "#46557A",
-                          "flex": 0
-                        }
-                      ]
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "image",
-                          "url": "https://movenpick.cardtaiwan.com/img/icon-truck-v3.png",
-                          "size": "24px",
-                          "aspectRatio": "128:98",
-                          "aspectMode": "cover"
-                        }
-                      ],
-                      "width": "34px",
-                      "height": "34px",
-                      "paddingAll": "8px",
-                      "backgroundColor": "#46557A",
-                      "cornerRadius": "100px"
-                    }
-                  ],
-                  "width": "42px",
-                  "flex": 0
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "box",
-                          "layout": "horizontal",
-                          "spacing": "sm",
-                          "contents": [
-                            {
-                              "type": "text",
-                              "text": "1",
-                              "size": "sm",
-                              "weight": "bold",
-                              "color": "#DFA77C",
-                              "flex": 0
-                            },
-                            {
-                              "type": "text",
-                              "text": "諮詢",
-                              "size": "sm",
-                              "weight": "bold",
-                              "color": "#FFFFFF"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "text": "LINE 預約，顧問懂你的空間",
-                          "size": "xs",
-                          "color": "#B8C2D3",
-                          "margin": "xs"
-                        }
-                      ],
-                      "height": "48px"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "box",
-                          "layout": "horizontal",
-                          "spacing": "sm",
-                          "contents": [
-                            {
-                              "type": "text",
-                              "text": "2",
-                              "size": "sm",
-                              "weight": "bold",
-                              "color": "#DFA77C",
-                              "flex": 0
-                            },
-                            {
-                              "type": "text",
-                              "text": "選材",
-                              "size": "sm",
-                              "weight": "bold",
-                              "color": "#FFFFFF"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "text": "門市試坐，百種布皮任選",
-                          "size": "xs",
-                          "color": "#B8C2D3",
-                          "margin": "xs"
-                        }
-                      ],
-                      "height": "48px"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "box",
-                          "layout": "horizontal",
-                          "spacing": "sm",
-                          "contents": [
-                            {
-                              "type": "text",
-                              "text": "3",
-                              "size": "sm",
-                              "weight": "bold",
-                              "color": "#DFA77C",
-                              "flex": 0
-                            },
-                            {
-                              "type": "text",
-                              "text": "裁切",
-                              "size": "sm",
-                              "weight": "bold",
-                              "color": "#FFFFFF"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "text": "老師傅手工板型裁切車縫",
-                          "size": "xs",
-                          "color": "#B8C2D3",
-                          "margin": "xs"
-                        }
-                      ],
-                      "height": "48px"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "box",
-                          "layout": "horizontal",
-                          "spacing": "sm",
-                          "contents": [
-                            {
-                              "type": "text",
-                              "text": "4",
-                              "size": "sm",
-                              "weight": "bold",
-                              "color": "#DFA77C",
-                              "flex": 0
-                            },
-                            {
-                              "type": "text",
-                              "text": "組裝",
-                              "size": "sm",
-                              "weight": "bold",
-                              "color": "#FFFFFF"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "text": "骨架組裝，逐項檢查坐感",
-                          "size": "xs",
-                          "color": "#B8C2D3",
-                          "margin": "xs"
-                        }
-                      ],
-                      "height": "48px"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "box",
-                          "layout": "horizontal",
-                          "spacing": "sm",
-                          "contents": [
-                            {
-                              "type": "text",
-                              "text": "5",
-                              "size": "sm",
-                              "weight": "bold",
-                              "color": "#DFA77C",
-                              "flex": 0
-                            },
-                            {
-                              "type": "text",
-                              "text": "入厝",
-                              "size": "sm",
-                              "weight": "bold",
-                              "color": "#FFFFFF"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "text": "自有物流送達，十年保固",
-                          "size": "xs",
-                          "color": "#B8C2D3",
-                          "margin": "xs"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "spacing": "md",
-          "paddingAll": "16px",
-          "backgroundColor": "#253043",
-          "action": {
-            "type": "uri",
-            "label": "開啟名片",
-            "uri": "https://liff.line.me/2011946176-F5ppH6KJ"
-          }
+          "contents": []
         },
         "footer": {
           "type": "box",
@@ -2091,10 +1017,15 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://movenpick.cardtaiwan.com/img/hero-c4-v1.jpg",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c4-v3.jpg",
           "size": "full",
-          "aspectRatio": "5:3",
-          "aspectMode": "cover"
+          "aspectRatio": "1080:1395",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-F5ppH6KJ"
+          }
         }
       },
       {
@@ -2111,31 +1042,7 @@
         "body": {
           "type": "box",
           "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "手工微褶・菱格絎縫・立體裁縫・拉點深雕",
-              "size": "xs",
-              "color": "#B8C2D3",
-              "wrap": true,
-              "margin": "xs"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [],
-              "height": "345px",
-              "margin": "none"
-            }
-          ],
-          "spacing": "md",
-          "paddingAll": "12px",
-          "backgroundColor": "#253043",
-          "action": {
-            "type": "uri",
-            "label": "開啟名片",
-            "uri": "https://liff.line.me/2011946176-F5ppH6KJ"
-          }
+          "contents": []
         },
         "footer": {
           "type": "box",
@@ -2366,10 +1273,15 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://movenpick.cardtaiwan.com/img/hero-c5-v1.jpg",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c5-v3.jpg",
           "size": "full",
-          "aspectRatio": "20:13",
-          "aspectMode": "cover"
+          "aspectRatio": "1080:1395",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-F5ppH6KJ"
+          }
         }
       },
       {
@@ -2386,54 +1298,7 @@
         "body": {
           "type": "box",
           "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "實際訂製完成的客廳，每一張都依空間量身打造",
-              "size": "md",
-              "color": "#FFFFFF",
-              "wrap": true,
-              "margin": "xs"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "image",
-                  "url": "https://movenpick.cardtaiwan.com/img/case1-r3.png",
-                  "size": "full",
-                  "aspectRatio": "4:3",
-                  "aspectMode": "cover",
-                  "flex": 1
-                },
-                {
-                  "type": "image",
-                  "url": "https://movenpick.cardtaiwan.com/img/case3-r5.png",
-                  "size": "full",
-                  "aspectRatio": "3:2",
-                  "aspectMode": "cover",
-                  "flex": 1
-                }
-              ],
-              "spacing": "md",
-              "margin": "xl"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [],
-              "height": "201px",
-              "margin": "none"
-            }
-          ],
-          "paddingAll": "16px",
-          "backgroundColor": "#253043",
-          "action": {
-            "type": "uri",
-            "label": "開啟名片",
-            "uri": "https://liff.line.me/2011946176-F5ppH6KJ"
-          }
+          "contents": []
         },
         "footer": {
           "type": "box",
@@ -2664,10 +1529,15 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://movenpick.cardtaiwan.com/img/hero-c6-v1.jpg",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c6-v3.jpg",
           "size": "full",
-          "aspectRatio": "20:13",
-          "aspectMode": "cover"
+          "aspectRatio": "1080:1395",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-F5ppH6KJ"
+          }
         }
       },
       {
@@ -2685,139 +1555,6 @@
           "type": "box",
           "layout": "vertical",
           "contents": [
-            {
-              "type": "text",
-              "text": "想換沙發卻不知道怎麼選？",
-              "size": "xl",
-              "weight": "bold",
-              "color": "#FFFFFF",
-              "wrap": true,
-              "margin": "xs"
-            },
-            {
-              "type": "text",
-              "text": "拍下你的空間照片＋尺寸，LINE 傳給我免費評估",
-              "size": "sm",
-              "weight": "bold",
-              "color": "#DFA77C",
-              "wrap": true,
-              "margin": "xs"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://movenpick.cardtaiwan.com/img/icon-tel-v3.png",
-                      "size": "18px",
-                      "aspectRatio": "128:128",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "03-397-2191",
-                      "size": "sm",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "margin": "xs",
-                      "flex": 6
-                    }
-                  ],
-                  "spacing": "sm",
-                  "margin": "sm"
-                },
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://movenpick.cardtaiwan.com/img/icon-line-v3.png",
-                      "size": "18px",
-                      "aspectRatio": "128:128",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "@816ifsxk",
-                      "size": "sm",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "margin": "xs",
-                      "flex": 6
-                    }
-                  ],
-                  "spacing": "sm",
-                  "margin": "sm"
-                },
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
-                      "size": "13px",
-                      "aspectRatio": "94:128",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "桃園市龜山區大崗里大湖路249號（林口長庚　近警察大學）",
-                      "size": "sm",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "margin": "xs",
-                      "flex": 6
-                    }
-                  ],
-                  "spacing": "sm",
-                  "margin": "sm"
-                },
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://movenpick.cardtaiwan.com/img/icon-clock-v3.png",
-                      "size": "18px",
-                      "aspectRatio": "128:128",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "週一至週五 09:00–18:00（假日需預約）",
-                      "size": "sm",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "margin": "xs",
-                      "flex": 6
-                    }
-                  ],
-                  "spacing": "sm",
-                  "margin": "sm"
-                }
-              ],
-              "spacing": "md",
-              "margin": "md",
-              "paddingAll": "16px",
-              "backgroundColor": "#33415C",
-              "cornerRadius": "18px",
-              "borderWidth": "1px",
-              "borderColor": "#46557A"
-            },
             {
               "type": "box",
               "layout": "horizontal",
@@ -2891,8 +1628,7 @@
                   "spacing": "xs"
                 }
               ],
-              "spacing": "sm",
-              "margin": "md"
+              "spacing": "sm"
             },
             {
               "type": "box",
@@ -2974,23 +1710,11 @@
               ],
               "spacing": "sm",
               "margin": "xs"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [],
-              "height": "250px",
-              "margin": "none"
             }
           ],
           "spacing": "md",
           "paddingAll": "16px",
-          "backgroundColor": "#253043",
-          "action": {
-            "type": "uri",
-            "label": "開啟名片",
-            "uri": "https://liff.line.me/2011946176-F5ppH6KJ"
-          }
+          "backgroundColor": "#253043"
         },
         "footer": {
           "type": "box",
@@ -3223,6 +1947,18 @@
             }
           ],
           "paddingAll": "2px"
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c7-v1.jpg",
+          "size": "full",
+          "aspectRatio": "1080:959",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-F5ppH6KJ"
+          }
         }
       }
     ]

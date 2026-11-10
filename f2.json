@@ -71,9 +71,9 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://movenpick.cardtaiwan.com/img/card1-v13.jpg",
+          "url": "https://movenpick.cardtaiwan.com/img/card1-v14.jpg",
           "size": "full",
-          "aspectRatio": "3:4",
+          "aspectRatio": "1080:1395",
           "aspectMode": "cover"
         }
       },
@@ -141,6 +141,13 @@
           "spacing": "none",
           "paddingAll": "12px",
           "backgroundColor": "#253043"
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c2-v3.jpg",
+          "size": "full",
+          "aspectRatio": "1080:1395",
+          "aspectMode": "cover"
         }
       },
       {
@@ -207,6 +214,13 @@
           "spacing": "none",
           "paddingAll": "12px",
           "backgroundColor": "#253043"
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c3-v3.jpg",
+          "size": "full",
+          "aspectRatio": "1080:1395",
+          "aspectMode": "cover"
         }
       },
       {
@@ -273,6 +287,13 @@
           "spacing": "none",
           "paddingAll": "12px",
           "backgroundColor": "#253043"
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c4-v3.jpg",
+          "size": "full",
+          "aspectRatio": "1080:1395",
+          "aspectMode": "cover"
         }
       },
       {
@@ -339,6 +360,13 @@
           "spacing": "none",
           "paddingAll": "12px",
           "backgroundColor": "#253043"
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c5-v3.jpg",
+          "size": "full",
+          "aspectRatio": "1080:1395",
+          "aspectMode": "cover"
         }
       },
       {
@@ -405,6 +433,13 @@
           "spacing": "none",
           "paddingAll": "12px",
           "backgroundColor": "#253043"
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c6-v3.jpg",
+          "size": "full",
+          "aspectRatio": "1080:1395",
+          "aspectMode": "cover"
         }
       },
       {
@@ -471,6 +506,13 @@
           "spacing": "none",
           "paddingAll": "12px",
           "backgroundColor": "#253043"
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c7-v1.jpg",
+          "size": "full",
+          "aspectRatio": "1080:959",
+          "aspectMode": "cover"
         }
       }
     ]
