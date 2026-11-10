@@ -23,10 +23,16 @@
               "type": "text",
               "text": "莫凡彼沙發工藝　全客製訂做・純手工工藝・嚴選選材",
               "size": "md",
-              "weight": "regular",
               "color": "#B8C2D3",
               "wrap": true,
               "margin": "xs"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [],
+              "height": "88px",
+              "margin": "none"
             }
           ],
           "spacing": "md",
@@ -57,11 +63,9 @@
                       "size": "10px",
                       "weight": "bold",
                       "color": "#FFFFFF",
-                      "wrap": false,
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
                   "paddingAll": "2px",
                   "backgroundColor": "#33415C",
                   "cornerRadius": "100px",
@@ -76,7 +80,6 @@
                   "flex": 1
                 }
               ],
-              "spacing": "none",
               "paddingAll": "2px"
             },
             {
@@ -85,224 +88,187 @@
               "contents": [
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
                       "type": "box",
-                      "layout": "horizontal",
+                      "layout": "vertical",
                       "contents": [
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-web-v3.png",
-                                  "size": "30px",
-                                  "aspectRatio": "128:78",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "官方網站",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "官方網站",
-                            "uri": "https://www.movenpick.com.tw"
-                          }
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-web-v3.png",
+                          "size": "30px",
+                          "aspectRatio": "128:78",
+                          "aspectMode": "cover",
+                          "flex": 0
                         },
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-line-n-v3.png",
-                                  "size": "19px",
-                                  "aspectRatio": "190:184",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "LINE 諮詢",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#1E2838",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#E1AC84",
-                            "endColor": "#C4936D"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#E5B996",
-                          "action": {
-                            "type": "uri",
-                            "label": "LINE 諮詢",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=line&u=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%2540816ifsxk"
-                          }
-                        },
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
-                                  "size": "13px",
-                                  "aspectRatio": "94:128",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "導航門市",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "導航門市",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
-                          }
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
                         }
                       ],
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://www.movenpick.com.tw"
+                      },
                       "spacing": "xs"
                     },
                     {
                       "type": "box",
-                      "layout": "horizontal",
+                      "layout": "vertical",
                       "contents": [
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-share-v3.png",
-                                  "size": "27px",
-                                  "aspectRatio": "128:86",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "分享名片",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": false,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "12px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "分享名片",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fflex-cards.json&v=2026-11-09-2200"
-                          }
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-line-n-v3.png",
+                          "size": "19px",
+                          "aspectRatio": "190:184",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "LINE 諮詢",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#1E2838",
+                          "wrap": true,
+                          "align": "center"
                         }
                       ],
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#E1AC84",
+                        "endColor": "#C4936D"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#E5B996",
+                      "action": {
+                        "type": "uri",
+                        "label": "LINE 諮詢",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=line&u=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%2540816ifsxk"
+                      },
+                      "spacing": "xs"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
+                          "size": "13px",
+                          "aspectRatio": "94:128",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "導航門市",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "導航門市",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
+                      },
+                      "spacing": "xs"
+                    }
+                  ],
+                  "spacing": "xs"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-share-v3.png",
+                          "size": "27px",
+                          "aspectRatio": "128:86",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "分享名片",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "align": "center"
+                        }
+                      ],
+                      "paddingAll": "12px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "分享名片",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fflex-cards.json&v=2026-11-09-2200"
+                      },
                       "spacing": "xs"
                     }
                   ],
                   "spacing": "xs"
                 }
               ],
-              "spacing": "none",
-              "paddingAll": "8px"
+              "paddingAll": "8px",
+              "spacing": "xs"
             }
           ],
-          "spacing": "none",
           "paddingAll": "2px"
         },
         "hero": {
           "type": "image",
-          "url": "https://movenpick.cardtaiwan.com/img/card1-v12.jpg",
+          "url": "https://movenpick.cardtaiwan.com/img/card1-v13.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
@@ -355,11 +321,9 @@
                           "size": "xs",
                           "weight": "bold",
                           "color": "#FFFFFF",
-                          "wrap": false,
                           "align": "center"
                         }
                       ],
-                      "spacing": "none",
                       "paddingAll": "10px",
                       "cornerRadius": "100px",
                       "flex": 1,
@@ -376,11 +340,9 @@
                           "size": "xs",
                           "weight": "bold",
                           "color": "#FFFFFF",
-                          "wrap": false,
                           "align": "center"
                         }
                       ],
-                      "spacing": "none",
                       "paddingAll": "10px",
                       "cornerRadius": "100px",
                       "flex": 1,
@@ -397,11 +359,9 @@
                           "size": "xs",
                           "weight": "bold",
                           "color": "#FFFFFF",
-                          "wrap": false,
                           "align": "center"
                         }
                       ],
-                      "spacing": "none",
                       "paddingAll": "10px",
                       "cornerRadius": "100px",
                       "flex": 1,
@@ -425,11 +385,9 @@
                           "size": "xs",
                           "weight": "bold",
                           "color": "#FFFFFF",
-                          "wrap": false,
                           "align": "center"
                         }
                       ],
-                      "spacing": "none",
                       "paddingAll": "10px",
                       "cornerRadius": "100px",
                       "flex": 1,
@@ -446,11 +404,9 @@
                           "size": "xs",
                           "weight": "bold",
                           "color": "#FFFFFF",
-                          "wrap": false,
                           "align": "center"
                         }
                       ],
-                      "spacing": "none",
                       "paddingAll": "10px",
                       "cornerRadius": "100px",
                       "flex": 1,
@@ -467,11 +423,9 @@
                           "size": "xs",
                           "weight": "bold",
                           "color": "#FFFFFF",
-                          "wrap": false,
                           "align": "center"
                         }
                       ],
-                      "spacing": "none",
                       "paddingAll": "10px",
                       "cornerRadius": "100px",
                       "flex": 1,
@@ -519,7 +473,6 @@
                       "type": "text",
                       "text": "沙發坐起來不舒服，久坐腰痠背痛",
                       "size": "sm",
-                      "weight": "regular",
                       "color": "#FFFFFF",
                       "wrap": true,
                       "margin": "xs",
@@ -545,7 +498,6 @@
                       "type": "text",
                       "text": "尺寸不合，空間總是差一點點",
                       "size": "sm",
-                      "weight": "regular",
                       "color": "#FFFFFF",
                       "wrap": true,
                       "margin": "xs",
@@ -571,7 +523,6 @@
                       "type": "text",
                       "text": "想換皮革、布料、顏色卻不知道怎麼選",
                       "size": "sm",
-                      "weight": "regular",
                       "color": "#FFFFFF",
                       "wrap": true,
                       "margin": "xs",
@@ -597,7 +548,6 @@
                       "type": "text",
                       "text": "找不到符合風格又耐用的沙發",
                       "size": "sm",
-                      "weight": "regular",
                       "color": "#FFFFFF",
                       "wrap": true,
                       "margin": "xs",
@@ -623,7 +573,6 @@
                       "type": "text",
                       "text": "設計師提案需要特殊尺寸與款式",
                       "size": "sm",
-                      "weight": "regular",
                       "color": "#FFFFFF",
                       "wrap": true,
                       "margin": "xs",
@@ -674,11 +623,9 @@
                       "size": "10px",
                       "weight": "bold",
                       "color": "#FFFFFF",
-                      "wrap": false,
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
                   "paddingAll": "2px",
                   "backgroundColor": "#33415C",
                   "cornerRadius": "100px",
@@ -693,7 +640,6 @@
                   "flex": 1
                 }
               ],
-              "spacing": "none",
               "paddingAll": "2px"
             },
             {
@@ -702,220 +648,190 @@
               "contents": [
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
                       "type": "box",
-                      "layout": "horizontal",
+                      "layout": "vertical",
                       "contents": [
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-web-v3.png",
-                                  "size": "30px",
-                                  "aspectRatio": "128:78",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "官方網站",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "官方網站",
-                            "uri": "https://www.movenpick.com.tw"
-                          }
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-web-v3.png",
+                          "size": "30px",
+                          "aspectRatio": "128:78",
+                          "aspectMode": "cover",
+                          "flex": 0
                         },
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-line-n-v3.png",
-                                  "size": "19px",
-                                  "aspectRatio": "190:184",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "LINE 諮詢",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#1E2838",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#E1AC84",
-                            "endColor": "#C4936D"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#E5B996",
-                          "action": {
-                            "type": "uri",
-                            "label": "LINE 諮詢",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=line&u=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%2540816ifsxk"
-                          }
-                        },
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
-                                  "size": "13px",
-                                  "aspectRatio": "94:128",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "導航門市",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "導航門市",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
-                          }
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
                         }
                       ],
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://www.movenpick.com.tw"
+                      },
                       "spacing": "xs"
                     },
                     {
                       "type": "box",
-                      "layout": "horizontal",
+                      "layout": "vertical",
                       "contents": [
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-share-v3.png",
-                                  "size": "27px",
-                                  "aspectRatio": "128:86",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "分享名片",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": false,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "12px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "分享名片",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fflex-cards.json&v=2026-11-09-2200"
-                          }
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-line-n-v3.png",
+                          "size": "19px",
+                          "aspectRatio": "190:184",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "LINE 諮詢",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#1E2838",
+                          "wrap": true,
+                          "align": "center"
                         }
                       ],
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#E1AC84",
+                        "endColor": "#C4936D"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#E5B996",
+                      "action": {
+                        "type": "uri",
+                        "label": "LINE 諮詢",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=line&u=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%2540816ifsxk"
+                      },
+                      "spacing": "xs"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
+                          "size": "13px",
+                          "aspectRatio": "94:128",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "導航門市",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "導航門市",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
+                      },
+                      "spacing": "xs"
+                    }
+                  ],
+                  "spacing": "xs"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-share-v3.png",
+                          "size": "27px",
+                          "aspectRatio": "128:86",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "分享名片",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "align": "center"
+                        }
+                      ],
+                      "paddingAll": "12px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "分享名片",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fflex-cards.json&v=2026-11-09-2200"
+                      },
                       "spacing": "xs"
                     }
                   ],
                   "spacing": "xs"
                 }
               ],
-              "spacing": "none",
-              "paddingAll": "8px"
+              "paddingAll": "8px",
+              "spacing": "xs"
             }
           ],
-          "spacing": "none",
           "paddingAll": "2px"
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c2-v1.jpg",
+          "size": "full",
+          "aspectRatio": "13:9",
+          "aspectMode": "cover"
         }
       },
       {
@@ -933,15 +849,6 @@
           "type": "box",
           "layout": "vertical",
           "contents": [
-            {
-              "type": "text",
-              "text": "我們能為你做什麼",
-              "size": "xl",
-              "weight": "bold",
-              "color": "#DFA77C",
-              "wrap": true,
-              "margin": "xs"
-            },
             {
               "type": "text",
               "text": "從諮詢、試坐到配送定位，全程專人服務",
@@ -1244,11 +1151,9 @@
                       "size": "10px",
                       "weight": "bold",
                       "color": "#FFFFFF",
-                      "wrap": false,
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
                   "paddingAll": "2px",
                   "backgroundColor": "#33415C",
                   "cornerRadius": "100px",
@@ -1263,7 +1168,6 @@
                   "flex": 1
                 }
               ],
-              "spacing": "none",
               "paddingAll": "2px"
             },
             {
@@ -1272,220 +1176,190 @@
               "contents": [
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
                       "type": "box",
-                      "layout": "horizontal",
+                      "layout": "vertical",
                       "contents": [
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-web-v3.png",
-                                  "size": "30px",
-                                  "aspectRatio": "128:78",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "官方網站",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "官方網站",
-                            "uri": "https://www.movenpick.com.tw"
-                          }
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-web-v3.png",
+                          "size": "30px",
+                          "aspectRatio": "128:78",
+                          "aspectMode": "cover",
+                          "flex": 0
                         },
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-line-n-v3.png",
-                                  "size": "19px",
-                                  "aspectRatio": "190:184",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "LINE 諮詢",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#1E2838",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#E1AC84",
-                            "endColor": "#C4936D"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#E5B996",
-                          "action": {
-                            "type": "uri",
-                            "label": "LINE 諮詢",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=line&u=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%2540816ifsxk"
-                          }
-                        },
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
-                                  "size": "13px",
-                                  "aspectRatio": "94:128",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "導航門市",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "導航門市",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
-                          }
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
                         }
                       ],
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://www.movenpick.com.tw"
+                      },
                       "spacing": "xs"
                     },
                     {
                       "type": "box",
-                      "layout": "horizontal",
+                      "layout": "vertical",
                       "contents": [
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-share-v3.png",
-                                  "size": "27px",
-                                  "aspectRatio": "128:86",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "分享名片",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": false,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "12px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "分享名片",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fflex-cards.json&v=2026-11-09-2200"
-                          }
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-line-n-v3.png",
+                          "size": "19px",
+                          "aspectRatio": "190:184",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "LINE 諮詢",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#1E2838",
+                          "wrap": true,
+                          "align": "center"
                         }
                       ],
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#E1AC84",
+                        "endColor": "#C4936D"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#E5B996",
+                      "action": {
+                        "type": "uri",
+                        "label": "LINE 諮詢",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=line&u=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%2540816ifsxk"
+                      },
+                      "spacing": "xs"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
+                          "size": "13px",
+                          "aspectRatio": "94:128",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "導航門市",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "導航門市",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
+                      },
+                      "spacing": "xs"
+                    }
+                  ],
+                  "spacing": "xs"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-share-v3.png",
+                          "size": "27px",
+                          "aspectRatio": "128:86",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "分享名片",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "align": "center"
+                        }
+                      ],
+                      "paddingAll": "12px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "分享名片",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fflex-cards.json&v=2026-11-09-2200"
+                      },
                       "spacing": "xs"
                     }
                   ],
                   "spacing": "xs"
                 }
               ],
-              "spacing": "none",
-              "paddingAll": "8px"
+              "paddingAll": "8px",
+              "spacing": "xs"
             }
           ],
-          "spacing": "none",
           "paddingAll": "2px"
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c3-v1.jpg",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover"
         }
       },
       {
@@ -2012,11 +1886,9 @@
                       "size": "10px",
                       "weight": "bold",
                       "color": "#FFFFFF",
-                      "wrap": false,
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
                   "paddingAll": "2px",
                   "backgroundColor": "#33415C",
                   "cornerRadius": "100px",
@@ -2031,7 +1903,6 @@
                   "flex": 1
                 }
               ],
-              "spacing": "none",
               "paddingAll": "2px"
             },
             {
@@ -2040,220 +1911,190 @@
               "contents": [
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
                       "type": "box",
-                      "layout": "horizontal",
+                      "layout": "vertical",
                       "contents": [
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-web-v3.png",
-                                  "size": "30px",
-                                  "aspectRatio": "128:78",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "官方網站",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "官方網站",
-                            "uri": "https://www.movenpick.com.tw"
-                          }
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-web-v3.png",
+                          "size": "30px",
+                          "aspectRatio": "128:78",
+                          "aspectMode": "cover",
+                          "flex": 0
                         },
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-line-n-v3.png",
-                                  "size": "19px",
-                                  "aspectRatio": "190:184",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "LINE 諮詢",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#1E2838",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#E1AC84",
-                            "endColor": "#C4936D"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#E5B996",
-                          "action": {
-                            "type": "uri",
-                            "label": "LINE 諮詢",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=line&u=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%2540816ifsxk"
-                          }
-                        },
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
-                                  "size": "13px",
-                                  "aspectRatio": "94:128",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "導航門市",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "導航門市",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
-                          }
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
                         }
                       ],
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://www.movenpick.com.tw"
+                      },
                       "spacing": "xs"
                     },
                     {
                       "type": "box",
-                      "layout": "horizontal",
+                      "layout": "vertical",
                       "contents": [
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-share-v3.png",
-                                  "size": "27px",
-                                  "aspectRatio": "128:86",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "分享名片",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": false,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "12px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "分享名片",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fflex-cards.json&v=2026-11-09-2200"
-                          }
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-line-n-v3.png",
+                          "size": "19px",
+                          "aspectRatio": "190:184",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "LINE 諮詢",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#1E2838",
+                          "wrap": true,
+                          "align": "center"
                         }
                       ],
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#E1AC84",
+                        "endColor": "#C4936D"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#E5B996",
+                      "action": {
+                        "type": "uri",
+                        "label": "LINE 諮詢",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=line&u=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%2540816ifsxk"
+                      },
+                      "spacing": "xs"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
+                          "size": "13px",
+                          "aspectRatio": "94:128",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "導航門市",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "導航門市",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
+                      },
+                      "spacing": "xs"
+                    }
+                  ],
+                  "spacing": "xs"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-share-v3.png",
+                          "size": "27px",
+                          "aspectRatio": "128:86",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "分享名片",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "align": "center"
+                        }
+                      ],
+                      "paddingAll": "12px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "分享名片",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fflex-cards.json&v=2026-11-09-2200"
+                      },
                       "spacing": "xs"
                     }
                   ],
                   "spacing": "xs"
                 }
               ],
-              "spacing": "none",
-              "paddingAll": "8px"
+              "paddingAll": "8px",
+              "spacing": "xs"
             }
           ],
-          "spacing": "none",
           "paddingAll": "2px"
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c4-v1.jpg",
+          "size": "full",
+          "aspectRatio": "5:3",
+          "aspectMode": "cover"
         }
       },
       {
@@ -2275,15 +2116,26 @@
               "type": "text",
               "text": "手工微褶・菱格絎縫・立體裁縫・拉點深雕",
               "size": "xs",
-              "weight": "regular",
               "color": "#B8C2D3",
               "wrap": true,
               "margin": "xs"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [],
+              "height": "345px",
+              "margin": "none"
             }
           ],
           "spacing": "md",
           "paddingAll": "12px",
-          "backgroundColor": "#253043"
+          "backgroundColor": "#253043",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-F5ppH6KJ"
+          }
         },
         "footer": {
           "type": "box",
@@ -2309,11 +2161,9 @@
                       "size": "10px",
                       "weight": "bold",
                       "color": "#FFFFFF",
-                      "wrap": false,
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
                   "paddingAll": "2px",
                   "backgroundColor": "#33415C",
                   "cornerRadius": "100px",
@@ -2328,7 +2178,6 @@
                   "flex": 1
                 }
               ],
-              "spacing": "none",
               "paddingAll": "2px"
             },
             {
@@ -2337,232 +2186,190 @@
               "contents": [
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
                       "type": "box",
-                      "layout": "horizontal",
+                      "layout": "vertical",
                       "contents": [
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-web-v3.png",
-                                  "size": "30px",
-                                  "aspectRatio": "128:78",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "官方網站",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "官方網站",
-                            "uri": "https://www.movenpick.com.tw"
-                          }
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-web-v3.png",
+                          "size": "30px",
+                          "aspectRatio": "128:78",
+                          "aspectMode": "cover",
+                          "flex": 0
                         },
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-line-n-v3.png",
-                                  "size": "19px",
-                                  "aspectRatio": "190:184",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "LINE 諮詢",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#1E2838",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#E1AC84",
-                            "endColor": "#C4936D"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#E5B996",
-                          "action": {
-                            "type": "uri",
-                            "label": "LINE 諮詢",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=line&u=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%2540816ifsxk"
-                          }
-                        },
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
-                                  "size": "13px",
-                                  "aspectRatio": "94:128",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "導航門市",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "導航門市",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
-                          }
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
                         }
                       ],
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://www.movenpick.com.tw"
+                      },
                       "spacing": "xs"
                     },
                     {
                       "type": "box",
-                      "layout": "horizontal",
+                      "layout": "vertical",
                       "contents": [
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-share-v3.png",
-                                  "size": "27px",
-                                  "aspectRatio": "128:86",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "分享名片",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": false,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "12px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "分享名片",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fflex-cards.json&v=2026-11-09-2200"
-                          }
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-line-n-v3.png",
+                          "size": "19px",
+                          "aspectRatio": "190:184",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "LINE 諮詢",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#1E2838",
+                          "wrap": true,
+                          "align": "center"
                         }
                       ],
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#E1AC84",
+                        "endColor": "#C4936D"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#E5B996",
+                      "action": {
+                        "type": "uri",
+                        "label": "LINE 諮詢",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=line&u=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%2540816ifsxk"
+                      },
+                      "spacing": "xs"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
+                          "size": "13px",
+                          "aspectRatio": "94:128",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "導航門市",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "導航門市",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
+                      },
+                      "spacing": "xs"
+                    }
+                  ],
+                  "spacing": "xs"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-share-v3.png",
+                          "size": "27px",
+                          "aspectRatio": "128:86",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "分享名片",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "align": "center"
+                        }
+                      ],
+                      "paddingAll": "12px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "分享名片",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fflex-cards.json&v=2026-11-09-2200"
+                      },
                       "spacing": "xs"
                     }
                   ],
                   "spacing": "xs"
                 }
               ],
-              "spacing": "none",
-              "paddingAll": "8px"
+              "paddingAll": "8px",
+              "spacing": "xs"
             }
           ],
-          "spacing": "none",
           "paddingAll": "2px"
         },
         "hero": {
           "type": "image",
-          "url": "https://movenpick.cardtaiwan.com/img/card5-v5.jpg",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c5-v1.jpg",
           "size": "full",
-          "aspectRatio": "3:4",
-          "aspectMode": "cover",
-          "action": {
-            "type": "uri",
-            "label": "開啟名片",
-            "uri": "https://liff.line.me/2011946176-F5ppH6KJ"
-          }
+          "aspectRatio": "20:13",
+          "aspectMode": "cover"
         }
       },
       {
@@ -2582,21 +2389,11 @@
           "contents": [
             {
               "type": "text",
-              "text": "顧客實景",
-              "size": "xl",
-              "weight": "bold",
-              "color": "#DFA77C",
-              "wrap": true,
-              "margin": "xs"
-            },
-            {
-              "type": "text",
               "text": "實際訂製完成的客廳，每一張都依空間量身打造",
               "size": "md",
-              "weight": "regular",
               "color": "#FFFFFF",
               "wrap": true,
-              "margin": "lg"
+              "margin": "xs"
             },
             {
               "type": "box",
@@ -2621,9 +2418,15 @@
               ],
               "spacing": "md",
               "margin": "xl"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [],
+              "height": "201px",
+              "margin": "none"
             }
           ],
-          "spacing": "none",
           "paddingAll": "16px",
           "backgroundColor": "#253043",
           "action": {
@@ -2656,11 +2459,9 @@
                       "size": "10px",
                       "weight": "bold",
                       "color": "#FFFFFF",
-                      "wrap": false,
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
                   "paddingAll": "2px",
                   "backgroundColor": "#33415C",
                   "cornerRadius": "100px",
@@ -2675,7 +2476,6 @@
                   "flex": 1
                 }
               ],
-              "spacing": "none",
               "paddingAll": "2px"
             },
             {
@@ -2684,226 +2484,189 @@
               "contents": [
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
                       "type": "box",
-                      "layout": "horizontal",
+                      "layout": "vertical",
                       "contents": [
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-web-v3.png",
-                                  "size": "30px",
-                                  "aspectRatio": "128:78",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "官方網站",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "官方網站",
-                            "uri": "https://www.movenpick.com.tw"
-                          }
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-web-v3.png",
+                          "size": "30px",
+                          "aspectRatio": "128:78",
+                          "aspectMode": "cover",
+                          "flex": 0
                         },
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-line-n-v3.png",
-                                  "size": "19px",
-                                  "aspectRatio": "190:184",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "LINE 諮詢",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#1E2838",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#E1AC84",
-                            "endColor": "#C4936D"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#E5B996",
-                          "action": {
-                            "type": "uri",
-                            "label": "LINE 諮詢",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=line&u=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%2540816ifsxk"
-                          }
-                        },
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
-                                  "size": "13px",
-                                  "aspectRatio": "94:128",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "導航門市",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "導航門市",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
-                          }
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
                         }
                       ],
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://www.movenpick.com.tw"
+                      },
                       "spacing": "xs"
                     },
                     {
                       "type": "box",
-                      "layout": "horizontal",
+                      "layout": "vertical",
                       "contents": [
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-share-v3.png",
-                                  "size": "27px",
-                                  "aspectRatio": "128:86",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "分享名片",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": false,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "12px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "分享名片",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fflex-cards.json&v=2026-11-09-2200"
-                          }
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-line-n-v3.png",
+                          "size": "19px",
+                          "aspectRatio": "190:184",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "LINE 諮詢",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#1E2838",
+                          "wrap": true,
+                          "align": "center"
                         }
                       ],
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#E1AC84",
+                        "endColor": "#C4936D"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#E5B996",
+                      "action": {
+                        "type": "uri",
+                        "label": "LINE 諮詢",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=line&u=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%2540816ifsxk"
+                      },
+                      "spacing": "xs"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
+                          "size": "13px",
+                          "aspectRatio": "94:128",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "導航門市",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "導航門市",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
+                      },
+                      "spacing": "xs"
+                    }
+                  ],
+                  "spacing": "xs"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-share-v3.png",
+                          "size": "27px",
+                          "aspectRatio": "128:86",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "分享名片",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "align": "center"
+                        }
+                      ],
+                      "paddingAll": "12px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "分享名片",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fflex-cards.json&v=2026-11-09-2200"
+                      },
                       "spacing": "xs"
                     }
                   ],
                   "spacing": "xs"
                 }
               ],
-              "spacing": "none",
-              "paddingAll": "8px"
+              "paddingAll": "8px",
+              "spacing": "xs"
             }
           ],
-          "spacing": "none",
           "paddingAll": "2px"
         },
         "hero": {
           "type": "image",
-          "url": "https://movenpick.cardtaiwan.com/img/case2-r3.png",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c6-v1.jpg",
           "size": "full",
-          "aspectRatio": "3:2",
+          "aspectRatio": "20:13",
           "aspectMode": "cover"
         }
       },
@@ -3012,7 +2775,6 @@
                       "type": "text",
                       "text": "桃園市龜山區大崗里大湖路249號（林口長庚　近警察大學）",
                       "size": "sm",
-                      "weight": "regular",
                       "color": "#FFFFFF",
                       "wrap": true,
                       "margin": "xs",
@@ -3038,7 +2800,6 @@
                       "type": "text",
                       "text": "週一至週五 09:00–18:00（假日需預約）",
                       "size": "sm",
-                      "weight": "regular",
                       "color": "#FFFFFF",
                       "wrap": true,
                       "margin": "xs",
@@ -3066,31 +2827,22 @@
                   "layout": "vertical",
                   "contents": [
                     {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "image",
-                          "url": "https://movenpick.cardtaiwan.com/img/icon-ig-v3.png",
-                          "size": "16px",
-                          "aspectRatio": "128:128",
-                          "aspectMode": "cover",
-                          "flex": 0
-                        },
-                        {
-                          "type": "text",
-                          "text": "Instagram",
-                          "size": "xs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": false,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "xs"
+                      "type": "image",
+                      "url": "https://movenpick.cardtaiwan.com/img/icon-ig-v3.png",
+                      "size": "16px",
+                      "aspectRatio": "128:128",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "Instagram",
+                      "size": "xs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center"
                     }
                   ],
-                  "spacing": "none",
                   "paddingAll": "4px",
                   "backgroundColor": "#33415C",
                   "cornerRadius": "100px",
@@ -3101,38 +2853,30 @@
                     "type": "uri",
                     "label": "Instagram",
                     "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=ig&u=https%3A%2F%2Fwww.instagram.com%2Fmovenpick_home"
-                  }
+                  },
+                  "spacing": "xs"
                 },
                 {
                   "type": "box",
                   "layout": "vertical",
                   "contents": [
                     {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "image",
-                          "url": "https://movenpick.cardtaiwan.com/img/icon-fb-v3.png",
-                          "size": "16px",
-                          "aspectRatio": "128:128",
-                          "aspectMode": "cover",
-                          "flex": 0
-                        },
-                        {
-                          "type": "text",
-                          "text": "Facebook",
-                          "size": "xs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": false,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "xs"
+                      "type": "image",
+                      "url": "https://movenpick.cardtaiwan.com/img/icon-fb-v3.png",
+                      "size": "16px",
+                      "aspectRatio": "128:128",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "Facebook",
+                      "size": "xs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center"
                     }
                   ],
-                  "spacing": "none",
                   "paddingAll": "4px",
                   "backgroundColor": "#33415C",
                   "cornerRadius": "100px",
@@ -3143,7 +2887,8 @@
                     "type": "uri",
                     "label": "Facebook",
                     "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=fb&u=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D61590693751113"
-                  }
+                  },
+                  "spacing": "xs"
                 }
               ],
               "spacing": "sm",
@@ -3158,31 +2903,22 @@
                   "layout": "vertical",
                   "contents": [
                     {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "image",
-                          "url": "https://movenpick.cardtaiwan.com/img/icon-tel-v3.png",
-                          "size": "16px",
-                          "aspectRatio": "128:128",
-                          "aspectMode": "cover",
-                          "flex": 0
-                        },
-                        {
-                          "type": "text",
-                          "text": "撥打電話",
-                          "size": "xs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": false,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "xs"
+                      "type": "image",
+                      "url": "https://movenpick.cardtaiwan.com/img/icon-tel-v3.png",
+                      "size": "16px",
+                      "aspectRatio": "128:128",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "撥打電話",
+                      "size": "xs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center"
                     }
                   ],
-                  "spacing": "none",
                   "paddingAll": "4px",
                   "backgroundColor": "#33415C",
                   "cornerRadius": "100px",
@@ -3193,38 +2929,30 @@
                     "type": "uri",
                     "label": "撥打電話",
                     "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=tel&u=tel%3A%2B88633972191"
-                  }
+                  },
+                  "spacing": "xs"
                 },
                 {
                   "type": "box",
                   "layout": "vertical",
                   "contents": [
                     {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "image",
-                          "url": "https://movenpick.cardtaiwan.com/img/icon-calendar-n-v3.png",
-                          "size": "17px",
-                          "aspectRatio": "120:128",
-                          "aspectMode": "cover",
-                          "flex": 0
-                        },
-                        {
-                          "type": "text",
-                          "text": "預約參觀",
-                          "size": "xs",
-                          "weight": "bold",
-                          "color": "#1E2838",
-                          "wrap": false,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "xs"
+                      "type": "image",
+                      "url": "https://movenpick.cardtaiwan.com/img/icon-calendar-n-v3.png",
+                      "size": "17px",
+                      "aspectRatio": "120:128",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "預約參觀",
+                      "size": "xs",
+                      "weight": "bold",
+                      "color": "#1E2838",
+                      "align": "center"
                     }
                   ],
-                  "spacing": "none",
                   "paddingAll": "4px",
                   "background": {
                     "type": "linearGradient",
@@ -3240,11 +2968,19 @@
                     "type": "uri",
                     "label": "預約參觀",
                     "uri": "https://www.movenpick.com.tw/booking"
-                  }
+                  },
+                  "spacing": "xs"
                 }
               ],
               "spacing": "sm",
               "margin": "xs"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [],
+              "height": "250px",
+              "margin": "none"
             }
           ],
           "spacing": "md",
@@ -3280,11 +3016,9 @@
                       "size": "10px",
                       "weight": "bold",
                       "color": "#FFFFFF",
-                      "wrap": false,
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
                   "paddingAll": "2px",
                   "backgroundColor": "#33415C",
                   "cornerRadius": "100px",
@@ -3299,7 +3033,6 @@
                   "flex": 1
                 }
               ],
-              "spacing": "none",
               "paddingAll": "2px"
             },
             {
@@ -3313,219 +3046,182 @@
               "contents": [
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
                       "type": "box",
-                      "layout": "horizontal",
+                      "layout": "vertical",
                       "contents": [
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-web-v3.png",
-                                  "size": "30px",
-                                  "aspectRatio": "128:78",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "官方網站",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "官方網站",
-                            "uri": "https://www.movenpick.com.tw"
-                          }
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-web-v3.png",
+                          "size": "30px",
+                          "aspectRatio": "128:78",
+                          "aspectMode": "cover",
+                          "flex": 0
                         },
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-line-n-v3.png",
-                                  "size": "19px",
-                                  "aspectRatio": "190:184",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "LINE 諮詢",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#1E2838",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#E1AC84",
-                            "endColor": "#C4936D"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#E5B996",
-                          "action": {
-                            "type": "uri",
-                            "label": "LINE 諮詢",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=line&u=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%2540816ifsxk"
-                          }
-                        },
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
-                                  "size": "13px",
-                                  "aspectRatio": "94:128",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "導航門市",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": true,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "8px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "導航門市",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
-                          }
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
                         }
                       ],
-                      "spacing": "sm"
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://www.movenpick.com.tw"
+                      },
+                      "spacing": "xs"
                     },
                     {
                       "type": "box",
-                      "layout": "horizontal",
+                      "layout": "vertical",
                       "contents": [
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [
-                                {
-                                  "type": "image",
-                                  "url": "https://movenpick.cardtaiwan.com/img/icon-share-v3.png",
-                                  "size": "27px",
-                                  "aspectRatio": "128:86",
-                                  "aspectMode": "cover",
-                                  "flex": 0
-                                },
-                                {
-                                  "type": "text",
-                                  "text": "分享名片",
-                                  "size": "xs",
-                                  "weight": "bold",
-                                  "color": "#FFFFFF",
-                                  "wrap": false,
-                                  "align": "center"
-                                }
-                              ],
-                              "spacing": "xs"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "12px",
-                          "background": {
-                            "type": "linearGradient",
-                            "angle": "90deg",
-                            "startColor": "#3F4C66",
-                            "endColor": "#2D3951"
-                          },
-                          "cornerRadius": "100px",
-                          "flex": 1,
-                          "borderWidth": "1px",
-                          "borderColor": "#5C677D",
-                          "action": {
-                            "type": "uri",
-                            "label": "分享名片",
-                            "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fflex-cards.json&v=2026-11-09-2200"
-                          }
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-line-n-v3.png",
+                          "size": "19px",
+                          "aspectRatio": "190:184",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "LINE 諮詢",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#1E2838",
+                          "wrap": true,
+                          "align": "center"
                         }
                       ],
-                      "spacing": "sm"
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#E1AC84",
+                        "endColor": "#C4936D"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#E5B996",
+                      "action": {
+                        "type": "uri",
+                        "label": "LINE 諮詢",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=line&u=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%2540816ifsxk"
+                      },
+                      "spacing": "xs"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
+                          "size": "13px",
+                          "aspectRatio": "94:128",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "導航門市",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "paddingAll": "8px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "導航門市",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
+                      },
+                      "spacing": "xs"
+                    }
+                  ],
+                  "spacing": "sm"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-share-v3.png",
+                          "size": "27px",
+                          "aspectRatio": "128:86",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "分享名片",
+                          "size": "xs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "align": "center"
+                        }
+                      ],
+                      "paddingAll": "12px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#3F4C66",
+                        "endColor": "#2D3951"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5C677D",
+                      "action": {
+                        "type": "uri",
+                        "label": "分享名片",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fflex-cards.json&v=2026-11-09-2200"
+                      },
+                      "spacing": "xs"
                     }
                   ],
                   "spacing": "sm"
                 }
               ],
-              "spacing": "none",
-              "paddingAll": "8px"
+              "paddingAll": "8px",
+              "spacing": "sm"
             }
           ],
-          "spacing": "none",
           "paddingAll": "2px"
         }
       }

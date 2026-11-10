@@ -71,7 +71,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://movenpick.cardtaiwan.com/img/card1-v12.jpg",
+          "url": "https://movenpick.cardtaiwan.com/img/card1-v13.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
@@ -339,13 +339,6 @@
           "spacing": "none",
           "paddingAll": "12px",
           "backgroundColor": "#253043"
-        },
-        "hero": {
-          "type": "image",
-          "url": "https://movenpick.cardtaiwan.com/img/card5-v5.jpg",
-          "size": "full",
-          "aspectRatio": "3:4",
-          "aspectMode": "cover"
         }
       },
       {
