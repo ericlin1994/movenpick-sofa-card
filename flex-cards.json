@@ -2127,7 +2127,7 @@
             },
             {
               "type": "image",
-              "url": "https://movenpick.cardtaiwan.com/img/case1-r.png",
+              "url": "https://movenpick.cardtaiwan.com/img/case1-r2.png",
               "size": "full",
               "aspectRatio": "4:3",
               "aspectMode": "cover"
@@ -2138,7 +2138,7 @@
               "contents": [
                 {
                   "type": "image",
-                  "url": "https://movenpick.cardtaiwan.com/img/case2-r.png",
+                  "url": "https://movenpick.cardtaiwan.com/img/case2-r2.png",
                   "size": "full",
                   "aspectRatio": "4:3",
                   "aspectMode": "cover",
@@ -2146,7 +2146,7 @@
                 },
                 {
                   "type": "image",
-                  "url": "https://movenpick.cardtaiwan.com/img/case3-r.png",
+                  "url": "https://movenpick.cardtaiwan.com/img/case3-r2.png",
                   "size": "full",
                   "aspectRatio": "4:3",
                   "aspectMode": "cover",
