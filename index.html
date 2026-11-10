@@ -649,10 +649,22 @@ let payloadFailed = false;
    inPlaceInit＝按分享時就地 liff.init 的狀態 0 未試／1 進行中／2 已試過（最多一次）
    pickerCalled＝shareTargetPicker 是否已被呼叫（看門狗用）；pickerBusy＝防重入 */
 let inPlaceInit = 0, liffInitP = null, pickerCalled = false, pickerBusy = false;
+/* 乾淨網址（去掉 query 與 hash）。只給 liff.login 的 redirectUri 用：
+   絕對不要把 location.href（可能含 liff.state）當 redirectUri —— LINE 會再把整個網址包一層
+   liff.state，每登入一輪就再編碼一次（長度指數成長），最後 GitHub Pages 回
+   414 URI Too Long，畫面只剩一行錯誤＝客戶看到「空白頁」。（移植自 Benson 版的修法） */
+const CLEAN_URL = location.href.split('?')[0].split('#')[0];
+/* 登入後要回到「分享模式」的固定網址。務必是固定值：重試也永遠一樣長。 */
+const SHARE_REDIRECT = CLEAN_URL + '?share=1';
+/* 「分享這張名片」的目標＝客戶的舊版 7 頁名片：走 L2 中繼頁＋舊卡 payload（src）。
+   v 用來破 LINE 內建瀏覽器快取，改版時往後跳一號。 */
+const SHARE_URL = 'https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111b&v=2026-11-11b';
+let nestedSeen = ((function(){ try{ return decodeURIComponent(location.search); }catch(e){ return location.search; } })().match(/liff\.state/g) || []).length > 1;   // 這次載入時網址已被 LINE 疊加過（liff.state 出現 2 次以上）
+let navLastAt = 0;                                                // 上次導覽到分享頁的時間（節流）
 
 /* 改動 flex-cards.json 後請把 BUILD 往後跳一號：
    LINE 內建瀏覽器會快取檔案，不跳號會一直送出舊版卡片 */
-const BUILD = 'b185';
+const BUILD = 'b186';
 const PAGE_VER = '2026-10-09-1910-底部CTA改用flex-sticky'   // 每次改頁面就改這個，用來確認手機拿到的是最新版
 
 /* ═══════ FLEX_PAYLOAD_START（由 build_flex.py 自動寫入，勿手改）═══════ */
@@ -1071,7 +1083,8 @@ async function runCheck(){
     liffReady = true;
 
     if(/check=1/.test(decodeURIComponent(location.search))){
-      if(!liff.isLoggedIn()){ liff.login({ redirectUri: location.href }); return; }
+      /* 不可用 location.href（見 CLEAN_URL 註解，會疊成 414） */
+      if(!liff.isLoggedIn()){ liff.login({ redirectUri: SHARE_REDIRECT }); return; }
       await runCheck();
       return;
     }
@@ -1185,8 +1198,30 @@ async function autoShare(){
   }
 }
 
+/* 導覽到分享專用網址（SHARE_URL）。守衛：已在分享流程／網址已被疊加／1.5 秒節流。
+   回傳 true＝這次已處理（導覽或被擋），呼叫端直接 return。 */
+function navToShare(){
+  const inShare = decodeURIComponent(location.search + (location.hash || '')).indexOf('share=1') !== -1;
+  if(inShare || nestedSeen){
+    diag('已在分享流程中 → 不重複導覽', true);
+    setTip('分享功能沒能啟動（LINE 內無法初始化），可以先改用連結分享。' + infoHtml());
+    try{ showFallbackBtn(); }catch(e){}
+    return true;
+  }
+  if(Date.now() - navLastAt < 1500){
+    diag('剛剛才導覽過（節流 1.5 秒）→ 先等一下');
+    setTip('正在開啟分享…請稍等一下。');
+    return true;
+  }
+  navLastAt = Date.now();
+  diag('看名片模式 → 導覽到分享專用網址 ' + SHARE_URL);
+  location.href = SHARE_URL;
+  return true;
+}
+
 async function shareCard(){
   diag('👆 分享按鈕被按下（' + new Date().toLocaleTimeString() + '）');
+  const inShareMode = decodeURIComponent(location.search + (location.hash || '')).indexOf('share=1') !== -1;
   const tip = document.getElementById('tipText');
 
   if(payloadFailed){
@@ -1208,23 +1243,26 @@ async function shareCard(){
         if(!liffInitP) liffInitP = liff.init({ liffId: LIFF_ID });
         await Promise.race([liffInitP,
           new Promise((_, rej) => setTimeout(() => rej(new Error('in-place init timeout')), 4000))]);
-        liffReady = true;
-        inPlaceInit = 2;
-        diag('就地 liff.init OK｜inClient=' + liff.isInClient() + '｜loggedIn=' + liff.isLoggedIn() + ' → 繼續送出');
-        return shareCard();
+        if(liff.isInClient()){
+          liffReady = true;
+          inPlaceInit = 2;
+          diag('就地 liff.init OK｜inClient=true｜loggedIn=' + liff.isLoggedIn() + ' → 繼續');
+          return shareCard();
+        }
+        diag('就地 liff.init 完成但不在 LIFF client → 改用導覽', true);
       }catch(e){
-        inPlaceInit = 2;
-        const why = (e && (e.message || e.code) || e);
-        diag('就地 liff.init 失敗：' + why, true);
-        setTip('分享功能沒能啟動（LIFF 初始化失敗：' + String(why).replace(/</g, '&lt;') + '）。' + infoHtml());
-        await shareLinkFallback('liff.init 失敗：' + why);
-        return;
+        diag('就地 liff.init 失敗：' + (e && (e.message || e.code) || e) + ' → 改用導覽', true);
       }
+      inPlaceInit = 2;
     }
+    // 就地沒成功 → 導覽到分享專用網址（有守衛，不會無限轉）
+    if(navToShare()) return;
   }
 
-  // 1) 在 LINE 內 → 用 shareTargetPicker 送出原生 Flex 卡片
+  // 1) 在 LINE 內
   if(liffReady){
+    // 看名片模式（沒有 share=1）：分享目標是客戶的舊版 7 頁名片 → 導覽到 L2 分享網址，不用本頁內嵌的 payload 送
+    if(!inShareMode && navToShare()) return;
     if(!liff.isLoggedIn()){
       const _n = (function(){ try{ return parseInt(localStorage.getItem('shareTry') || '0', 10) || 0; }catch(e){ return 0; } })();
       if(_n >= 2){
@@ -1235,7 +1273,8 @@ async function shareCard(){
       }
       try{ localStorage.setItem('shareTry', String(_n + 1)); }catch(e){}
       diag('尚未登入 LIFF，導向登入…（第 ' + (_n + 1) + ' 次）');
-      try{ liff.login({ redirectUri: location.href }); return; }catch(e){ diag('登入失敗：'+e, true); }
+      /* 一律用固定的 SHARE_REDIRECT；不可用 location.href（含 liff.state 會每輪疊一層→414 空白頁） */
+      try{ liff.login({ redirectUri: SHARE_REDIRECT }); return; }catch(e){ diag('登入失敗：'+e, true); }
     }
     shareInfo.api = (liff.isApiAvailable ? liff.isApiAvailable('shareTargetPicker') : 'n/a');
     if(!flexPayload){
@@ -1900,7 +1939,7 @@ function showOpenInLine(){
   var bar = document.querySelector('#shareScreen .ss-bar');
   if(bar){
     /* 不加 target（Universal Link 加 target=_blank 會失效） */
-    bar.innerHTML = '<a class="ss-openline" href="https://liff.line.me/' + LIFF_ID + '?share=1" rel="noopener"><img class="ic" src="img/icon-line-w-v2.png" alt="">用 LINE 開啟並分享</a>'
+    bar.innerHTML = '<a class="ss-openline" href="' + SHARE_URL + '" rel="noopener"><img class="ic" src="img/icon-line-w-v2.png" alt="">用 LINE 開啟並分享</a>'
       + '<button id="ssLinkBtn" type="button" onclick="shareLinkFallback(\'使用者選擇\')"><img class="ic" src="img/icon-share-w-v1.png" alt="">改用連結分享</button>';
   }
   try{ diag('偵測到外部瀏覽器（非 LINE）→ 顯示用 LINE 開啟按鈕', true); }catch(e){}
