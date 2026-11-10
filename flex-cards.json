@@ -249,7 +249,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://movenpick.cardtaiwan.com/img/card1-v17.jpg",
+          "url": "https://movenpick.cardtaiwan.com/img/card1-v18.jpg",
           "size": "full",
           "aspectRatio": "1080:1395",
           "aspectMode": "cover",
@@ -1566,7 +1566,7 @@
                     {
                       "type": "image",
                       "url": "https://movenpick.cardtaiwan.com/img/icon-ig-v3.png",
-                      "size": "16px",
+                      "size": "20px",
                       "aspectRatio": "128:128",
                       "aspectMode": "cover",
                       "flex": 0
@@ -1580,9 +1580,9 @@
                       "align": "center"
                     }
                   ],
-                  "paddingAll": "4px",
-                  "backgroundColor": "#33415C",
-                  "cornerRadius": "100px",
+                  "paddingAll": "2px",
+                  "backgroundColor": "#253043",
+                  "cornerRadius": "14px",
                   "flex": 1,
                   "borderWidth": "1px",
                   "borderColor": "#46557A",
@@ -1600,7 +1600,7 @@
                     {
                       "type": "image",
                       "url": "https://movenpick.cardtaiwan.com/img/icon-fb-v3.png",
-                      "size": "16px",
+                      "size": "20px",
                       "aspectRatio": "128:128",
                       "aspectMode": "cover",
                       "flex": 0
@@ -1614,9 +1614,9 @@
                       "align": "center"
                     }
                   ],
-                  "paddingAll": "4px",
-                  "backgroundColor": "#33415C",
-                  "cornerRadius": "100px",
+                  "paddingAll": "2px",
+                  "backgroundColor": "#253043",
+                  "cornerRadius": "14px",
                   "flex": 1,
                   "borderWidth": "1px",
                   "borderColor": "#46557A",
@@ -1641,7 +1641,7 @@
                     {
                       "type": "image",
                       "url": "https://movenpick.cardtaiwan.com/img/icon-tel-v3.png",
-                      "size": "16px",
+                      "size": "20px",
                       "aspectRatio": "128:128",
                       "aspectMode": "cover",
                       "flex": 0
@@ -1655,9 +1655,9 @@
                       "align": "center"
                     }
                   ],
-                  "paddingAll": "4px",
-                  "backgroundColor": "#33415C",
-                  "cornerRadius": "100px",
+                  "paddingAll": "2px",
+                  "backgroundColor": "#253043",
+                  "cornerRadius": "14px",
                   "flex": 1,
                   "borderWidth": "1px",
                   "borderColor": "#46557A",
@@ -1696,7 +1696,7 @@
                     "startColor": "#E1AC84",
                     "endColor": "#C4936D"
                   },
-                  "cornerRadius": "100px",
+                  "cornerRadius": "14px",
                   "flex": 1,
                   "borderWidth": "1px",
                   "borderColor": "#E5B996",
