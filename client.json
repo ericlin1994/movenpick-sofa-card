@@ -49,7 +49,8 @@
     "img_base": "https://movenpick.cardtaiwan.com/img",
     "page_url": "https://movenpick.cardtaiwan.com/",
     "booking": "https://www.movenpick.com.tw/booking",
-    "share_ver": "2026-11-09-2200"
+    "share_src": "https://movenpick.cardtaiwan.com/old-card.json?v=20261111b",
+    "share_ver": "2026-11-11b"
   },
   "theme": {
     "mode": "light",
