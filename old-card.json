@@ -1,0 +1,709 @@
+{
+ "type": "flex",
+ "altText": "莫凡彼沙發工藝｜吳明憲 Steve 電子名片（7 頁）",
+ "contents": {
+  "type": "carousel",
+  "contents": [
+   {
+    "type": "bubble",
+    "size": "giga",
+    "direction": "ltr",
+    "body": {
+     "type": "box",
+     "layout": "vertical",
+     "paddingAll": "0px",
+     "contents": [
+      {
+       "type": "image",
+       "url": "https://movenpick.cardtaiwan.com/img/old/01.jpg?v=20261111a",
+       "size": "full",
+       "aspectRatio": "941:1672",
+       "aspectMode": "cover",
+       "action": {
+        "type": "uri",
+        "label": "開啟網站",
+        "uri": "https://movenpick.cardtaiwan.com/"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "4.3%",
+       "offsetTop": "89.2%",
+       "width": "28.7%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "官方網站",
+        "uri": "https://movenpick.cardtaiwan.com/"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "36.2%",
+       "offsetTop": "89.2%",
+       "width": "27.8%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "LINE 諮詢",
+        "uri": "https://lin.ee/PPOcpGz"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "67.2%",
+       "offsetTop": "89.2%",
+       "width": "28.6%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "導航門市",
+        "uri": "https://reurl.cc/Gge6YZ"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "type": "bubble",
+    "size": "giga",
+    "direction": "ltr",
+    "body": {
+     "type": "box",
+     "layout": "vertical",
+     "paddingAll": "0px",
+     "contents": [
+      {
+       "type": "image",
+       "url": "https://movenpick.cardtaiwan.com/img/old/02.jpg?v=20261111a",
+       "size": "full",
+       "aspectRatio": "941:1672",
+       "aspectMode": "cover",
+       "action": {
+        "type": "uri",
+        "label": "開啟網站",
+        "uri": "https://movenpick.cardtaiwan.com/"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "4.3%",
+       "offsetTop": "89.2%",
+       "width": "28.7%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "官方網站",
+        "uri": "https://movenpick.cardtaiwan.com/"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "36.2%",
+       "offsetTop": "89.2%",
+       "width": "27.8%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "LINE 諮詢",
+        "uri": "https://lin.ee/PPOcpGz"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "67.2%",
+       "offsetTop": "89.2%",
+       "width": "28.6%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "導航門市",
+        "uri": "https://reurl.cc/Gge6YZ"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "type": "bubble",
+    "size": "giga",
+    "direction": "ltr",
+    "body": {
+     "type": "box",
+     "layout": "vertical",
+     "paddingAll": "0px",
+     "contents": [
+      {
+       "type": "image",
+       "url": "https://movenpick.cardtaiwan.com/img/old/03.jpg?v=20261111a",
+       "size": "full",
+       "aspectRatio": "941:1672",
+       "aspectMode": "cover",
+       "action": {
+        "type": "uri",
+        "label": "開啟網站",
+        "uri": "https://movenpick.cardtaiwan.com/"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "4.3%",
+       "offsetTop": "89.2%",
+       "width": "28.7%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "官方網站",
+        "uri": "https://movenpick.cardtaiwan.com/"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "36.2%",
+       "offsetTop": "89.2%",
+       "width": "27.8%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "LINE 諮詢",
+        "uri": "https://lin.ee/PPOcpGz"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "67.2%",
+       "offsetTop": "89.2%",
+       "width": "28.6%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "導航門市",
+        "uri": "https://reurl.cc/Gge6YZ"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "type": "bubble",
+    "size": "giga",
+    "direction": "ltr",
+    "body": {
+     "type": "box",
+     "layout": "vertical",
+     "paddingAll": "0px",
+     "contents": [
+      {
+       "type": "image",
+       "url": "https://movenpick.cardtaiwan.com/img/old/04.jpg?v=20261111a",
+       "size": "full",
+       "aspectRatio": "941:1672",
+       "aspectMode": "cover",
+       "action": {
+        "type": "uri",
+        "label": "開啟網站",
+        "uri": "https://movenpick.cardtaiwan.com/"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "4.3%",
+       "offsetTop": "89.2%",
+       "width": "28.7%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "官方網站",
+        "uri": "https://movenpick.cardtaiwan.com/"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "36.2%",
+       "offsetTop": "89.2%",
+       "width": "27.8%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "LINE 諮詢",
+        "uri": "https://lin.ee/PPOcpGz"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "67.2%",
+       "offsetTop": "89.2%",
+       "width": "28.6%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "導航門市",
+        "uri": "https://reurl.cc/Gge6YZ"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "type": "bubble",
+    "size": "giga",
+    "direction": "ltr",
+    "body": {
+     "type": "box",
+     "layout": "vertical",
+     "paddingAll": "0px",
+     "contents": [
+      {
+       "type": "image",
+       "url": "https://movenpick.cardtaiwan.com/img/old/05.jpg?v=20261111a",
+       "size": "full",
+       "aspectRatio": "941:1672",
+       "aspectMode": "cover",
+       "action": {
+        "type": "uri",
+        "label": "開啟網站",
+        "uri": "https://movenpick.cardtaiwan.com/"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "4.3%",
+       "offsetTop": "89.2%",
+       "width": "28.7%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "官方網站",
+        "uri": "https://movenpick.cardtaiwan.com/"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "36.2%",
+       "offsetTop": "89.2%",
+       "width": "27.8%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "LINE 諮詢",
+        "uri": "https://lin.ee/PPOcpGz"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "67.2%",
+       "offsetTop": "89.2%",
+       "width": "28.6%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "導航門市",
+        "uri": "https://reurl.cc/Gge6YZ"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "type": "bubble",
+    "size": "giga",
+    "direction": "ltr",
+    "body": {
+     "type": "box",
+     "layout": "vertical",
+     "paddingAll": "0px",
+     "contents": [
+      {
+       "type": "image",
+       "url": "https://movenpick.cardtaiwan.com/img/old/06.jpg?v=20261111a",
+       "size": "full",
+       "aspectRatio": "941:1672",
+       "aspectMode": "cover",
+       "action": {
+        "type": "uri",
+        "label": "開啟網站",
+        "uri": "https://movenpick.cardtaiwan.com/"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "4.3%",
+       "offsetTop": "89.2%",
+       "width": "28.7%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "官方網站",
+        "uri": "https://movenpick.cardtaiwan.com/"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "36.2%",
+       "offsetTop": "89.2%",
+       "width": "27.8%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "LINE 諮詢",
+        "uri": "https://lin.ee/PPOcpGz"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "67.2%",
+       "offsetTop": "89.2%",
+       "width": "28.6%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "導航門市",
+        "uri": "https://reurl.cc/Gge6YZ"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "type": "bubble",
+    "size": "giga",
+    "direction": "ltr",
+    "body": {
+     "type": "box",
+     "layout": "vertical",
+     "paddingAll": "0px",
+     "contents": [
+      {
+       "type": "image",
+       "url": "https://movenpick.cardtaiwan.com/img/old/07.jpg?v=20261111a",
+       "size": "full",
+       "aspectRatio": "941:1672",
+       "aspectMode": "cover",
+       "action": {
+        "type": "uri",
+        "label": "開啟網站",
+        "uri": "https://movenpick.cardtaiwan.com/"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "7.0%",
+       "offsetTop": "34.5%",
+       "width": "45.0%",
+       "height": "7.0%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "撥打電話",
+        "uri": "tel:033972191"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "7.0%",
+       "offsetTop": "45.0%",
+       "width": "76.0%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "地址導航",
+        "uri": "https://reurl.cc/Gge6YZ"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "18.3%",
+       "offsetTop": "54.2%",
+       "width": "29.5%",
+       "height": "6.7%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "官方網站",
+        "uri": "https://movenpick.cardtaiwan.com/"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "51.8%",
+       "offsetTop": "54.2%",
+       "width": "29.7%",
+       "height": "6.7%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "撥打電話",
+        "uri": "tel:033972191"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "18.3%",
+       "offsetTop": "61.1%",
+       "width": "29.5%",
+       "height": "6.7%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "Instagram",
+        "uri": "https://www.instagram.com/movenpick_home/"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "51.8%",
+       "offsetTop": "61.1%",
+       "width": "29.7%",
+       "height": "6.7%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "Facebook",
+        "uri": "https://www.facebook.com/profile.php?id=61590693751113"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "18.3%",
+       "offsetTop": "68.8%",
+       "width": "63.2%",
+       "height": "5.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "預約諮詢",
+        "uri": "https://www.movenpick.com.tw/booking/"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "4.3%",
+       "offsetTop": "89.2%",
+       "width": "28.7%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "官方網站",
+        "uri": "https://movenpick.cardtaiwan.com/"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "36.2%",
+       "offsetTop": "89.2%",
+       "width": "27.8%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "LINE 諮詢",
+        "uri": "https://lin.ee/PPOcpGz"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "67.2%",
+       "offsetTop": "89.2%",
+       "width": "28.6%",
+       "height": "7.8%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "導航門市",
+        "uri": "https://reurl.cc/Gge6YZ"
+       }
+      }
+     ]
+    }
+   }
+  ]
+ }
+}
