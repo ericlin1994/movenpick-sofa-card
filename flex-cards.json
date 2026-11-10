@@ -159,7 +159,7 @@
                           "type": "image",
                           "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
                           "size": "13px",
-                          "aspectRatio": "94:128",
+                          "aspectRatio": "128:128",
                           "aspectMode": "cover",
                           "flex": 0
                         },
@@ -415,7 +415,7 @@
                           "type": "image",
                           "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
                           "size": "13px",
-                          "aspectRatio": "94:128",
+                          "aspectRatio": "128:128",
                           "aspectMode": "cover",
                           "flex": 0
                         },
@@ -671,7 +671,7 @@
                           "type": "image",
                           "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
                           "size": "13px",
-                          "aspectRatio": "94:128",
+                          "aspectRatio": "128:128",
                           "aspectMode": "cover",
                           "flex": 0
                         },
@@ -927,7 +927,7 @@
                           "type": "image",
                           "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
                           "size": "13px",
-                          "aspectRatio": "94:128",
+                          "aspectRatio": "128:128",
                           "aspectMode": "cover",
                           "flex": 0
                         },
@@ -1183,7 +1183,7 @@
                           "type": "image",
                           "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
                           "size": "13px",
-                          "aspectRatio": "94:128",
+                          "aspectRatio": "128:128",
                           "aspectMode": "cover",
                           "flex": 0
                         },
@@ -1439,7 +1439,7 @@
                           "type": "image",
                           "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
                           "size": "13px",
-                          "aspectRatio": "94:128",
+                          "aspectRatio": "128:128",
                           "aspectMode": "cover",
                           "flex": 0
                         },
@@ -1760,11 +1760,6 @@
               "paddingAll": "2px"
             },
             {
-              "type": "separator",
-              "margin": "xs",
-              "color": "#46557A"
-            },
-            {
               "type": "box",
               "layout": "vertical",
               "contents": [
@@ -1860,7 +1855,7 @@
                           "type": "image",
                           "url": "https://movenpick.cardtaiwan.com/img/icon-map-v3.png",
                           "size": "13px",
-                          "aspectRatio": "94:128",
+                          "aspectRatio": "128:128",
                           "aspectMode": "cover",
                           "flex": 0
                         },
@@ -1942,6 +1937,7 @@
                   "spacing": "sm"
                 }
               ],
+              "margin": "xs",
               "paddingAll": "8px",
               "spacing": "sm"
             }
