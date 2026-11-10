@@ -1516,426 +1516,296 @@
             },
             {
               "type": "box",
-              "layout": "horizontal",
+              "layout": "vertical",
               "contents": [
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
                       "type": "box",
-                      "layout": "horizontal",
+                      "layout": "vertical",
                       "contents": [
                         {
                           "type": "box",
                           "layout": "vertical",
                           "contents": [],
-                          "flex": 1
+                          "height": "7px"
                         },
                         {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "text",
-                              "text": "1",
-                              "size": "xs",
-                              "weight": "bold",
-                              "color": "#FFFFFF",
-                              "wrap": false,
-                              "align": "center"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "4px",
-                          "backgroundColor": "#8A5A12",
-                          "cornerRadius": "100px",
-                          "flex": 0,
-                          "width": "28px",
-                          "height": "28px"
-                        },
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "flex": 1,
-                          "spacing": "none",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [],
-                              "height": "13px"
-                            },
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [],
-                              "paddingAll": "1px",
-                              "backgroundColor": "#E3DACB"
-                            }
-                          ]
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-chat-v1.png",
+                          "size": "24px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
                         }
                       ],
-                      "spacing": "none"
+                      "spacing": "none",
+                      "flex": 0,
+                      "width": "32px"
                     },
                     {
-                      "type": "text",
-                      "text": "諮詢",
-                      "size": "xs",
-                      "weight": "regular",
-                      "color": "#39221E",
-                      "wrap": true,
-                      "margin": "md",
-                      "align": "center"
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "諮詢",
+                          "size": "sm",
+                          "weight": "bold",
+                          "color": "#39221E",
+                          "wrap": true,
+                          "margin": "xs"
+                        },
+                        {
+                          "type": "text",
+                          "text": "LINE 預約，顧問懂你的空間",
+                          "size": "xs",
+                          "weight": "regular",
+                          "color": "#6B443D",
+                          "wrap": true,
+                          "margin": "xs"
+                        }
+                      ],
+                      "spacing": "none",
+                      "flex": 1
                     }
                   ],
-                  "spacing": "none",
-                  "flex": 1
+                  "spacing": "md",
+                  "margin": "xs"
                 },
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
                       "type": "box",
-                      "layout": "horizontal",
+                      "layout": "vertical",
                       "contents": [
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "flex": 1,
-                          "spacing": "none",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [],
-                              "height": "13px"
-                            },
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [],
-                              "paddingAll": "1px",
-                              "backgroundColor": "#E3DACB"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "text",
-                              "text": "2",
-                              "size": "xs",
-                              "weight": "bold",
-                              "color": "#FFFFFF",
-                              "wrap": false,
-                              "align": "center"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "4px",
-                          "backgroundColor": "#8A5A12",
-                          "cornerRadius": "100px",
-                          "flex": 0,
-                          "width": "28px",
-                          "height": "28px"
-                        },
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "flex": 1,
-                          "spacing": "none",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [],
-                              "height": "13px"
-                            },
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [],
-                              "paddingAll": "1px",
-                              "backgroundColor": "#E3DACB"
-                            }
-                          ]
-                        }
-                      ],
-                      "spacing": "none"
-                    },
-                    {
-                      "type": "text",
-                      "text": "選材",
-                      "size": "xs",
-                      "weight": "regular",
-                      "color": "#39221E",
-                      "wrap": true,
-                      "margin": "md",
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "none",
-                  "flex": 1
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "horizontal",
-                      "contents": [
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "flex": 1,
-                          "spacing": "none",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [],
-                              "height": "13px"
-                            },
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [],
-                              "paddingAll": "1px",
-                              "backgroundColor": "#E3DACB"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "text",
-                              "text": "3",
-                              "size": "xs",
-                              "weight": "bold",
-                              "color": "#FFFFFF",
-                              "wrap": false,
-                              "align": "center"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "4px",
-                          "backgroundColor": "#8A5A12",
-                          "cornerRadius": "100px",
-                          "flex": 0,
-                          "width": "28px",
-                          "height": "28px"
-                        },
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "flex": 1,
-                          "spacing": "none",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [],
-                              "height": "13px"
-                            },
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [],
-                              "paddingAll": "1px",
-                              "backgroundColor": "#E3DACB"
-                            }
-                          ]
-                        }
-                      ],
-                      "spacing": "none"
-                    },
-                    {
-                      "type": "text",
-                      "text": "裁切",
-                      "size": "xs",
-                      "weight": "regular",
-                      "color": "#39221E",
-                      "wrap": true,
-                      "margin": "md",
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "none",
-                  "flex": 1
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "horizontal",
-                      "contents": [
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "flex": 1,
-                          "spacing": "none",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [],
-                              "height": "13px"
-                            },
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [],
-                              "paddingAll": "1px",
-                              "backgroundColor": "#E3DACB"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "text",
-                              "text": "4",
-                              "size": "xs",
-                              "weight": "bold",
-                              "color": "#FFFFFF",
-                              "wrap": false,
-                              "align": "center"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "4px",
-                          "backgroundColor": "#8A5A12",
-                          "cornerRadius": "100px",
-                          "flex": 0,
-                          "width": "28px",
-                          "height": "28px"
-                        },
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "flex": 1,
-                          "spacing": "none",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [],
-                              "height": "13px"
-                            },
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [],
-                              "paddingAll": "1px",
-                              "backgroundColor": "#E3DACB"
-                            }
-                          ]
-                        }
-                      ],
-                      "spacing": "none"
-                    },
-                    {
-                      "type": "text",
-                      "text": "組裝",
-                      "size": "xs",
-                      "weight": "regular",
-                      "color": "#39221E",
-                      "wrap": true,
-                      "margin": "md",
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "none",
-                  "flex": 1
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "horizontal",
-                      "contents": [
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "flex": 1,
-                          "spacing": "none",
-                          "contents": [
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [],
-                              "height": "13px"
-                            },
-                            {
-                              "type": "box",
-                              "layout": "vertical",
-                              "contents": [],
-                              "paddingAll": "1px",
-                              "backgroundColor": "#E3DACB"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "box",
-                          "layout": "vertical",
-                          "contents": [
-                            {
-                              "type": "text",
-                              "text": "5",
-                              "size": "xs",
-                              "weight": "bold",
-                              "color": "#FFFFFF",
-                              "wrap": false,
-                              "align": "center"
-                            }
-                          ],
-                          "spacing": "none",
-                          "paddingAll": "4px",
-                          "backgroundColor": "#8A5A12",
-                          "cornerRadius": "100px",
-                          "flex": 0,
-                          "width": "28px",
-                          "height": "28px"
-                        },
                         {
                           "type": "box",
                           "layout": "vertical",
                           "contents": [],
-                          "flex": 1
+                          "height": "7px"
+                        },
+                        {
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-layers-v1.png",
+                          "size": "24px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
                         }
                       ],
-                      "spacing": "none"
+                      "spacing": "none",
+                      "flex": 0,
+                      "width": "32px"
                     },
                     {
-                      "type": "text",
-                      "text": "入厝",
-                      "size": "xs",
-                      "weight": "regular",
-                      "color": "#39221E",
-                      "wrap": true,
-                      "margin": "md",
-                      "align": "center"
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "選材",
+                          "size": "sm",
+                          "weight": "bold",
+                          "color": "#39221E",
+                          "wrap": true,
+                          "margin": "xs"
+                        },
+                        {
+                          "type": "text",
+                          "text": "門市試坐，百種布皮任選",
+                          "size": "xs",
+                          "weight": "regular",
+                          "color": "#6B443D",
+                          "wrap": true,
+                          "margin": "xs"
+                        }
+                      ],
+                      "spacing": "none",
+                      "flex": 1
                     }
                   ],
-                  "spacing": "none",
-                  "flex": 1
+                  "spacing": "md",
+                  "margin": "md"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "contents": [],
+                          "height": "7px"
+                        },
+                        {
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-scissors-v1.png",
+                          "size": "24px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        }
+                      ],
+                      "spacing": "none",
+                      "flex": 0,
+                      "width": "32px"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "裁切",
+                          "size": "sm",
+                          "weight": "bold",
+                          "color": "#39221E",
+                          "wrap": true,
+                          "margin": "xs"
+                        },
+                        {
+                          "type": "text",
+                          "text": "老師傅手工板型裁切車縫",
+                          "size": "xs",
+                          "weight": "regular",
+                          "color": "#6B443D",
+                          "wrap": true,
+                          "margin": "xs"
+                        }
+                      ],
+                      "spacing": "none",
+                      "flex": 1
+                    }
+                  ],
+                  "spacing": "md",
+                  "margin": "md"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "contents": [],
+                          "height": "7px"
+                        },
+                        {
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-wrench-v1.png",
+                          "size": "24px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        }
+                      ],
+                      "spacing": "none",
+                      "flex": 0,
+                      "width": "32px"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "組裝",
+                          "size": "sm",
+                          "weight": "bold",
+                          "color": "#39221E",
+                          "wrap": true,
+                          "margin": "xs"
+                        },
+                        {
+                          "type": "text",
+                          "text": "骨架組裝，逐項檢查坐感",
+                          "size": "xs",
+                          "weight": "regular",
+                          "color": "#6B443D",
+                          "wrap": true,
+                          "margin": "xs"
+                        }
+                      ],
+                      "spacing": "none",
+                      "flex": 1
+                    }
+                  ],
+                  "spacing": "md",
+                  "margin": "md"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "contents": [],
+                          "height": "7px"
+                        },
+                        {
+                          "type": "image",
+                          "url": "https://movenpick.cardtaiwan.com/img/icon-truck-v1.png",
+                          "size": "24px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        }
+                      ],
+                      "spacing": "none",
+                      "flex": 0,
+                      "width": "32px"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "入厝",
+                          "size": "sm",
+                          "weight": "bold",
+                          "color": "#39221E",
+                          "wrap": true,
+                          "margin": "xs"
+                        },
+                        {
+                          "type": "text",
+                          "text": "自有物流送達，十年保固",
+                          "size": "xs",
+                          "weight": "regular",
+                          "color": "#6B443D",
+                          "wrap": true,
+                          "margin": "xs"
+                        }
+                      ],
+                      "spacing": "none",
+                      "flex": 1
+                    }
+                  ],
+                  "spacing": "md",
+                  "margin": "md"
                 }
               ],
               "spacing": "none",
-              "margin": "xl"
+              "margin": "lg"
             }
           ],
           "spacing": "md",
@@ -2578,7 +2448,7 @@
                 },
                 {
                   "type": "image",
-                  "url": "https://movenpick.cardtaiwan.com/img/case3-r2.png",
+                  "url": "https://movenpick.cardtaiwan.com/img/case3-r3.png",
                   "size": "full",
                   "aspectRatio": "4:3",
                   "aspectMode": "cover",
