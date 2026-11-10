@@ -41,13 +41,13 @@
                     {
                       "type": "text",
                       "text": "1 / 7",
-                      "size": "10px",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "align": "center"
                     }
                   ],
-                  "paddingAll": "2px",
+                  "paddingAll": "4px",
                   "backgroundColor": "#33415C",
                   "cornerRadius": "100px",
                   "flex": 0,
@@ -249,7 +249,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://movenpick.cardtaiwan.com/img/card1-v15.jpg",
+          "url": "https://movenpick.cardtaiwan.com/img/card1-v16.jpg",
           "size": "full",
           "aspectRatio": "1080:1395",
           "aspectMode": "cover",
@@ -297,13 +297,13 @@
                     {
                       "type": "text",
                       "text": "2 / 7",
-                      "size": "10px",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "align": "center"
                     }
                   ],
-                  "paddingAll": "2px",
+                  "paddingAll": "4px",
                   "backgroundColor": "#33415C",
                   "cornerRadius": "100px",
                   "flex": 0,
@@ -505,7 +505,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://movenpick.cardtaiwan.com/img/hero-c2-v3.jpg",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c2-v4.jpg",
           "size": "full",
           "aspectRatio": "1080:1395",
           "aspectMode": "cover",
@@ -553,13 +553,13 @@
                     {
                       "type": "text",
                       "text": "3 / 7",
-                      "size": "10px",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "align": "center"
                     }
                   ],
-                  "paddingAll": "2px",
+                  "paddingAll": "4px",
                   "backgroundColor": "#33415C",
                   "cornerRadius": "100px",
                   "flex": 0,
@@ -809,13 +809,13 @@
                     {
                       "type": "text",
                       "text": "4 / 7",
-                      "size": "10px",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "align": "center"
                     }
                   ],
-                  "paddingAll": "2px",
+                  "paddingAll": "4px",
                   "backgroundColor": "#33415C",
                   "cornerRadius": "100px",
                   "flex": 0,
@@ -1065,13 +1065,13 @@
                     {
                       "type": "text",
                       "text": "5 / 7",
-                      "size": "10px",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "align": "center"
                     }
                   ],
-                  "paddingAll": "2px",
+                  "paddingAll": "4px",
                   "backgroundColor": "#33415C",
                   "cornerRadius": "100px",
                   "flex": 0,
@@ -1321,13 +1321,13 @@
                     {
                       "type": "text",
                       "text": "6 / 7",
-                      "size": "10px",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "align": "center"
                     }
                   ],
-                  "paddingAll": "2px",
+                  "paddingAll": "4px",
                   "backgroundColor": "#33415C",
                   "cornerRadius": "100px",
                   "flex": 0,
@@ -1529,7 +1529,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://movenpick.cardtaiwan.com/img/hero-c6-v3.jpg",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c6-v4.jpg",
           "size": "full",
           "aspectRatio": "1080:1395",
           "aspectMode": "cover",
@@ -1737,13 +1737,13 @@
                     {
                       "type": "text",
                       "text": "7 / 7",
-                      "size": "10px",
+                      "size": "xs",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "align": "center"
                     }
                   ],
-                  "paddingAll": "2px",
+                  "paddingAll": "4px",
                   "backgroundColor": "#33415C",
                   "cornerRadius": "100px",
                   "flex": 0,
@@ -1946,7 +1946,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://movenpick.cardtaiwan.com/img/hero-c7-v1.jpg",
+          "url": "https://movenpick.cardtaiwan.com/img/hero-c7-v2.jpg",
           "size": "full",
           "aspectRatio": "1080:959",
           "aspectMode": "cover",
