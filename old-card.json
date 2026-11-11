@@ -15,9 +15,9 @@
      "contents": [
       {
        "type": "image",
-       "url": "https://movenpick.cardtaiwan.com/img/old/01.jpg?v=20261111c",
+       "url": "https://movenpick.cardtaiwan.com/img/old/01.jpg?v=20261111d",
        "size": "full",
-       "aspectRatio": "941:1672",
+       "aspectRatio": "941:1839",
        "aspectMode": "cover",
        "action": {
         "type": "uri",
@@ -29,10 +29,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "4.3%",
-       "offsetTop": "89.2%",
-       "width": "28.7%",
-       "height": "7.8%",
+       "offsetStart": "4.46%",
+       "offsetTop": "82.38%",
+       "width": "27.74%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -48,10 +48,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "36.2%",
-       "offsetTop": "89.2%",
-       "width": "27.8%",
-       "height": "7.8%",
+       "offsetStart": "36.77%",
+       "offsetTop": "82.38%",
+       "width": "27.84%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -67,10 +67,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "67.2%",
-       "offsetTop": "89.2%",
-       "width": "28.6%",
-       "height": "7.8%",
+       "offsetStart": "69.18%",
+       "offsetTop": "82.38%",
+       "width": "27.74%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -80,6 +80,25 @@
         "type": "uri",
         "label": "導航門市",
         "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "36.13%",
+       "offsetTop": "91.46%",
+       "width": "27.74%",
+       "height": "6.69%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "分享",
+        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111d&v=2026-11-11d"
        }
       }
      ]
@@ -96,9 +115,9 @@
      "contents": [
       {
        "type": "image",
-       "url": "https://movenpick.cardtaiwan.com/img/old/02.jpg?v=20261111c",
+       "url": "https://movenpick.cardtaiwan.com/img/old/02.jpg?v=20261111d",
        "size": "full",
-       "aspectRatio": "941:1672",
+       "aspectRatio": "941:1839",
        "aspectMode": "cover",
        "action": {
         "type": "uri",
@@ -110,10 +129,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "4.3%",
-       "offsetTop": "89.2%",
-       "width": "28.7%",
-       "height": "7.8%",
+       "offsetStart": "4.46%",
+       "offsetTop": "82.38%",
+       "width": "27.74%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -129,10 +148,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "36.2%",
-       "offsetTop": "89.2%",
-       "width": "27.8%",
-       "height": "7.8%",
+       "offsetStart": "36.77%",
+       "offsetTop": "82.38%",
+       "width": "27.84%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -148,10 +167,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "67.2%",
-       "offsetTop": "89.2%",
-       "width": "28.6%",
-       "height": "7.8%",
+       "offsetStart": "69.18%",
+       "offsetTop": "82.38%",
+       "width": "27.74%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -161,6 +180,25 @@
         "type": "uri",
         "label": "導航門市",
         "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "36.13%",
+       "offsetTop": "91.46%",
+       "width": "27.74%",
+       "height": "6.69%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "分享",
+        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111d&v=2026-11-11d"
        }
       }
      ]
@@ -177,9 +215,9 @@
      "contents": [
       {
        "type": "image",
-       "url": "https://movenpick.cardtaiwan.com/img/old/03.jpg?v=20261111c",
+       "url": "https://movenpick.cardtaiwan.com/img/old/03.jpg?v=20261111d",
        "size": "full",
-       "aspectRatio": "941:1672",
+       "aspectRatio": "941:1839",
        "aspectMode": "cover",
        "action": {
         "type": "uri",
@@ -191,10 +229,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "4.3%",
-       "offsetTop": "89.2%",
-       "width": "28.7%",
-       "height": "7.8%",
+       "offsetStart": "4.46%",
+       "offsetTop": "82.38%",
+       "width": "27.74%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -210,10 +248,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "36.2%",
-       "offsetTop": "89.2%",
-       "width": "27.8%",
-       "height": "7.8%",
+       "offsetStart": "36.77%",
+       "offsetTop": "82.38%",
+       "width": "27.84%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -229,10 +267,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "67.2%",
-       "offsetTop": "89.2%",
-       "width": "28.6%",
-       "height": "7.8%",
+       "offsetStart": "69.18%",
+       "offsetTop": "82.38%",
+       "width": "27.74%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -242,6 +280,25 @@
         "type": "uri",
         "label": "導航門市",
         "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "36.13%",
+       "offsetTop": "91.46%",
+       "width": "27.74%",
+       "height": "6.69%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "分享",
+        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111d&v=2026-11-11d"
        }
       }
      ]
@@ -258,9 +315,9 @@
      "contents": [
       {
        "type": "image",
-       "url": "https://movenpick.cardtaiwan.com/img/old/04.jpg?v=20261111c",
+       "url": "https://movenpick.cardtaiwan.com/img/old/04.jpg?v=20261111d",
        "size": "full",
-       "aspectRatio": "941:1672",
+       "aspectRatio": "941:1839",
        "aspectMode": "cover",
        "action": {
         "type": "uri",
@@ -272,10 +329,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "4.3%",
-       "offsetTop": "89.2%",
-       "width": "28.7%",
-       "height": "7.8%",
+       "offsetStart": "4.46%",
+       "offsetTop": "82.38%",
+       "width": "27.74%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -291,10 +348,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "36.2%",
-       "offsetTop": "89.2%",
-       "width": "27.8%",
-       "height": "7.8%",
+       "offsetStart": "36.77%",
+       "offsetTop": "82.38%",
+       "width": "27.84%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -310,10 +367,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "67.2%",
-       "offsetTop": "89.2%",
-       "width": "28.6%",
-       "height": "7.8%",
+       "offsetStart": "69.18%",
+       "offsetTop": "82.38%",
+       "width": "27.74%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -323,6 +380,25 @@
         "type": "uri",
         "label": "導航門市",
         "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "36.13%",
+       "offsetTop": "91.46%",
+       "width": "27.74%",
+       "height": "6.69%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "分享",
+        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111d&v=2026-11-11d"
        }
       }
      ]
@@ -339,9 +415,9 @@
      "contents": [
       {
        "type": "image",
-       "url": "https://movenpick.cardtaiwan.com/img/old/05.jpg?v=20261111c",
+       "url": "https://movenpick.cardtaiwan.com/img/old/05.jpg?v=20261111d",
        "size": "full",
-       "aspectRatio": "941:1672",
+       "aspectRatio": "941:1839",
        "aspectMode": "cover",
        "action": {
         "type": "uri",
@@ -353,10 +429,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "4.3%",
-       "offsetTop": "89.2%",
-       "width": "28.7%",
-       "height": "7.8%",
+       "offsetStart": "4.46%",
+       "offsetTop": "82.38%",
+       "width": "27.74%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -372,10 +448,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "36.2%",
-       "offsetTop": "89.2%",
-       "width": "27.8%",
-       "height": "7.8%",
+       "offsetStart": "36.77%",
+       "offsetTop": "82.38%",
+       "width": "27.84%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -391,10 +467,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "67.2%",
-       "offsetTop": "89.2%",
-       "width": "28.6%",
-       "height": "7.8%",
+       "offsetStart": "69.18%",
+       "offsetTop": "82.38%",
+       "width": "27.74%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -404,6 +480,25 @@
         "type": "uri",
         "label": "導航門市",
         "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "36.13%",
+       "offsetTop": "91.46%",
+       "width": "27.74%",
+       "height": "6.69%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "分享",
+        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111d&v=2026-11-11d"
        }
       }
      ]
@@ -420,9 +515,9 @@
      "contents": [
       {
        "type": "image",
-       "url": "https://movenpick.cardtaiwan.com/img/old/06.jpg?v=20261111c",
+       "url": "https://movenpick.cardtaiwan.com/img/old/06.jpg?v=20261111d",
        "size": "full",
-       "aspectRatio": "941:1672",
+       "aspectRatio": "941:1839",
        "aspectMode": "cover",
        "action": {
         "type": "uri",
@@ -434,10 +529,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "4.3%",
-       "offsetTop": "89.2%",
-       "width": "28.7%",
-       "height": "7.8%",
+       "offsetStart": "4.46%",
+       "offsetTop": "82.38%",
+       "width": "27.74%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -453,10 +548,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "36.2%",
-       "offsetTop": "89.2%",
-       "width": "27.8%",
-       "height": "7.8%",
+       "offsetStart": "36.77%",
+       "offsetTop": "82.38%",
+       "width": "27.84%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -472,10 +567,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "67.2%",
-       "offsetTop": "89.2%",
-       "width": "28.6%",
-       "height": "7.8%",
+       "offsetStart": "69.18%",
+       "offsetTop": "82.38%",
+       "width": "27.74%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -485,6 +580,25 @@
         "type": "uri",
         "label": "導航門市",
         "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "36.13%",
+       "offsetTop": "91.46%",
+       "width": "27.74%",
+       "height": "6.69%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "分享",
+        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111d&v=2026-11-11d"
        }
       }
      ]
@@ -501,9 +615,9 @@
      "contents": [
       {
        "type": "image",
-       "url": "https://movenpick.cardtaiwan.com/img/old/07.jpg?v=20261111c",
+       "url": "https://movenpick.cardtaiwan.com/img/old/07.jpg?v=20261111d",
        "size": "full",
-       "aspectRatio": "941:1672",
+       "aspectRatio": "941:1839",
        "aspectMode": "cover",
        "action": {
         "type": "uri",
@@ -515,10 +629,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "7.0%",
-       "offsetTop": "34.5%",
-       "width": "45.0%",
-       "height": "7.0%",
+       "offsetStart": "7.00%",
+       "offsetTop": "31.37%",
+       "width": "45.00%",
+       "height": "6.36%",
        "contents": [
         {
          "type": "filler"
@@ -534,10 +648,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "7.0%",
-       "offsetTop": "45.0%",
-       "width": "76.0%",
-       "height": "7.8%",
+       "offsetStart": "7.00%",
+       "offsetTop": "40.91%",
+       "width": "76.00%",
+       "height": "7.09%",
        "contents": [
         {
          "type": "filler"
@@ -553,10 +667,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "18.3%",
-       "offsetTop": "54.2%",
-       "width": "29.5%",
-       "height": "6.7%",
+       "offsetStart": "18.30%",
+       "offsetTop": "49.28%",
+       "width": "29.50%",
+       "height": "6.09%",
        "contents": [
         {
          "type": "filler"
@@ -572,10 +686,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "51.8%",
-       "offsetTop": "54.2%",
-       "width": "29.7%",
-       "height": "6.7%",
+       "offsetStart": "51.80%",
+       "offsetTop": "49.28%",
+       "width": "29.70%",
+       "height": "6.09%",
        "contents": [
         {
          "type": "filler"
@@ -591,10 +705,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "18.3%",
-       "offsetTop": "61.1%",
-       "width": "29.5%",
-       "height": "6.7%",
+       "offsetStart": "18.30%",
+       "offsetTop": "55.55%",
+       "width": "29.50%",
+       "height": "6.09%",
        "contents": [
         {
          "type": "filler"
@@ -610,10 +724,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "51.8%",
-       "offsetTop": "61.1%",
-       "width": "29.7%",
-       "height": "6.7%",
+       "offsetStart": "51.80%",
+       "offsetTop": "55.55%",
+       "width": "29.70%",
+       "height": "6.09%",
        "contents": [
         {
          "type": "filler"
@@ -629,10 +743,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "18.3%",
-       "offsetTop": "68.8%",
-       "width": "63.2%",
-       "height": "5.8%",
+       "offsetStart": "18.30%",
+       "offsetTop": "62.55%",
+       "width": "63.20%",
+       "height": "5.27%",
        "contents": [
         {
          "type": "filler"
@@ -648,10 +762,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "4.3%",
-       "offsetTop": "89.2%",
-       "width": "28.7%",
-       "height": "7.8%",
+       "offsetStart": "4.46%",
+       "offsetTop": "82.38%",
+       "width": "27.74%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -667,10 +781,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "36.2%",
-       "offsetTop": "89.2%",
-       "width": "27.8%",
-       "height": "7.8%",
+       "offsetStart": "36.77%",
+       "offsetTop": "82.38%",
+       "width": "27.84%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -686,10 +800,10 @@
        "type": "box",
        "layout": "vertical",
        "position": "absolute",
-       "offsetStart": "67.2%",
-       "offsetTop": "89.2%",
-       "width": "28.6%",
-       "height": "7.8%",
+       "offsetStart": "69.18%",
+       "offsetTop": "82.38%",
+       "width": "27.74%",
+       "height": "6.69%",
        "contents": [
         {
          "type": "filler"
@@ -699,6 +813,25 @@
         "type": "uri",
         "label": "導航門市",
         "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "36.13%",
+       "offsetTop": "91.46%",
+       "width": "27.74%",
+       "height": "6.69%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "分享",
+        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111d&v=2026-11-11d"
        }
       }
      ]
