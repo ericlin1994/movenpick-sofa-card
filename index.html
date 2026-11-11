@@ -366,10 +366,13 @@ html.dock-idle .dock:focus-within{transform:none;opacity:1;pointer-events:auto}
 
 /* 卡片列：圓點（JS 建好才加 .is-dots）＋左右箭頭（疊在 .rail-wrap 兩側） */
 .count.is-dots{display:flex;justify-content:center;gap:0;margin:-10px 0 -2px}
-.count.is-dots i{box-sizing:content-box;width:6px;height:6px;padding:14px 9px;margin:0 -5px;border-radius:0;
-  background:rgba(37,48,67,.2);background-clip:content-box;cursor:pointer;
-  -webkit-tap-highlight-color:transparent;transition:width .2s,background-color .2s}
-.count.is-dots i.on{width:18px;background-color:var(--brown)}
+.count.is-dots i{box-sizing:content-box;width:6px;height:6px;padding:14px 9px;margin:0 -5px;position:relative;cursor:pointer;
+  -webkit-tap-highlight-color:transparent;transition:width .2s}
+/* 圓點本體畫在 ::before：border-radius 搭配 background-clip:content-box 會被 padding 吃掉變方形，且圓角會削掉觸控框四角 */
+.count.is-dots i::before{content:"";position:absolute;left:9px;right:9px;top:14px;bottom:14px;border-radius:999px;
+  background:rgba(37,48,67,.2);transition:background-color .2s}
+.count.is-dots i.on{width:18px}
+.count.is-dots i.on::before{background-color:var(--brown)}
 .count.is-dots i:focus-visible{outline:3px solid var(--brown);outline-offset:-3px}
 .rail-wrap{position:relative}
 .rail-arrow{position:absolute;top:0;z-index:2;width:44px;height:44px;padding:0;border:1px solid rgba(37,48,67,.22);
@@ -686,7 +689,7 @@ const CLEAN_URL = location.href.split('?')[0].split('#')[0];
 const SHARE_REDIRECT = CLEAN_URL + '?share=1';
 /* 「分享這張名片」的目標＝客戶的舊版 7 頁名片：走 L2 中繼頁＋舊卡 payload（src）。
    v 用來破 LINE 內建瀏覽器快取，改版時往後跳一號。 */
-const SHARE_URL = 'https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111h&v=2026-11-11h';
+const SHARE_URL = 'https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111i&v=2026-11-11i';
 /* 分享模式（?share=1）實際送出的 payload：同源舊卡。v 與 SHARE_URL 的 v 同步跳號。 */
 const OLD_CARD_URL = 'https://movenpick.cardtaiwan.com/old-card.json?v=2026-11-11b';
 let nestedSeen =((function(){ try{ return decodeURIComponent(location.search); }catch(e){ return location.search; } })().match(/liff\.state/g) || []).length > 1;   // 這次載入時網址已被 LINE 疊加過（liff.state 出現 2 次以上）
@@ -694,7 +697,7 @@ let navLastAt = 0;                                                // 上次導�
 
 /* 改動 flex-cards.json 後請把 BUILD 往後跳一號：
    LINE 內建瀏覽器會快取檔案，不跳號會一直送出舊版卡片 */
-const BUILD = 'b192';
+const BUILD = 'b193';
 const PAGE_VER = '2026-11-11-r100-頁尾瀏覽數'   // 每次改頁面就改這個，用來確認手機拿到的是最新版
 
 /* ═══════ FLEX_PAYLOAD_START（由 build_flex.py 自動寫入，勿手改）═══════ */
