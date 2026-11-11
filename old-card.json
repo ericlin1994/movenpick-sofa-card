@@ -15,7 +15,7 @@
      "contents": [
       {
        "type": "image",
-       "url": "https://movenpick.cardtaiwan.com/img/old/01.jpg?v=20261111g",
+       "url": "https://movenpick.cardtaiwan.com/img/old/01.jpg?v=20261111h",
        "size": "full",
        "aspectRatio": "941:1839",
        "aspectMode": "cover",
@@ -98,7 +98,7 @@
        "action": {
         "type": "uri",
         "label": "分享",
-        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111g&v=2026-11-11g"
+        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111h&v=2026-11-11h"
        }
       }
      ]
@@ -115,7 +115,107 @@
      "contents": [
       {
        "type": "image",
-       "url": "https://movenpick.cardtaiwan.com/img/old/02.jpg?v=20261111g",
+       "url": "https://movenpick.cardtaiwan.com/img/old/02.jpg?v=20261111h",
+       "size": "full",
+       "aspectRatio": "941:1958",
+       "aspectMode": "cover",
+       "action": {
+        "type": "uri",
+        "label": "開啟網站",
+        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=web&u=https%3A%2F%2Fliff.line.me%2F2011946176-F5ppH6KJ"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "4.46%",
+       "offsetTop": "83.45%",
+       "width": "27.74%",
+       "height": "6.28%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "官方網站",
+        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=web&u=https%3A%2F%2Fwww.movenpick.com.tw"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "36.77%",
+       "offsetTop": "83.45%",
+       "width": "27.84%",
+       "height": "6.28%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "LINE 諮詢",
+        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=line&u=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%2540816ifsxk"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "69.18%",
+       "offsetTop": "83.45%",
+       "width": "27.74%",
+       "height": "6.28%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "導航門市",
+        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
+       }
+      },
+      {
+       "type": "box",
+       "layout": "vertical",
+       "position": "absolute",
+       "offsetStart": "4.46%",
+       "offsetTop": "91.98%",
+       "width": "92.45%",
+       "height": "6.28%",
+       "contents": [
+        {
+         "type": "filler"
+        }
+       ],
+       "action": {
+        "type": "uri",
+        "label": "分享",
+        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111h&v=2026-11-11h"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "type": "bubble",
+    "size": "giga",
+    "direction": "ltr",
+    "body": {
+     "type": "box",
+     "layout": "vertical",
+     "paddingAll": "0px",
+     "contents": [
+      {
+       "type": "image",
+       "url": "https://movenpick.cardtaiwan.com/img/old/03.jpg?v=20261111h",
        "size": "full",
        "aspectRatio": "941:1839",
        "aspectMode": "cover",
@@ -198,7 +298,7 @@
        "action": {
         "type": "uri",
         "label": "分享",
-        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111g&v=2026-11-11g"
+        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111h&v=2026-11-11h"
        }
       }
      ]
@@ -215,7 +315,7 @@
      "contents": [
       {
        "type": "image",
-       "url": "https://movenpick.cardtaiwan.com/img/old/03.jpg?v=20261111g",
+       "url": "https://movenpick.cardtaiwan.com/img/old/04.jpg?v=20261111h",
        "size": "full",
        "aspectRatio": "941:1839",
        "aspectMode": "cover",
@@ -298,7 +398,7 @@
        "action": {
         "type": "uri",
         "label": "分享",
-        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111g&v=2026-11-11g"
+        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111h&v=2026-11-11h"
        }
       }
      ]
@@ -315,7 +415,7 @@
      "contents": [
       {
        "type": "image",
-       "url": "https://movenpick.cardtaiwan.com/img/old/04.jpg?v=20261111g",
+       "url": "https://movenpick.cardtaiwan.com/img/old/05.jpg?v=20261111h",
        "size": "full",
        "aspectRatio": "941:1839",
        "aspectMode": "cover",
@@ -398,7 +498,7 @@
        "action": {
         "type": "uri",
         "label": "分享",
-        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111g&v=2026-11-11g"
+        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111h&v=2026-11-11h"
        }
       }
      ]
@@ -415,7 +515,7 @@
      "contents": [
       {
        "type": "image",
-       "url": "https://movenpick.cardtaiwan.com/img/old/05.jpg?v=20261111g",
+       "url": "https://movenpick.cardtaiwan.com/img/old/06.jpg?v=20261111h",
        "size": "full",
        "aspectRatio": "941:1839",
        "aspectMode": "cover",
@@ -498,7 +598,7 @@
        "action": {
         "type": "uri",
         "label": "分享",
-        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111g&v=2026-11-11g"
+        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111h&v=2026-11-11h"
        }
       }
      ]
@@ -515,107 +615,7 @@
      "contents": [
       {
        "type": "image",
-       "url": "https://movenpick.cardtaiwan.com/img/old/06.jpg?v=20261111g",
-       "size": "full",
-       "aspectRatio": "941:1839",
-       "aspectMode": "cover",
-       "action": {
-        "type": "uri",
-        "label": "開啟網站",
-        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=web&u=https%3A%2F%2Fliff.line.me%2F2011946176-F5ppH6KJ"
-       }
-      },
-      {
-       "type": "box",
-       "layout": "vertical",
-       "position": "absolute",
-       "offsetStart": "4.46%",
-       "offsetTop": "82.38%",
-       "width": "27.74%",
-       "height": "6.69%",
-       "contents": [
-        {
-         "type": "filler"
-        }
-       ],
-       "action": {
-        "type": "uri",
-        "label": "官方網站",
-        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=web&u=https%3A%2F%2Fwww.movenpick.com.tw"
-       }
-      },
-      {
-       "type": "box",
-       "layout": "vertical",
-       "position": "absolute",
-       "offsetStart": "36.77%",
-       "offsetTop": "82.38%",
-       "width": "27.84%",
-       "height": "6.69%",
-       "contents": [
-        {
-         "type": "filler"
-        }
-       ],
-       "action": {
-        "type": "uri",
-        "label": "LINE 諮詢",
-        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=line&u=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%2540816ifsxk"
-       }
-      },
-      {
-       "type": "box",
-       "layout": "vertical",
-       "position": "absolute",
-       "offsetStart": "69.18%",
-       "offsetTop": "82.38%",
-       "width": "27.74%",
-       "height": "6.69%",
-       "contents": [
-        {
-         "type": "filler"
-        }
-       ],
-       "action": {
-        "type": "uri",
-        "label": "導航門市",
-        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=movenpick-sofa&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E8%258E%25AB%25E5%2587%25A1%25E5%25BD%25BC%25E6%25B2%2599%25E7%2599%25BC%25E5%25B7%25A5%25E8%2597%259D%2520%25E6%25A1%2583%25E5%259C%2592%25E5%25B8%2582%25E9%25BE%259C%25E5%25B1%25B1%25E5%258D%2580%25E5%25A4%25A7%25E5%25B4%2597%25E9%2587%258C%25E5%25A4%25A7%25E6%25B9%2596%25E8%25B7%25AF249%25E8%2599%259F"
-       }
-      },
-      {
-       "type": "box",
-       "layout": "vertical",
-       "position": "absolute",
-       "offsetStart": "4.46%",
-       "offsetTop": "91.46%",
-       "width": "92.45%",
-       "height": "6.69%",
-       "contents": [
-        {
-         "type": "filler"
-        }
-       ],
-       "action": {
-        "type": "uri",
-        "label": "分享",
-        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111g&v=2026-11-11g"
-       }
-      }
-     ]
-    }
-   },
-   {
-    "type": "bubble",
-    "size": "giga",
-    "direction": "ltr",
-    "body": {
-     "type": "box",
-     "layout": "vertical",
-     "paddingAll": "0px",
-     "contents": [
-      {
-       "type": "image",
-       "url": "https://movenpick.cardtaiwan.com/img/old/07.jpg?v=20261111g",
+       "url": "https://movenpick.cardtaiwan.com/img/old/07.jpg?v=20261111h",
        "size": "full",
        "aspectRatio": "941:1839",
        "aspectMode": "cover",
@@ -831,7 +831,7 @@
        "action": {
         "type": "uri",
         "label": "分享",
-        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111g&v=2026-11-11g"
+        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=movenpick-sofa&src=https%3A%2F%2Fmovenpick.cardtaiwan.com%2Fold-card.json%3Fv%3D20261111h&v=2026-11-11h"
        }
       }
      ]
