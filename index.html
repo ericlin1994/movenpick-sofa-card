@@ -145,15 +145,16 @@
   .svc p{margin:0;font-size:13px;color:var(--muted);line-height:1.65}
 
   /* 數據 */
-  .stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:4px 0 14px}
-  .stats div{background:var(--paper-tint);color:var(--ink);border-radius:var(--radius-lg);padding:13px 10px;text-align:center}
-  .stats b{display:block;font-size:23px;color:var(--brown);letter-spacing:.02em;line-height:1.3}
-  .stats span{font-size:12px;color:var(--muted);letter-spacing:.02em}
+  .stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:4px 0 14px}
+  .stats div{background:var(--paper-tint);color:var(--ink);border-radius:var(--radius-lg);padding:13px 3px;text-align:center}
+  .stats b{display:block;font-size:clamp(18px,6.3vw,24px);color:var(--brown);letter-spacing:0;white-space:nowrap;line-height:1.3}
+  .stats span{display:block;font-size:13px;color:var(--muted);letter-spacing:.02em;text-wrap:balance}
+  @media (max-width:340px){ .stats b{font-size:18px} }
   .steps{list-style:none;margin:0;padding:0;counter-reset:s}
-  .steps li{position:relative;padding:9px 0 9px 46px;border-bottom:1px dashed rgba(37,48,67,.10);font-size:14px;color:var(--ink)}
+  .steps li{position:relative;padding:9px 0 9px 46px;border-bottom:1px dashed rgba(37,48,67,.10);font-size:16px;color:var(--ink)}
   .steps li:last-child{border-bottom:0}
   .steps li::before{counter-increment:s;content:"0" counter(s);position:absolute;left:0;top:9px;
-        font-size:13px;font-weight:800;color:var(--white);background:var(--brown);border-radius:var(--radius-sm);padding:3px 7px}
+        font-size:14px;font-weight:800;color:var(--white);background:var(--brown);border-radius:var(--radius-sm);padding:3px 7px}
   .steps b{color:var(--navy)}
 
   /* 2x2 工藝 */
@@ -172,9 +173,9 @@
   .rev .pic{flex:0 0 74px;width:74px;height:74px;border-radius:var(--radius-md);overflow:hidden;background:var(--paper-sand)}
   .rev .pic img{width:100%;height:100%;object-fit:cover;display:block}
   .rev .pic.ph{display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--muted);text-align:center;padding:4px}
-  .rev .who{font-size:13px;font-weight:800;color:var(--navy)}
-  .rev .stars{color:var(--brown);font-size:12px;letter-spacing:.08em}
-  .rev .txt{font-size:13px;color:var(--muted);line-height:1.65;margin:3px 0 0}
+  .rev .who{font-size:15px;font-weight:800;color:var(--navy)}
+  .rev .stars{color:var(--brown);font-size:14px;letter-spacing:.08em}
+  .rev .txt{font-size:15px;color:var(--muted);line-height:1.65;margin:3px 0 0}
 
   .count{text-align:center;font-size:12px;color:var(--muted);margin:-4px 0 0;letter-spacing:.06em}
   .count b{color:var(--navy)}
@@ -492,7 +493,7 @@ html.dock-idle .dock:focus-within{transform:none;opacity:1;pointer-events:auto}
     <article class="card">
       <h2>為什麼選擇 <em>莫凡彼</em>？</h2>
       <div class="stats">
-        <div><b>40 年</b><span>台灣自有工廠製造</span></div><div><b>100+ 種</b><span>貓抓布與苯染牛皮可選</span></div><div><b>10 年</b><span>結構骨架保固承諾</span></div>
+        <div><b>40+年</b><span>三代沙發製造經驗</span></div><div><b>200+</b><span>全台合作經銷通路</span></div><div><b>100,000+</b><span>累積製作沙發超過十萬組</span></div><div><b>800 坪</b><span>自有沙發製造廠</span></div>
       </div>
       <p class="sub" style="margin-bottom:8px">從諮詢到入厝，四步完成</p>
       <ol class="steps">
@@ -693,7 +694,7 @@ let navLastAt = 0;                                                // 上次導�
 
 /* 改動 flex-cards.json 後請把 BUILD 往後跳一號：
    LINE 內建瀏覽器會快取檔案，不跳號會一直送出舊版卡片 */
-const BUILD = 'b189';
+const BUILD = 'b190';
 const PAGE_VER = '2026-11-11-r100-頁尾瀏覽數'   // 每次改頁面就改這個，用來確認手機拿到的是最新版
 
 /* ═══════ FLEX_PAYLOAD_START（由 build_flex.py 自動寫入，勿手改）═══════ */
