@@ -553,7 +553,9 @@
     ],
     "case_title_html": "訂製<em>案例</em>",
     "case_sub": "實際訂製案例（旗艦功能／頂級牛皮／現代極簡）",
-    "case_count": 3,
+    "case_count": 10,
+    "case_images": ["case1-v7.jpg","case2-v3.jpg","case3-v9.jpg","case4-v1.jpg","case5-v1.jpg","case6-v1.jpg","case7-v1.jpg","case8-v1.jpg","case9-v1.jpg","case10-v1.jpg"],
+    "gallery": ["gallery1.jpg","gallery2.jpg","gallery3.jpg","gallery4.jpg","gallery5.jpg","gallery6.jpg","gallery7.jpg","gallery8.jpg","gallery9.jpg"],
     "cta_box_bg": "#F1EADC",
     "contact_title_html": "歡迎來<em>門市試坐</em>",
     "cta": [
