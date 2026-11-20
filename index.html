@@ -630,13 +630,12 @@ html.dock-idle .dock:focus-within{transform:none;opacity:1;pointer-events:auto}
   <!-- DOCK_END -->
 </div>
 
-<!-- 名片頁瀏覽數（L2）：載入時送一筆匿名 view 事件（附匿名裝置碼），並讀公開唯讀計數顯示在頁尾；任何失敗都靜默 -->
+<!-- 名片頁瀏覽數（L2）：載入時送一筆匿名 view 事件（附匿名裝置碼、ua、來源管道標記），並讀公開唯讀計數顯示在頁尾；任何失敗都靜默 -->
 <script>
 (function(){
   try{
-    var API = 'https://script.google.com/macros/s/AKfycbz6-2txbuJk2l3xJCWM7KoemrFPM-rpZuxvcd2A8Jk126LTu5qhBZgup7dicVsA3649/exec';
-    var SLUG = 'movenpick-sofa';
-    /* 匿名裝置碼：只存在瀏覽器本機（localStorage），用來算「不重複人數」；不含任何個資 */
+    var API = "https://script.google.com/macros/s/AKfycbz6-2txbuJk2l3xJCWM7KoemrFPM-rpZuxvcd2A8Jk126LTu5qhBZgup7dicVsA3649/exec", SLUG = "movenpick-sofa";
+    if(!API || !SLUG) return;
     var DID = '';
     try{
       DID = localStorage.getItem('cardDid') || '';
@@ -645,11 +644,24 @@ html.dock-idle .dock:focus-within{transform:none;opacity:1;pointer-events:auto}
         localStorage.setItem('cardDid', DID);
       }
     }catch(e){ DID = ''; }
-    var body = JSON.stringify({slug:SLUG, target:'view', uid:DID, ts:Date.now(), ua:'', ref:'', err:'', name:'', pic:''});
-    var sent = false;
-    try{ sent = !!(navigator.sendBeacon && navigator.sendBeacon(API, new Blob([body], {type:'text/plain;charset=utf-8'}))); }catch(e){}
-    if(!sent){
-      try{ fetch(API, {method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'}, body:body, keepalive:true}).catch(function(){}); }catch(e){}
+    var REF = '';
+    try{
+      var mm = /[?&]ref=([^&#]*)/.exec(location.search || '') ||
+               /[?&]utm_source=([^&#]*)/.exec(location.search || '');
+      REF = mm ? decodeURIComponent(mm[1]).slice(0, 60) : '';
+    }catch(e){ REF = ''; }
+    var first = false;
+    try{ if(sessionStorage.getItem('viewLogged') !== '1'){ sessionStorage.setItem('viewLogged','1'); first = true; } }catch(e){ first = true; }
+    if(first){
+      var body = JSON.stringify({slug:SLUG, target:'view', uid:DID, ts:Date.now(),
+                                 ua:navigator.userAgent, ref:REF, err:'view', name:'', pic:''});
+      try{
+        if(!(navigator.sendBeacon &&
+             navigator.sendBeacon(API, new Blob([body], {type:'text/plain;charset=utf-8'})))){
+          fetch(API, {method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'},
+                      body:body, keepalive:true}).catch(function(){});
+        }
+      }catch(e){}
     }
     setTimeout(function(){
       var el = document.getElementById('viewCount');
@@ -659,13 +671,13 @@ html.dock-idle .dock:focus-within{transform:none;opacity:1;pointer-events:auto}
       try{
         get('?pub=').then(function(d){
           if(d && d.ok && Number(d.views) > 0){
-            show('👀 已有 ' + d.views + ' 筆瀏覽' + (Number(d.visitors) > 0 ? '・' + d.visitors + ' 人看過' : ''));
+            show('\u{1F440} 已有 ' + d.views + ' 筆瀏覽' + (Number(d.visitors) > 0 ? '\u30FB' + d.visitors + ' 人看過' : ''));
             return;
           }
           throw 0;
         }).catch(function(){
           return get('?views=').then(function(d){
-            if(d && d.ok && Number(d.views) > 0) show('👀 已有 ' + d.views + ' 筆瀏覽');
+            if(d && d.ok && Number(d.views) > 0) show('\u{1F440} 已有 ' + d.views + ' 筆瀏覽');
           });
         }).catch(function(){});
       }catch(e){}
