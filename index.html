@@ -618,6 +618,7 @@ html.dock-idle .dock:focus-within{transform:none;opacity:1;pointer-events:auto}
   <footer>
     莫凡彼沙發工藝 MOVENPICK　全客製訂做・純手工工藝・嚴選選材<br>
     桃園市龜山區大崗里大湖路249號　03-397-2191<br>
+    <div id="viewCount" style="display:none"></div>
     © <span id="y"></span> 莫凡彼沙發工藝有限公司<br>
     <span style="white-space:nowrap">統一編號 60458420</span> ｜ <a href="mailto:movenpick60458420@gmail.com" style="color:inherit;white-space:nowrap">movenpick60458420@gmail.com</a>
   </footer>
@@ -629,38 +630,42 @@ html.dock-idle .dock:focus-within{transform:none;opacity:1;pointer-events:auto}
   <!-- DOCK_END -->
 </div>
 
-<!-- 名片頁瀏覽數（L2）：載入時送一筆匿名 view 事件，並讀公開唯讀計數顯示在頁尾；任何失敗都靜默 -->
+<!-- 名片頁瀏覽數（L2）：載入時送一筆匿名 view 事件（附匿名裝置碼），並讀公開唯讀計數顯示在頁尾；任何失敗都靜默 -->
 <script>
 (function(){
   try{
     var API = 'https://script.google.com/macros/s/AKfycbz6-2txbuJk2l3xJCWM7KoemrFPM-rpZuxvcd2A8Jk126LTu5qhBZgup7dicVsA3649/exec';
     var SLUG = 'movenpick-sofa';
-    var body = JSON.stringify({slug:SLUG, target:'view', uid:'', ts:Date.now(), ref:'', err:'', name:'', pic:''});
+    /* 匿名裝置碼：只存在瀏覽器本機（localStorage），用來算「不重複人數」；不含任何個資 */
+    var DID = '';
+    try{
+      DID = localStorage.getItem('cardDid') || '';
+      if(!DID){
+        DID = 'a' + Date.now().toString(36) + Math.random().toString(36).slice(2, 10);
+        localStorage.setItem('cardDid', DID);
+      }
+    }catch(e){ DID = ''; }
+    var body = JSON.stringify({slug:SLUG, target:'view', uid:DID, ts:Date.now(), ua:'', ref:'', err:'', name:'', pic:''});
     var sent = false;
     try{ sent = !!(navigator.sendBeacon && navigator.sendBeacon(API, new Blob([body], {type:'text/plain;charset=utf-8'}))); }catch(e){}
     if(!sent){
       try{ fetch(API, {method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'}, body:body, keepalive:true}).catch(function(){}); }catch(e){}
     }
     setTimeout(function(){
+      var el = document.getElementById('viewCount');
+      if(!el) return;
+      function get(q){ return fetch(API + q + encodeURIComponent(SLUG)).then(function(r){ return r.json(); }); }
+      function show(t){ el.textContent = t; el.style.display = ''; }
       try{
-        var show = function(n, p){
-          document.getElementById('viewsN').textContent = n.toLocaleString('en-US');
-          if(p > 0){
-            document.getElementById('viewsP').textContent = p.toLocaleString('en-US');
-            document.getElementById('viewsPW').hidden = false;
-          }
-          document.getElementById('viewsLine').hidden = false;
-        };
-        var get = function(q){ return fetch(API + q + encodeURIComponent(SLUG)).then(function(r){ return r.json(); }); };
-        // 先讀 ?pub=（次數＋人數）；後端尚未更新或失敗時退回 ?views=（只有次數）
         get('?pub=').then(function(d){
-          var n = d && d.ok && Number(d.views);
-          if(!(n > 0)) throw 0;
-          show(n, Number(d.visitors));
+          if(d && d.ok && Number(d.views) > 0){
+            show('👀 已有 ' + d.views + ' 筆瀏覽' + (Number(d.visitors) > 0 ? '・' + d.visitors + ' 人看過' : ''));
+            return;
+          }
+          throw 0;
         }).catch(function(){
           return get('?views=').then(function(d){
-            var n = d && d.ok && Number(d.views);
-            if(n > 0) show(n, 0);
+            if(d && d.ok && Number(d.views) > 0) show('👀 已有 ' + d.views + ' 筆瀏覽');
           });
         }).catch(function(){});
       }catch(e){}
